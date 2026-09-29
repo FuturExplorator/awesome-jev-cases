@@ -1,11 +1,10 @@
-# Awesome Jev Cases
+# [Awesome Jev Cases](https://jevforagents.com)
 
-[中文说明](#中文说明) · [English](#english) · [分类目录 / Categories](categories/README.md)
+[项目网站 / Website](https://jevforagents.com) · [中文说明](#中文说明) · [English](#english) · [分类目录 / Categories](categories/README.md)
 
 ## 中文说明
 
-一个中英双语、来源可追溯的 TypeSafe Jev 案例库，由个人账号 **FuturExplorator** 独立维护。
-每条案例回答：解决什么任务、Jev 接收什么并作出什么判断、从哪里核查和开始复现。
+这是由个人账号 **FuturExplorator** 独立维护的中英双语 [TypeSafe Jev](https://typesafe.ai/) 案例库。你可以从[分类目录](categories/README.md)寻找实际用法；每条案例都附有[原始来源与核验记录](research/evidence/README.md)，说明项目解决什么任务、Jev 作出什么判断，以及如何开始复现。
 
 **首版：11 个独立项目，全部为 `verified` / `source_reviewed`。** 这表示来源、项目身份、Jev 用途和链接已核对，不表示性能、安全性、成本或运行结果已独立验证。核验日期：2026-09-29。
 
@@ -19,22 +18,21 @@
 | [数据流与其他](categories/other.md) | 1 |
 
 可以从 [Jev Browser](cases/jev-browser-jkudish.md)、[Pi-Heed](cases/pi-heed.md) 和 [Jev Model Router](cases/jev-model-router.md) 开始。
-浏览网站：[jevforagents.com](https://jevforagents.com)。仓库可独立阅读，首版不接入网站同步，也不代表网站案例已通过新的运行或媒体测试。
+更多浏览与演示见 [jevforagents.com](https://jevforagents.com)。仓库可独立阅读，首版不接入网站同步，也不代表网站案例已通过新的运行或媒体测试。
 
 投稿请读 [CONTRIBUTING](CONTRIBUTING.md)，通过 [Issue 提交线索](https://github.com/FuturExplorator/awesome-jev-cases/issues/new?template=case.yml) 或使用[双语模板](templates/case.md)提交 PR。
 审核以[证据与治理规则](GOVERNANCE.md)和[案例格式](schema/README.md)为准；不足证据的项目不会为凑数量进入目录。
 
 ## English
 
-An independent bilingual catalog of source-backed TypeSafe Jev projects, maintained by the personal account **FuturExplorator**.
-Each case explains the task, Jev's concrete inputs and decisions, and where to inspect the source and start reproduction.
+An independent bilingual catalog of [TypeSafe Jev](https://typesafe.ai/) projects, maintained by the personal account **FuturExplorator**. Explore the [categories](categories/README.md) to find practical uses. Each case links its [primary sources and review record](research/evidence/README.md) and explains the task, Jev's concrete decisions, and how to start reproducing the work.
 
 **First release: 11 distinct projects, all `verified` / `source_reviewed`.** This verifies provenance, identity, Jev usage and links, not independent performance, security, cost or runtime results. Checked on 2026-09-29.
 
 Browse [browser execution](categories/browser.md) (2), [routing](categories/routing.md) (3), [coding and context](categories/coding.md) (3), [guardrails](categories/guardrails.md) (1), [evaluation](categories/evaluation.md) (1), and [streams and other uses](categories/other.md) (1).
 Start with [Jev Browser](cases/jev-browser-jkudish.md), [Pi-Heed](cases/pi-heed.md), or [Jev Model Router](cases/jev-model-router.md).
 
-Website: [jevforagents.com](https://jevforagents.com). This repository stands alone. No website synchronization or renewed website runtime/media verification is included in this release.
+For richer browsing and demos, visit [jevforagents.com](https://jevforagents.com). This repository stands alone. No website synchronization or renewed website runtime/media verification is included in this release.
 Read [CONTRIBUTING](CONTRIBUTING.md), submit a lead through an [Issue](https://github.com/FuturExplorator/awesome-jev-cases/issues/new?template=case.yml), or open a PR using the [bilingual template](templates/case.md). The [governance](GOVERNANCE.md) and [case contract](schema/README.md) define admission.
 
 ## 许可证 / License
