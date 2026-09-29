@@ -6,6 +6,8 @@
 **Repository:** `FuturExplorator/awesome-jev-cases`  
 **Website:** [jevforagents.com](https://jevforagents.com)
 
+**Chinese draft:** [PRD.zh-CN.md](PRD.zh-CN.md). The Chinese draft reflects the latest licensing decision and should be reviewed alongside this document.
+
 ## 1. Product definition
 
 Awesome Jev Cases is a bilingual, source-backed catalog of real projects, integrations, experiments, and workflows that use TypeSafe Jev.
@@ -161,13 +163,9 @@ The initial commit intentionally contains no cases. Case import starts only afte
 
 ## 9. License boundary decision
 
-The repository uses a split boundary:
+The maintainer selected MIT for original material this repository has the right to license: scripts, validation code, schemas, bilingual case descriptions, and editorial annotations. Third-party README text, posts, images, videos, and repository code are not relicensed here; retain their original URL, attribution, and applicable license information.
 
-- repository scripts, validation code, and schemas: MIT;
-- original bilingual descriptions and editorial classifications created for this catalog: a separate data/content license to be added after PRD approval, preferably CC BY 4.0 or another explicitly selected data license;
-- third-party README text, posts, images, videos, and repository code: not relicensed by this repository; retain the original URL, attribution, and applicable license information.
-
-No license file is added in this draft-only step. The final license files must match the approved boundary.
+The MIT license file and third-party attribution notice will be added before the first case import. No license file is added in this draft-only step.
 
 ## 10. First-release acceptance criteria
 

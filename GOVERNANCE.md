@@ -100,10 +100,6 @@ The website may link to this repository and may link verified cases back to deta
 
 ## License boundary
 
-The intended boundary is:
+The maintainer selected MIT for original material this repository has the right to license: code, scripts, schemas, bilingual case descriptions, and editorial annotations. Third-party source materials retain their original rights and licenses.
 
-- code, scripts, and schemas: MIT;
-- original bilingual annotations: a separately selected data/content license;
-- third-party source materials: retain their original rights and licenses.
-
-The repository will not claim to relicense third-party README text, posts, images, videos, or source code. Final license files will be added after the PRD decision is approved.
+The repository will not claim to relicense third-party README text, posts, images, videos, or source code. An MIT license file and a third-party attribution notice will be added before the first case import.

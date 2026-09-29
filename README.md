@@ -12,7 +12,7 @@
 
 当前仓库正在初始化，尚未导入案例。请先阅读：
 
-- [产品需求文档](PRD.md)
+- [中文产品需求文档](PRD.zh-CN.md) · [English PRD](PRD.md)
 - [治理与贡献规则](GOVERNANCE.md)
 
 ### 案例原则
@@ -32,7 +32,7 @@ Each case explains Jev's actual role, the task being solved, the source, reprodu
 
 Website: [jevforagents.com](https://jevforagents.com)
 
-This repository is being initialized. No cases have been imported yet. Read the [PRD](PRD.md) and [Governance](GOVERNANCE.md) before proposing a case.
+This repository is being initialized. No cases have been imported yet. Read the [English PRD](PRD.md), [Chinese PRD](PRD.zh-CN.md), and [Governance](GOVERNANCE.md) before proposing a case.
 
 ### Case principles
 
@@ -50,4 +50,4 @@ The initial repository contains only the product requirements, governance rules,
 
 ## License boundary
 
-The intended boundary is MIT for code, scripts, and schemas, with a separate data/content license for original catalog annotations. Third-party source materials retain their original rights and licenses. Final license files will be added after the PRD is approved.
+The maintainer selected MIT for original code, schemas, bilingual case descriptions, and editorial annotations this repository has the right to license. Third-party source materials retain their original rights and licenses. The license and attribution files will be added before case import.
