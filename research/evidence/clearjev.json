@@ -1,0 +1,59 @@
+{
+  "slug": "clearjev",
+  "project_url": "https://github.com/huncijr/ClearJev",
+  "repository_id": 1385671319,
+  "owner": "huncijr",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "859ef1d9d821713864ad62e9a15963d882a9c004",
+  "revision_date": "2026-09-26T17:54:58Z",
+  "checked_at": "2026-09-29T06:21:09.989154+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "提示与仓库上下文进入 Jev 的批量判断，路由代码将任务要求映射到模型和推理档位；缓存与启发式路径可跳过 Jev 请求。",
+  "role_findings_en": "Jev receives a prompt and repository context for batched judgments. Routing code maps task demands to model and effort; caches and heuristics can bypass Jev calls.",
+  "limitations_zh": "作者的成本与自动切换说法未在本库复测。缺 Key 时会启发式回退，这不是 Jev 运行证据。项目明确限于 CLI，不适用于桌面 App。",
+  "limitations_en": "Cost and automatic switching claims were not tested here. Keyless heuristic fallback is not evidence of a Jev run. The project explicitly targets CLI, not the desktop App.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "huncijr/ClearJev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/README.md",
+      "final_url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/README.md",
+      "status": 200,
+      "sha256": "dbc4f77ad3c8f4c9ebc1a36d9bc71654ffe71d1a0104bd3fc5fc75802d5ea203",
+      "bytes": 2569,
+      "checked_at": "2026-09-29T06:21:09.753501+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "huncijr/ClearJev",
+      "path": "scripts/jev_route.py",
+      "url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/scripts/jev_route.py",
+      "final_url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/scripts/jev_route.py",
+      "status": 200,
+      "sha256": "82476d9399e59e481c21f686b750446cbb841517a5fa302b19ea24937130e805",
+      "bytes": 75315,
+      "checked_at": "2026-09-29T06:21:09.868782+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "huncijr/ClearJev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/huncijr/ClearJev/859ef1d9d821713864ad62e9a15963d882a9c004/LICENSE",
+      "status": 200,
+      "sha256": "a872b19df30b71a657ef4656f9cb6b3241c2bb17778b5e935710d0cc800b49f7",
+      "bytes": 1073,
+      "checked_at": "2026-09-29T06:21:09.989154+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

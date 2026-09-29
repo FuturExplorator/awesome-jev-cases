@@ -1,0 +1,9 @@
+{
+  "discovered_from": "Jev-For-Agents/data/build-records.json",
+  "input_sha256": "8b9ee9ffb623ce8eca1fd176f89d8b98840988234f3ec45f254a36da0e5d75f8",
+  "input_record_count": 487,
+  "selection": "Bounded first-release selection of 22 records (20 projects/leads after two known aliases), prioritizing concrete GitHub implementations plus four original-post-only leads. Not an exhaustive audit of the website.",
+  "inherited_statuses": false,
+  "date": "2026-09-29",
+  "public_evidence": "Pinned public upstream sources listed in evidence receipts and candidate ledger; local catalog used only for discovery."
+}

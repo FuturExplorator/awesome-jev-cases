@@ -1,0 +1,81 @@
+{
+  "slug": "jev-browser-jkudish",
+  "project_url": "https://github.com/jkudish/jev-browser",
+  "repository_id": 1374967555,
+  "owner": "jkudish",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "b767894987cd45bf77a786fe410051613eabcef0",
+  "revision_date": "2026-09-27T15:14:38Z",
+  "checked_at": "2026-09-29T06:21:06.738777+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "页面状态与候选元素进入 Jev；它选择下一动作，并判断目标是否完成、是否卡住。代码执行动作并管理停止条件。",
+  "role_findings_en": "Jev receives page state and candidate elements, selects an action, and judges completion and lack of progress. Code executes actions and controls stopping.",
+  "limitations_zh": "作者展示了速度和费用示例，本库未复测。键入文本可能使用单独的生成模型；不能把整个流程称为只有 Jev。",
+  "limitations_en": "Speed and cost examples are author-reported and untested here. Typing may use a separate generative model; the whole workflow is not necessarily Jev-only.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "jkudish/jev-browser",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/README.md",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/README.md",
+      "status": 200,
+      "sha256": "a517824afc29bca23d37540e6782210cd589029bdb863259d1b1556399294603",
+      "bytes": 39543,
+      "checked_at": "2026-09-29T06:21:06.705729+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "jkudish/jev-browser",
+      "path": "src/navigate.ts",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/navigate.ts",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/navigate.ts",
+      "status": 200,
+      "sha256": "0379d3095979e5c5f0a7602e5d8fbb712a7efcb69cfa28688ca78484a64458b4",
+      "bytes": 58270,
+      "checked_at": "2026-09-29T06:21:06.738777+00:00",
+      "inspected_scope": "Captured supporting implementation; not independently inspected in full. Admission relies on README and the separately inspected judgment definitions/client."
+    },
+    {
+      "repo": "jkudish/jev-browser",
+      "path": "src/provider.ts",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/provider.ts",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/provider.ts",
+      "status": 200,
+      "sha256": "f951373b3a4909acebe6c50e3bf9d44880e2cf98c73a894df6d336ba0e6d2059",
+      "bytes": 1275,
+      "checked_at": "2026-09-29T06:21:06.671914+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "jkudish/jev-browser",
+      "path": "src/questions.ts",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/questions.ts",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/src/questions.ts",
+      "status": 200,
+      "sha256": "4e36ca77ee2dcee7acf8510f756a7bd5d616bdc36366b0919401899226661dc7",
+      "bytes": 2046,
+      "checked_at": "2026-09-29T06:21:06.691714+00:00",
+      "inspected_scope": "Bounded input/question/output definitions."
+    },
+    {
+      "repo": "jkudish/jev-browser",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-browser/b767894987cd45bf77a786fe410051613eabcef0/LICENSE",
+      "status": 200,
+      "sha256": "61ada187d8ec32d7ee7a31fe6d9ec1623cf02e43b9333300fdf8b3508a383717",
+      "bytes": 1068,
+      "checked_at": "2026-09-29T06:21:06.670039+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

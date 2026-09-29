@@ -1,0 +1,70 @@
+{
+  "slug": "jev-model-router",
+  "project_url": "https://github.com/rajdhakad9826/jev-router",
+  "repository_id": 1377283715,
+  "owner": "rajdhakad9826",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "5fe292964f45dd288943dfcb1df30762c3d58aae",
+  "revision_date": "2026-09-21T09:00:19Z",
+  "checked_at": "2026-09-29T06:21:08.350598+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "查询与各档位说明进入 TypeSafe System One；Jev 返回档位概率，代码按阈值选择模型，并在接口错误时使用配置的回退项。",
+  "role_findings_en": "The query and tier descriptions enter TypeSafe System One. Jev returns tier probabilities; code applies thresholds and a configured fallback on API failure.",
+  "limitations_zh": "“最便宜且胜任”是作者的目标，本库未验证实际成本或任务质量。返回的是路由结果，不代表下游模型已执行任务。",
+  "limitations_en": "The cheapest-capable-model framing is the author’s goal, not a verified cost or quality result. A route response does not mean the downstream model executed the task.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "rajdhakad9826/jev-router",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/README.md",
+      "final_url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/README.md",
+      "status": 200,
+      "sha256": "f74cbb3e780610b3750359d096b46c3638eab6acb3077de425194e9faebf33c9",
+      "bytes": 6170,
+      "checked_at": "2026-09-29T06:21:08.231741+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "rajdhakad9826/jev-router",
+      "path": "src/jev/classifier.ts",
+      "url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/src/jev/classifier.ts",
+      "final_url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/src/jev/classifier.ts",
+      "status": 200,
+      "sha256": "22df29df1a400f51ef925dd49306895b34463f0b0d072ee1208b8bd66890f9c6",
+      "bytes": 609,
+      "checked_at": "2026-09-29T06:21:08.241966+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "rajdhakad9826/jev-router",
+      "path": "src/router.ts",
+      "url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/src/router.ts",
+      "final_url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/src/router.ts",
+      "status": 200,
+      "sha256": "408fda97b9e8584e932bdd1cde6fe00bb36033e091c5c66840e992c7f2664aff",
+      "bytes": 4892,
+      "checked_at": "2026-09-29T06:21:08.283457+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "rajdhakad9826/jev-router",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/rajdhakad9826/jev-router/5fe292964f45dd288943dfcb1df30762c3d58aae/LICENSE",
+      "status": 200,
+      "sha256": "ce03c9d77687829935486f251d8c67c4eb3b6859b8bda265853d3d3daf3abfc0",
+      "bytes": 1067,
+      "checked_at": "2026-09-29T06:21:08.350598+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

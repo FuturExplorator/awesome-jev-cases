@@ -1,0 +1,81 @@
+{
+  "slug": "codex-context-diet",
+  "project_url": "https://github.com/konstantinosbotonakis/codex-context-diet",
+  "repository_id": 1375941872,
+  "owner": "konstantinosbotonakis",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "6c15140d8749e1d0d3cb49c742c159a2129dafcf",
+  "revision_date": "2026-09-28T13:50:01Z",
+  "checked_at": "2026-09-29T06:21:09.702967+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 判断原文是否仍有用、信息是否可再次获取，以及潜在指令性内容；代码据此保留结果或替换为有限片段与说明。",
+  "role_findings_en": "Jev evaluates continued usefulness, recoverability and instruction-like content. Code keeps the result or replaces it with a bounded excerpt and a note.",
+  "limitations_zh": "节省量与延迟是作者报告，本库未复测宿主替换行为或信息保真。上游许可证含 fast-jev-compaction 的派生来源说明；不能忽略该署名。",
+  "limitations_en": "Savings and latency are author reports. Host replacement behavior and information fidelity were not tested here. The upstream license includes attribution to fast-jev-compaction; that provenance must be retained.",
+  "upstream_license": "MIT with upstream attribution",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "konstantinosbotonakis/codex-context-diet",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/README.md",
+      "final_url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/README.md",
+      "status": 200,
+      "sha256": "3e0acbde5319b3fc11f6ec27f59363de9a939cb4b5569a0a2c18222ab9800377",
+      "bytes": 42945,
+      "checked_at": "2026-09-29T06:21:09.702967+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "konstantinosbotonakis/codex-context-diet",
+      "path": "src/client.ts",
+      "url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/client.ts",
+      "final_url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/client.ts",
+      "status": 200,
+      "sha256": "c324203676c7256abfd828110ab5181e2bb702c5b0acfb25f9930f1f529a1fff",
+      "bytes": 1509,
+      "checked_at": "2026-09-29T06:21:09.330142+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "konstantinosbotonakis/codex-context-diet",
+      "path": "src/questions.ts",
+      "url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/questions.ts",
+      "final_url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/questions.ts",
+      "status": 200,
+      "sha256": "2a569eb0321fb841832a19f57317a5f3a494cb290f2fe169bc2734f81723f2ef",
+      "bytes": 3256,
+      "checked_at": "2026-09-29T06:21:09.489400+00:00",
+      "inspected_scope": "Bounded input/question/output definitions."
+    },
+    {
+      "repo": "konstantinosbotonakis/codex-context-diet",
+      "path": "src/decide.ts",
+      "url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/decide.ts",
+      "final_url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/decide.ts",
+      "status": 200,
+      "sha256": "fb098c3c4ca3483ae9e44e09161a4110340a87cc43ccdc6b33a7341d7d00225d",
+      "bytes": 6419,
+      "checked_at": "2026-09-29T06:21:09.443966+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "konstantinosbotonakis/codex-context-diet",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/konstantinosbotonakis/codex-context-diet/6c15140d8749e1d0d3cb49c742c159a2129dafcf/LICENSE",
+      "status": 200,
+      "sha256": "b18d902242dec85308acb18fc8c3eb517b4948e6a10a139603a08d10123753b3",
+      "bytes": 1372,
+      "checked_at": "2026-09-29T06:21:09.658730+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

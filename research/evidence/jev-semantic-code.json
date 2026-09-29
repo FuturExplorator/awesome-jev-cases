@@ -1,0 +1,59 @@
+{
+  "slug": "jev-semantic-code",
+  "project_url": "https://github.com/BorisLeMeec/jev",
+  "repository_id": 1375157473,
+  "owner": "BorisLeMeec",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "e81c1d006b8b23a616486610f311039088521d0c",
+  "revision_date": "2026-09-18T16:15:28Z",
+  "checked_at": "2026-09-29T06:21:10.495973+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 对文件相关性和有界问题给出判断，再对候选代码块做选择；插件返回位置或相关窗口，Claude Code 继续阅读与执行任务。",
+  "role_findings_en": "Jev judges file relevance and bounded questions, then selects candidate code chunks. The plugin returns locations or relevant windows for Claude Code to inspect and act on.",
+  "limitations_zh": "作者的小样本 token 结果未在本库复测；部分 find/ask 数据集针对私有仓库，不能声称完整公开复现。概率不是正确性的证明。",
+  "limitations_en": "Small-sample token results are author-reported, not rerun here. Some find/ask datasets concern private repositories, so full public reproducibility is not established. Probabilities are not correctness proofs.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "BorisLeMeec/jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/README.md",
+      "final_url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/README.md",
+      "status": 200,
+      "sha256": "b78322564c80da95c52aa2b11aed609c2f7ba22b7cc5cfc0b3859434fa686cf6",
+      "bytes": 15478,
+      "checked_at": "2026-09-29T06:21:10.214429+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "BorisLeMeec/jev",
+      "path": "internal/typesafe/client.go",
+      "url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/internal/typesafe/client.go",
+      "final_url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/internal/typesafe/client.go",
+      "status": 200,
+      "sha256": "a8a524a922eee09f2de1c7994ea008cf329a6b086e72f87b34708d1426de071d",
+      "bytes": 8495,
+      "checked_at": "2026-09-29T06:21:10.395507+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "BorisLeMeec/jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/BorisLeMeec/jev/e81c1d006b8b23a616486610f311039088521d0c/LICENSE",
+      "status": 200,
+      "sha256": "fabe2aae254c49b6651541422d3a554af73334a9bc72b48fff5bfd3c2ac60ec2",
+      "bytes": 1071,
+      "checked_at": "2026-09-29T06:21:10.495973+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

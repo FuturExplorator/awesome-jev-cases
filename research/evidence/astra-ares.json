@@ -1,0 +1,59 @@
+{
+  "slug": "astra-ares",
+  "project_url": "https://github.com/miuuyy/Astra-Ares",
+  "repository_id": 1381675602,
+  "owner": "miuuyy",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "b2011446d88202329dcdc5163500ca818aba9dbb",
+  "revision_date": "2026-09-23T11:49:02Z",
+  "checked_at": "2026-09-29T06:21:10.209895+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 读取有界任务上下文与近期工具结果，选择下一次生成的推理力度及该配置持续的生成轮数；打过补丁的 CLI 负责应用该选择。",
+  "role_findings_en": "Jev reads bounded task context and recent tool results, selects effort for the next generation and a duration in generations; the patched host applies the choice.",
+  "limitations_zh": "作者将其定位为实验参考实现，默认新安装走 OpenRouter。缓存收益与费用节省未由本库验证；不是桌面 App 的原生功能。",
+  "limitations_en": "The author labels it a reference experiment; new installations default to OpenRouter. Cache benefits and savings were not verified here. This is not a native desktop App feature.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "miuuyy/Astra-Ares",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/README.md",
+      "final_url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/README.md",
+      "status": 200,
+      "sha256": "d8558e8d8c0a647c24db23d8a0b0000bb025e77ada530e0d5c15548a7aa6a29c",
+      "bytes": 9848,
+      "checked_at": "2026-09-29T06:21:09.989304+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "miuuyy/Astra-Ares",
+      "path": "src/jev.mjs",
+      "url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/src/jev.mjs",
+      "final_url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/src/jev.mjs",
+      "status": 200,
+      "sha256": "b8af5290f7bdab39ea0e7bb05336949e642e7ef6938fdffe90f3fa08c8eba9dc",
+      "bytes": 11498,
+      "checked_at": "2026-09-29T06:21:10.154552+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "miuuyy/Astra-Ares",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/miuuyy/Astra-Ares/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE",
+      "status": 200,
+      "sha256": "ccfbef76d23e732fe156e1bf46cb61d7afbac4c528afe821ae3757e9084a10f0",
+      "bytes": 1080,
+      "checked_at": "2026-09-29T06:21:10.209895+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

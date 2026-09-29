@@ -1,0 +1,70 @@
+{
+  "slug": "jev-ra",
+  "project_url": "https://github.com/brnyxx/jev-ra",
+  "repository_id": 1375286423,
+  "owner": "brnyxx",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "721fc73d4571d4e4ad90dab65481e52f5b2f2531",
+  "revision_date": "2026-09-29T01:38:54Z",
+  "checked_at": "2026-09-29T06:21:07.863839+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 根据观察到的页面候选，选择操作、目标元素及已有输入值，并判断页面上的目标完成证据；浏览器执行由本地代码承担。",
+  "role_findings_en": "Jev selects an operation, observed target and supplied value, and judges visible completion evidence. Local browser code performs the effects.",
+  "limitations_zh": "速度比较由作者在特定任务与环境下测得，本库未复测。文本值由调用方提供；不应声称 Jev 自行生成表单内容。",
+  "limitations_en": "Speed comparisons are author measurements for specific tasks and environments, not reproduced here. Input values come from the caller; Jev does not generate arbitrary form text.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "brnyxx/jev-ra",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/README.md",
+      "final_url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/README.md",
+      "status": 200,
+      "sha256": "734b061a1cdd3c6199682217037726bc64fea96004a55f1ad4b91358ce42cb7f",
+      "bytes": 22547,
+      "checked_at": "2026-09-29T06:21:07.760058+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "brnyxx/jev-ra",
+      "path": "jev_ra/decide/client.py",
+      "url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/client.py",
+      "final_url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/client.py",
+      "status": 200,
+      "sha256": "6f2009d564591ef95117cac9236de7d2104358d5dabd2028bd4a01548e025c49",
+      "bytes": 6719,
+      "checked_at": "2026-09-29T06:21:07.863839+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "brnyxx/jev-ra",
+      "path": "jev_ra/decide/questions.py",
+      "url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/questions.py",
+      "final_url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/questions.py",
+      "status": 200,
+      "sha256": "f30c46732f3e6d89ae4b8620351483821edd2ed55fdd9b5d203e68ee715d2196",
+      "bytes": 4066,
+      "checked_at": "2026-09-29T06:21:07.846657+00:00",
+      "inspected_scope": "Bounded input/question/output definitions."
+    },
+    {
+      "repo": "brnyxx/jev-ra",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/brnyxx/jev-ra/721fc73d4571d4e4ad90dab65481e52f5b2f2531/LICENSE",
+      "status": 200,
+      "sha256": "2575ca35244fcb88fe56bb416d1ecf6bfb3973a8e401c220c88a49091ecfe752",
+      "bytes": 1066,
+      "checked_at": "2026-09-29T06:21:07.851486+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

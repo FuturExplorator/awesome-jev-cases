@@ -1,0 +1,81 @@
+{
+  "slug": "pi-heed",
+  "project_url": "https://github.com/Nyarlathoteppppp/pi-heed",
+  "repository_id": 1375891003,
+  "owner": "Nyarlathoteppppp",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "b7b3c56093395a6a1af5157dc02ca6eda45afb5e",
+  "revision_date": "2026-09-19T12:03:38Z",
+  "checked_at": "2026-09-29T06:21:07.324593+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 根据新消息分类已有规则的变化，并判断自由文本禁令与待执行调用的关系；资源提取、规则状态更新及拦截由代码处理。",
+  "role_findings_en": "Jev classifies changes to existing policies from new messages and judges free-text prohibitions against pending calls. Code extracts resources, updates policy state and enforces decisions.",
+  "limitations_zh": "作者提供了会话基准，本库未复跑。语义判断在低置信度或调用失败时可能放行，不是安全沙箱；无 Key 的规则模式不算 Jev 实测。",
+  "limitations_en": "The session benchmarks are author-reported, not rerun here. Uncertain or failed semantic judgments can fail open; this is not a security sandbox. Keyless rules-only operation does not demonstrate Jev.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "Nyarlathoteppppp/pi-heed",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/README.md",
+      "final_url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/README.md",
+      "status": 200,
+      "sha256": "16148413fff123e11819b3fc6da11ef59e9b99f33c98f565eae54d5d1f33797e",
+      "bytes": 21177,
+      "checked_at": "2026-09-29T06:21:06.762610+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "Nyarlathoteppppp/pi-heed",
+      "path": "src/judge.ts",
+      "url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/judge.ts",
+      "final_url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/judge.ts",
+      "status": 200,
+      "sha256": "5f7c7fdd0dbec5db37d3bf055d9439b41f17eaf21ed65aa4953e9c40bbf0c5e1",
+      "bytes": 7783,
+      "checked_at": "2026-09-29T06:21:07.195639+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "Nyarlathoteppppp/pi-heed",
+      "path": "src/understand.ts",
+      "url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/understand.ts",
+      "final_url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/understand.ts",
+      "status": 200,
+      "sha256": "79e14aaa971172cc00e7aa6fb47211c3ba3238ff9a93583a39f09b35b9fe4fdf",
+      "bytes": 22482,
+      "checked_at": "2026-09-29T06:21:07.174875+00:00",
+      "inspected_scope": "Captured supporting implementation; not independently inspected in full. Admission relies on README and the separately inspected judgment definitions/client."
+    },
+    {
+      "repo": "Nyarlathoteppppp/pi-heed",
+      "path": "src/gate.ts",
+      "url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/gate.ts",
+      "final_url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/gate.ts",
+      "status": 200,
+      "sha256": "c04f9b1413346568d40f2305e16213a6c73eae305aefd65ef6b2967d280a609c",
+      "bytes": 9530,
+      "checked_at": "2026-09-29T06:21:07.324593+00:00",
+      "inspected_scope": "Captured supporting implementation; not independently inspected in full. Admission relies on README and the separately inspected judgment definitions/client."
+    },
+    {
+      "repo": "Nyarlathoteppppp/pi-heed",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Nyarlathoteppppp/pi-heed/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/LICENSE",
+      "status": 200,
+      "sha256": "9f968374b4a3f1618dfbe9cd509074d1e3ee5806a9cfc92c73f45a604613187f",
+      "bytes": 1073,
+      "checked_at": "2026-09-29T06:21:07.203325+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

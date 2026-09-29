@@ -1,53 +1,53 @@
 # Awesome Jev Cases
 
-[中文说明](#中文说明) · [English](#english)
+[中文说明](#中文说明) · [English](#english) · [分类目录 / Categories](categories/README.md)
 
 ## 中文说明
 
-这是一个中英双语、来源可追溯的 TypeSafe Jev 案例库。
+一个中英双语、来源可追溯的 TypeSafe Jev 案例库，由个人账号 **FuturExplorator** 独立维护。
+每条案例回答：解决什么任务、Jev 接收什么并作出什么判断、从哪里核查和开始复现。
 
-我们收录真实的 Jev 应用、Agent、浏览器工具、编码工具、SDK 和框架集成、实验、评测与可复现工作流。每个案例都需要说明 Jev 的实际作用、来源、复现方式和限制。
+**首版：11 个独立项目，全部为 `verified` / `source_reviewed`。** 这表示来源、项目身份、Jev 用途和链接已核对，不表示性能、安全性、成本或运行结果已独立验证。核验日期：2026-09-29。
 
-项目网站：[jevforagents.com](https://jevforagents.com)
+| 按场景浏览 | 已收录 |
+| --- | ---: |
+| [浏览器执行](categories/browser.md) | 2 |
+| [路由与选择](categories/routing.md) | 3 |
+| [编码与上下文](categories/coding.md) | 3 |
+| [约束与防护](categories/guardrails.md) | 1 |
+| [证据评估](categories/evaluation.md) | 1 |
+| [数据流与其他](categories/other.md) | 1 |
 
-当前仓库正在初始化，尚未导入案例。请先阅读：
+可以从 [Jev Browser](cases/jev-browser-jkudish.md)、[Pi-Heed](cases/pi-heed.md) 和 [Jev Model Router](cases/jev-model-router.md) 开始。
+浏览网站：[jevforagents.com](https://jevforagents.com)。仓库可独立阅读，首版不接入网站同步，也不代表网站案例已通过新的运行或媒体测试。
 
-- [中文产品需求文档](PRD.zh-CN.md) · [English PRD](PRD.md)
-- [治理与贡献规则](GOVERNANCE.md)
-
-### 案例原则
-
-- 来源优先，项目名称不能代替证据；
-- 作者声称和独立验证分开记录；
-- Similarweb 点击量、stars 和搜索排名只用于研究排序；
-- 只有 `verified` 案例才会进入公开索引或同步网站；
-- 中文和英文放在同一个案例文件中；
-- 不复制未经授权的完整 README、帖子、图片或视频。
+投稿请读 [CONTRIBUTING](CONTRIBUTING.md)，通过 [Issue 提交线索](https://github.com/FuturExplorator/awesome-jev-cases/issues/new?template=case.yml) 或使用[双语模板](templates/case.md)提交 PR。
+审核以[证据与治理规则](GOVERNANCE.md)和[案例格式](schema/README.md)为准；不足证据的项目不会为凑数量进入目录。
 
 ## English
 
-This is a bilingual, source-backed catalog of real TypeSafe Jev projects, integrations, experiments, evaluations, and reproducible workflows.
+An independent bilingual catalog of source-backed TypeSafe Jev projects, maintained by the personal account **FuturExplorator**.
+Each case explains the task, Jev's concrete inputs and decisions, and where to inspect the source and start reproduction.
 
-Each case explains Jev's actual role, the task being solved, the source, reproduction details, and known limitations.
+**First release: 11 distinct projects, all `verified` / `source_reviewed`.** This verifies provenance, identity, Jev usage and links, not independent performance, security, cost or runtime results. Checked on 2026-09-29.
 
-Website: [jevforagents.com](https://jevforagents.com)
+Browse [browser execution](categories/browser.md) (2), [routing](categories/routing.md) (3), [coding and context](categories/coding.md) (3), [guardrails](categories/guardrails.md) (1), [evaluation](categories/evaluation.md) (1), and [streams and other uses](categories/other.md) (1).
+Start with [Jev Browser](cases/jev-browser-jkudish.md), [Pi-Heed](cases/pi-heed.md), or [Jev Model Router](cases/jev-model-router.md).
 
-This repository is being initialized. No cases have been imported yet. Read the [English PRD](PRD.md), [Chinese PRD](PRD.zh-CN.md), and [Governance](GOVERNANCE.md) before proposing a case.
+Website: [jevforagents.com](https://jevforagents.com). This repository stands alone. No website synchronization or renewed website runtime/media verification is included in this release.
+Read [CONTRIBUTING](CONTRIBUTING.md), submit a lead through an [Issue](https://github.com/FuturExplorator/awesome-jev-cases/issues/new?template=case.yml), or open a PR using the [bilingual template](templates/case.md). The [governance](GOVERNANCE.md) and [case contract](schema/README.md) define admission.
 
-### Case principles
+## 许可证 / License
 
-- Primary sources come first.
-- A project name does not establish Jev usage.
-- Author claims and independent tests are labelled separately.
-- Traffic and popularity signals help prioritize research but do not establish evidence.
-- Only `verified` cases enter public indexes or website synchronization.
-- Chinese and English are maintained in the same case file.
-- Third-party source material is linked and attributed rather than copied in full.
+[MIT](LICENSE) covers original code, schemas and original bilingual editorial content this repository has the right to license. Third-party materials retain their own rights; see [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md) and the [attribution register](research/ATTRIBUTION.md).
+MIT 仅适用于本库有权许可的原创内容；第三方代码、原帖、图片与视频不因此改用 MIT。
 
-## Repository status
+## 审核与维护 / Audit and maintenance
 
-The initial repository contains only the product requirements, governance rules, and this README. Case import begins after the PRD and case format are confirmed.
+- [中文 PRD](PRD.zh-CN.md) · [English PRD](PRD.md)
+- [首版验收报告 / Release review](research/RELEASE_REVIEW.md)
+- [候选审核台账 / Candidate audit](research/CANDIDATES.md) — not a published-case index / 不属于已收录目录
+- [来源核验记录 / Source receipts](research/evidence/README.md)
 
-## License boundary
-
-The maintainer selected MIT for original code, schemas, bilingual case descriptions, and editorial annotations this repository has the right to license. Third-party source materials retain their original rights and licenses. The license and attribution files will be added before case import.
+Run `python3 scripts/validate_catalog.py` for offline structural checks. It never changes status, publishes, discovers candidates, or calls a model.
+运行上述命令检查格式、去重、目录和本地链接；脚本不会变更状态、发布、自动发现或调用模型。

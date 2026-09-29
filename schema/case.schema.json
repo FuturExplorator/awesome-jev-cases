@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Jev Cases v1 front matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "name_en",
+    "name_zh",
+    "project_url",
+    "source_url",
+    "source_kind",
+    "author",
+    "source_date",
+    "source_date_kind",
+    "last_checked",
+    "jev_relation",
+    "scenario",
+    "content_kind",
+    "status",
+    "claim_status",
+    "upstream_license",
+    "evidence_file"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name_en": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_zh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project_url": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^https://"
+    },
+    "source_url": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^https://"
+    },
+    "source_kind": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "github",
+        "x",
+        "official",
+        "article"
+      ]
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_date": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(UNKNOWN|[0-9]{4}-[0-9]{2}-[0-9]{2})$"
+    },
+    "source_date_kind": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "commit",
+        "published",
+        "unknown"
+      ]
+    },
+    "last_checked": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "source_revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "jev_relation": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "uses_typesafe",
+        "compatible_only",
+        "unknown"
+      ]
+    },
+    "scenario": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "routing",
+        "browser",
+        "coding",
+        "guardrails",
+        "evaluation",
+        "other"
+      ]
+    },
+    "content_kind": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "application",
+        "integration",
+        "experiment",
+        "tutorial",
+        "resource"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "candidate",
+        "under_review",
+        "verified",
+        "withheld",
+        "rejected"
+      ]
+    },
+    "claim_status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "author_reported",
+        "source_reviewed",
+        "independently_tested"
+      ]
+    },
+    "upstream_license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_file": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^research/evidence/[a-z0-9-]+[.]json$"
+    },
+    "website_url": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^https://jevforagents[.]com/builds/"
+    }
+  }
+}

@@ -2,11 +2,11 @@
 
 ## Product Requirements Document
 
-**Status:** Draft 0.1 — awaiting maintainer confirmation  
-**Repository:** `FuturExplorator/awesome-jev-cases`  
+**Status:** v1.0 execution baseline — authorized by the owner; 11 source-reviewed cases delivered on 2026-09-29
+**Repository:** `FuturExplorator/awesome-jev-cases`
 **Website:** [jevforagents.com](https://jevforagents.com)
 
-**Chinese draft:** [PRD.zh-CN.md](PRD.zh-CN.md). The Chinese draft reflects the latest licensing decision and should be reviewed alongside this document.
+**Authoritative Chinese PRD:** [PRD.zh-CN.md](PRD.zh-CN.md). The Chinese version and the owner’s explicit decisions take precedence. See the [release review](research/RELEASE_REVIEW.md). The repository belongs to the personal account FuturExplorator.
 
 ## 1. Product definition
 
@@ -33,7 +33,7 @@ The first release will contain:
 - a reviewed case format;
 - bilingual case documents;
 - a source and evidence policy;
-- a small initial set of manually reviewed cases after this PRD is approved;
+- an initial set reviewed individually under the owner’s explicit execution instruction;
 - generated indexes only after the case format is stable.
 
 The first release will not contain:
@@ -82,7 +82,7 @@ name_en: Example Case
 name_zh: 示例案例
 project_url: https://github.com/owner/repo
 source_url: https://github.com/owner/repo
-source_kind: github|x|official|vercel
+source_kind: github|x|official|article
 jev_relation: uses_typesafe|compatible_only|unknown
 scenario: routing|browser|coding|guardrails|evaluation|other
 content_kind: application|integration|experiment|tutorial|resource
@@ -159,13 +159,13 @@ research/
 scripts/
 ```
 
-The initial commit intentionally contains no cases. Case import starts only after this PRD and the case format are confirmed.
+The initial draft contained no cases. The owner subsequently authorized execution; the first release includes 11 cases. The definitive [case contract](schema/README.md), [JSON Schema](schema/case.schema.json) and [template](templates/case.md) supersede the illustrative fields above.
 
 ## 9. License boundary decision
 
 The maintainer selected MIT for original material this repository has the right to license: scripts, validation code, schemas, bilingual case descriptions, and editorial annotations. Third-party README text, posts, images, videos, and repository code are not relicensed here; retain their original URL, attribution, and applicable license information.
 
-The MIT license file and third-party attribution notice will be added before the first case import. No license file is added in this draft-only step.
+The [MIT license](LICENSE) and [third-party notice](THIRD_PARTY_NOTICES.md) were added before the first case files. Each published case links a pinned upstream license.
 
 ## 10. First-release acceptance criteria
 
@@ -176,15 +176,19 @@ The MIT license file and third-party attribution notice will be added before the
 - No duplicate project is created to fill a category count.
 - The website sync boundary is explicit.
 - License boundaries are visible before external contributions are invited.
-- No case is imported until this PRD is confirmed.
+- The owner’s execution instruction authorizes the first import; no status is inherited from the website.
 
 ## 11. Deferred roadmap
 
 After the first catalog review:
 
-1. Add a schema validator.
+1. Extend validation after observing maintenance needs; this release includes a manually invoked offline structural checker.
 2. Add generated category indexes.
 3. Package the existing prepare, capture, and review workflow as an optional CLI.
 4. Generate Pull Requests instead of writing directly to `verified` data.
 5. Add optional provider adapters, including AIsa, only after the no-provider workflow is usable.
 6. Add a website synchronization workflow.
+
+## 12. First-release execution record
+
+22 candidate records represent 20 projects/leads after removing known aliases. Eleven passed source review; runtime and performance tests were not performed. Codex performed the source review under the owner’s instruction, without inventing a human sign-off. See the [candidate audit](research/CANDIDATES.md). Static indexes and the offline checker do not discover or publish content automatically. No paid AIsa calls, website edits, deployments or synchronization were performed.

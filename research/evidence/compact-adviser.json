@@ -1,0 +1,59 @@
+{
+  "slug": "compact-adviser",
+  "project_url": "https://github.com/kunchenguid/compact-adviser",
+  "repository_id": 1375014533,
+  "owner": "kunchenguid",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139",
+  "revision_date": "2026-09-29T03:34:24Z",
+  "checked_at": "2026-09-29T06:21:09.183766+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "Jev 根据会话检查点回答工作是否完成、属于动手执行还是协调；代码结合上下文占用计算是否提示压缩。它不生成摘要。",
+  "role_findings_en": "Jev judges completion and whether a checkpoint is hands-on work or coordination. Code combines those answers with context usage to decide whether to suggest compaction. Jev does not write the summary.",
+  "limitations_zh": "作者的评测未在本库复跑。Codex CLI 与 Grok 仅提示；Pi 与 Claude Code 的自动模式需额外启用，不能混为统一能力。",
+  "limitations_en": "Author evaluations were not rerun here. Codex CLI and Grok are hint-only; Pi and Claude Code have separately enabled automatic modes. Host capabilities are not interchangeable.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "kunchenguid/compact-adviser",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/README.md",
+      "final_url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/README.md",
+      "status": 200,
+      "sha256": "8f01013a4784331c7c2afb49d2d5ae77c153b1fada48fef84e6f3416699303df",
+      "bytes": 13534,
+      "checked_at": "2026-09-29T06:21:08.918220+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "kunchenguid/compact-adviser",
+      "path": "packages/codex-plugin/src/judge.ts",
+      "url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/packages/codex-plugin/src/judge.ts",
+      "final_url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/packages/codex-plugin/src/judge.ts",
+      "status": 200,
+      "sha256": "eedb238831c46cdd1c230adb76552983f8f1a94bd33de259df4d52a139605d1b",
+      "bytes": 13050,
+      "checked_at": "2026-09-29T06:21:09.163284+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "kunchenguid/compact-adviser",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/kunchenguid/compact-adviser/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/LICENSE",
+      "status": 200,
+      "sha256": "1b962d20f826f6a758c737f8aa4e8e76dc719b8aa78fcfacdfb46681bb36c2f4",
+      "bytes": 1068,
+      "checked_at": "2026-09-29T06:21:09.183766+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

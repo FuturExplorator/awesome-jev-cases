@@ -1,0 +1,21 @@
+# 来源与许可证清单 / Source and license register
+
+以下只链接第三方材料；本仓库没有分发这些项目的代码或媒体。许可证记录来自固定版本 LICENSE，不以 GitHub 自动识别结果代替阅读。
+Third-party material is linked, not redistributed. License observations come from the pinned LICENSE, not merely GitHub detection.
+
+| 案例 / Case | 作者或仓库所有者 / Owner | 原始许可证 / Upstream license |
+| --- | --- | --- |
+| [Jev Browser](../cases/jev-browser-jkudish.md) | jkudish | [MIT](https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/LICENSE) |
+| [Pi-Heed](../cases/pi-heed.md) | Nyarlathoteppppp | [MIT](https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/LICENSE) |
+| [Firehose Judge](../cases/firehose-judge.md) | ragelink | [MIT](https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/LICENSE) |
+| [Jev-RA](../cases/jev-ra.md) | brnyxx | [MIT](https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/LICENSE) |
+| [Jev Model Router](../cases/jev-model-router.md) | rajdhakad9826 | [MIT](https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/LICENSE) |
+| [Compact Adviser](../cases/compact-adviser.md) | kunchenguid | [MIT](https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/LICENSE) |
+| [Codex Context Diet](../cases/codex-context-diet.md) | konstantinosbotonakis | [MIT with upstream attribution](https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/LICENSE) |
+| [ClearJev](../cases/clearjev.md) | huncijr | [MIT](https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/LICENSE) |
+| [Astra-Ares](../cases/astra-ares.md) | miuuyy | [MIT](https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE) |
+| [Jev Semantic Code Reading](../cases/jev-semantic-code.md) | BorisLeMeec | [MIT](https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/LICENSE) |
+| [Jev MCP](../cases/jev-mcp-jkudish.md) | jkudish | [MIT](https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/LICENSE) |
+
+Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；本库没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
+Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`; its implementation is not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).

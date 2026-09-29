@@ -1,0 +1,70 @@
+{
+  "slug": "firehose-judge",
+  "project_url": "https://github.com/ragelink/firehose-judge",
+  "repository_id": 1376630303,
+  "owner": "ragelink",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "af5a50f5cc251399cac6ffc05bd9bcdc1418552d",
+  "revision_date": "2026-09-19T13:26:55Z",
+  "checked_at": "2026-09-29T06:21:07.722305+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "帖子文本进入一次包含八个问题的 Jev 请求；返回主题、意图等类型化判断。代码使用置信度阈值分流，并过滤被判为不宜展示的内容。",
+  "role_findings_en": "One Jev request asks eight questions about each sampled post. Typed topic, intent and other judgments feed confidence-based routing and a display-safety filter.",
+  "limitations_zh": "延迟、费用和线上运行效果均来自作者，本库未复测。人工通道仅代表需要复核，不代表已有人工完成审核。",
+  "limitations_en": "Latency, cost and live behavior are author reports, not independently tested here. A human-review lane indicates a need for review, not completed human moderation.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "ragelink/firehose-judge",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/README.md",
+      "final_url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/README.md",
+      "status": 200,
+      "sha256": "0a936a41f462022516b7234ec1972604f6aaf114838d2de3e6af66096bc150d7",
+      "bytes": 6430,
+      "checked_at": "2026-09-29T06:21:07.272750+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "ragelink/firehose-judge",
+      "path": "src/jev.ts",
+      "url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/src/jev.ts",
+      "final_url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/src/jev.ts",
+      "status": 200,
+      "sha256": "48cb1f87264084e2dc3c3f9a0be71fbcdea5a59d45dd21d64be89b8c3ddc2ad4",
+      "bytes": 2755,
+      "checked_at": "2026-09-29T06:21:07.272628+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "ragelink/firehose-judge",
+      "path": "questions.json",
+      "url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/questions.json",
+      "final_url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/questions.json",
+      "status": 200,
+      "sha256": "8d3525bd453afe867aab1677cfa8cd7bcbec57f2c3eae2b93373ee1d03b9f7db",
+      "bytes": 2283,
+      "checked_at": "2026-09-29T06:21:07.673646+00:00",
+      "inspected_scope": "Bounded input/question/output definitions."
+    },
+    {
+      "repo": "ragelink/firehose-judge",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/ragelink/firehose-judge/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/LICENSE",
+      "status": 200,
+      "sha256": "6528ebcc7deca138a70e2a1a8f4011d8faeaa065a015a622a5f616d870de07c1",
+      "bytes": 1065,
+      "checked_at": "2026-09-29T06:21:07.722305+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

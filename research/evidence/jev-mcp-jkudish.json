@@ -1,0 +1,70 @@
+{
+  "slug": "jev-mcp-jkudish",
+  "project_url": "https://github.com/jkudish/jev-mcp",
+  "repository_id": 1373837418,
+  "owner": "jkudish",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "53fe5756252956863af2ecbd2952339352e82e15",
+  "revision_date": "2026-09-29T05:30:51Z",
+  "checked_at": "2026-09-29T06:21:10.951277+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name checked; same-name projects and legacy aliases not merged by name.",
+  "role_findings_zh": "调用方提供证据、主张或候选集合；工具构造有界问题发送给 Jev，并返回概率和类型化结果供调用方处理。",
+  "role_findings_en": "The caller supplies evidence, claims or candidates. Tools construct bounded Jev questions and return probabilities and typed results for the caller to handle.",
+  "limitations_zh": "作者的速度与费用说法未在本库复测。判断只针对提供的证据，不等于独立查证事实。此项目与同一作者的浏览器工具分别对应不同仓库与用途。",
+  "limitations_en": "Speed and cost claims were not tested here. Judging supplied evidence is not independent fact discovery. This server and the same author’s browser tool are distinct repositories with different purposes.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "jkudish/jev-mcp",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/README.md",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/README.md",
+      "status": 200,
+      "sha256": "d352bb7418ced8b13400832d4026971cf150052a43c1b2e562e34dbdee91f424",
+      "bytes": 53283,
+      "checked_at": "2026-09-29T06:21:10.535791+00:00",
+      "inspected_scope": "Project overview, Jev role, installation entry and limitations; full file captured, not every unrelated feature audited."
+    },
+    {
+      "repo": "jkudish/jev-mcp",
+      "path": "src/provider.ts",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts",
+      "status": 200,
+      "sha256": "a6203328f9ccf94592c6ed491a3c73fa900a7e267f7b5c228433f06624557f85",
+      "bytes": 19581,
+      "checked_at": "2026-09-29T06:21:10.949985+00:00",
+      "inspected_scope": "Targeted API client, provider, decision or routing symbols; not an exhaustive code/security audit."
+    },
+    {
+      "repo": "jkudish/jev-mcp",
+      "path": "src/lib.ts",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/lib.ts",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/lib.ts",
+      "status": 200,
+      "sha256": "d1424b24082bb7aba15e1a2d7a0fda2921b5d8cba0dd28024df842f877794c0e",
+      "bytes": 20508,
+      "checked_at": "2026-09-29T06:21:10.951277+00:00",
+      "inspected_scope": "Captured supporting implementation; not independently inspected in full. Admission relies on README and the separately inspected judgment definitions/client."
+    },
+    {
+      "repo": "jkudish/jev-mcp",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/LICENSE",
+      "status": 200,
+      "sha256": "61ada187d8ec32d7ee7a31fe6d9ec1623cf02e43b9333300fdf8b3508a383717",
+      "bytes": 1068,
+      "checked_at": "2026-09-29T06:21:10.854061+00:00",
+      "inspected_scope": "License text and attribution boundary; not a legal opinion."
+    }
+  ]
+}

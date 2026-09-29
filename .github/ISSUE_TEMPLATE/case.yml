@@ -1,0 +1,39 @@
+name: "案例线索 / Case suggestion"
+description: "提交准确原始来源与 Jev 用途 / Suggest a source-backed Jev use case"
+title: "[Case] "
+body:
+  - type: input
+    id: project
+    attributes:
+      label: "项目名称与准确 URL / Project name and exact URL"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "原始来源、作者、日期 / Primary sources, author and date"
+      description: "使用仓库、原帖或官方文章，不只给主页。 / Use a repository, exact post or official article, not just a profile."
+    validations:
+      required: true
+  - type: textarea
+    id: role
+    attributes:
+      label: "Jev 具体做什么 / What does Jev actually do?"
+      description: "输入 → 判断 → 输出；注明 Mock 或兼容模式。 / Inputs, decisions and outputs; identify mocks or compatibility-only paths."
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: "作者声称、已测试内容、限制与许可 / Claims, tests, limitations and rights"
+    validations:
+      required: true
+  - type: checkboxes
+    id: duplicates
+    attributes:
+      label: "投稿检查 / Submission check"
+      options:
+        - label: "已检查重复，或注明这是对已有案例的补证 / I checked duplicates or identified this as additional evidence."
+          required: true
+        - label: "未提供凭据、私人数据或无权分发的完整材料 / No credentials, private data or unauthorized full material included."
+          required: true

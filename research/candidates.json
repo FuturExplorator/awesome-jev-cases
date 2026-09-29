@@ -1,0 +1,202 @@
+[
+  {
+    "id": "jev-browser-jkudish",
+    "project_url": "https://github.com/jkudish/jev-browser",
+    "source_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "pi-heed",
+    "project_url": "https://github.com/Nyarlathoteppppp/pi-heed",
+    "source_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "firehose-judge",
+    "project_url": "https://github.com/ragelink/firehose-judge",
+    "source_url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-ra",
+    "project_url": "https://github.com/brnyxx/jev-ra",
+    "source_url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-model-router",
+    "project_url": "https://github.com/rajdhakad9826/jev-router",
+    "source_url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "compact-adviser",
+    "project_url": "https://github.com/kunchenguid/compact-adviser",
+    "source_url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "codex-context-diet",
+    "project_url": "https://github.com/konstantinosbotonakis/codex-context-diet",
+    "source_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "clearjev",
+    "project_url": "https://github.com/huncijr/ClearJev",
+    "source_url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "astra-ares",
+    "project_url": "https://github.com/miuuyy/Astra-Ares",
+    "source_url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-semantic-code",
+    "project_url": "https://github.com/BorisLeMeec/jev",
+    "source_url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-mcp-jkudish",
+    "project_url": "https://github.com/jkudish/jev-mcp",
+    "source_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-browser-playwright",
+    "project_url": "https://github.com/tontoko/jev-browser",
+    "source_url": "https://github.com/tontoko/jev-browser",
+    "status": "under_review",
+    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
+    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-browser-use-codex",
+    "project_url": "https://github.com/wy-coliney/jev-browser-use",
+    "source_url": "https://github.com/wy-coliney/jev-browser-use",
+    "status": "under_review",
+    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
+    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-browser-ying-kai-liao",
+    "project_url": "https://github.com/Ying-Kai-Liao/jev-browser",
+    "source_url": "https://github.com/Ying-Kai-Liao/jev-browser",
+    "status": "under_review",
+    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
+    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "typesafe-agent-skills",
+    "project_url": "https://github.com/typesafe-ai/skills",
+    "source_url": "https://github.com/typesafe-ai/skills",
+    "status": "under_review",
+    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
+    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "hermes-imessage-codex-context",
+    "project_url": null,
+    "source_url": "https://x.com/miles_matthias/status/2101856344269558027",
+    "status": "withheld",
+    "reason_zh": "内置浏览器读取准确原帖返回 Internal Error；本轮未取得原帖正文及项目身份链，历史摘要不足以通过。不能据此判定帖子已删除。",
+    "reason_en": "Codex web returned Internal Error for the exact post. Original text and project identity chain unavailable this review; historical summaries are insufficient. This does not prove deletion.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "vlad-terin-jev-browser",
+    "project_url": null,
+    "source_url": "https://x.com/VladTerin/status/2100448995415863323",
+    "status": "withheld",
+    "reason_zh": "内置浏览器读取准确原帖返回 Internal Error；本轮未取得原帖正文及项目身份链，历史摘要不足以通过。不能据此判定帖子已删除。",
+    "reason_en": "Codex web returned Internal Error for the exact post. Original text and project identity chain unavailable this review; historical summaries are insufficient. This does not prove deletion.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "cline-jev-browser",
+    "project_url": null,
+    "source_url": "https://x.com/cline/status/2101056078872256935",
+    "status": "withheld",
+    "reason_zh": "内置浏览器读取准确原帖返回 Internal Error；本轮未取得原帖正文及项目身份链，历史摘要不足以通过。不能据此判定帖子已删除。",
+    "reason_en": "Codex web returned Internal Error for the exact post. Original text and project identity chain unavailable this review; historical summaries are insufficient. This does not prove deletion.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-browser-skill",
+    "project_url": null,
+    "source_url": "https://x.com/aibuilderclub_/status/2101316543317684368",
+    "status": "withheld",
+    "reason_zh": "内置浏览器读取准确原帖返回 Internal Error；本轮未取得原帖正文及项目身份链，历史摘要不足以通过。不能据此判定帖子已删除。",
+    "reason_en": "Codex web returned Internal Error for the exact post. Original text and project identity chain unavailable this review; historical summaries are insufficient. This does not prove deletion.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "skillranker",
+    "project_url": "https://github.com/Dicklesworthstone/skillranker",
+    "source_url": "https://github.com/Dicklesworthstone/skillranker/blob/ccaab33580478b6cfd91b36c12c2c4adb00b7eec/LICENSE",
+    "status": "withheld",
+    "reason_zh": "LICENSE 含 OpenAI/Anthropic 附加限制，不能标为标准 MIT。暂缓发布案例及进一步实现分析，仅保留来源和限制记录；是否保留此类项目的链接索引留待负责人决定。",
+    "reason_en": "LICENSE includes an OpenAI/Anthropic rider and must not be labelled standard MIT. Case publication and further implementation analysis are withheld; retain only provenance and the restriction record pending the owner’s policy decision.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jev-mcp",
+    "project_url": "https://github.com/jkudish/jev-mcp",
+    "source_url": "https://github.com/jkudish/jev-mcp",
+    "status": "rejected",
+    "canonical_id": "jev-mcp-jkudish",
+    "reason_zh": "与 jev-mcp-jkudish 为同一仓库的历史别名，拒绝新增重复条目；不是否定项目。",
+    "reason_en": "Legacy alias of jev-mcp-jkudish in the same repository. Duplicate entry rejected, not the underlying project.",
+    "last_checked": "2026-09-29"
+  },
+  {
+    "id": "typesafe-skills",
+    "project_url": "https://github.com/typesafe-ai/skills",
+    "source_url": "https://github.com/typesafe-ai/skills",
+    "status": "rejected",
+    "canonical_id": "typesafe-agent-skills",
+    "reason_zh": "与 typesafe-agent-skills 为同一仓库的历史别名，拒绝新增重复条目；不是否定项目。",
+    "reason_en": "Legacy alias of typesafe-agent-skills in the same repository. Duplicate entry rejected, not the underlying project.",
+    "last_checked": "2026-09-29"
+  }
+]

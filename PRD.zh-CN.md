@@ -1,13 +1,13 @@
 # Awesome Jev Cases 产品需求文档
 
-**版本：** v0.2 讨论稿
+**版本：** v1.0 首版执行基线
 
-**状态：** 等待项目负责人确认，尚未进入案例导入阶段
+**状态：** 项目负责人已授权执行，2026-09-29 交付 11 个来源核验案例；见 [验收记录](research/RELEASE_REVIEW.md)。
 
 **仓库：** [FuturExplorator/awesome-jev-cases](https://github.com/FuturExplorator/awesome-jev-cases)
 
 **关联网站：** [jevforagents.com](https://jevforagents.com)
-**英文草案：** [PRD.md](PRD.md)
+**英文版本：** [PRD.md](PRD.md)
 
 ## 1. 项目定位
 
@@ -62,7 +62,7 @@ Jev 不必是项目的唯一技术，也不必是核心模型。只要原始来�
 2. 案例投稿和核验规则。
 3. 一个统一的中英双语案例格式。
 4. 按使用场景组织的公开目录。
-5. 首批由维护者人工核验的案例。
+5. 首批在维护者授权下逐项来源核验的案例（首版执行方式见第 14 节）。
 6. 对仓库原创内容适用的 MIT 许可证文件，以及第三方来源说明。
 
 首批内容采用小规模发布：先审核约 20–30 个候选，优先推出至少 10 个证据完整的案例。数量是工作量规划，不是降低标准的发布配额；达不到标准的候选继续保留为线索。
@@ -140,14 +140,14 @@ website_url: https://jevforagents.com/builds/example-case
 - 相关文档：
 ```
 
-字段值采用稳定的英文枚举，便于后续校验与网站读取。`website_url` 只在真实页面存在时填写；不同来源类型需要的字段应在正式 Schema 中进一步约束。原文哈希及来源快照可以保存在审核记录中，不要求把完整第三方原文放进公开案例文件。
+正式字段与首版离线检查见 [案例格式](schema/README.md)及 [JSON Schema](schema/case.schema.json)；下方原则保留。字段值采用稳定的英文枚举，便于后续校验与网站读取。`website_url` 只在真实页面存在时填写；不同来源类型需要的字段应在正式 Schema 中进一步约束。原文哈希及来源快照可以保存在审核记录中，不要求把完整第三方原文放进公开案例文件。
 
 ## 8. 来源与审核状态
 
 | 状态 | 含义 | 是否进入公开案例索引 |
 | --- | --- | --- |
 | `candidate` | 已发现，尚未补齐原始证据 | 否 |
-| `under_review` | 已取得来源，等待人工核验 | 否 |
+| `under_review` | 已取得来源，等待完成逐项核验 | 否 |
 | `verified` | 来源、项目身份、Jev 关系及链接已核对 | 是 |
 | `withheld` | 可能相关，但缺少关键来源或媒体证据 | 否 |
 | `rejected` | 已核查，现有来源不支持收录 | 否 |
@@ -176,7 +176,7 @@ website_url: https://jevforagents.com/builds/example-case
 
 贡献者可以先通过 Issue 提交线索。完整案例通过 Pull Request 提交。维护者可以要求补证据或继续保留为 `under_review`，不需要为达到某个案例数量而合并。
 
-首版以人工核验为准。后续脚本可以辅助规范化 URL、抓取公开材料、去重、生成候选报告或 Pull Request，但不能自行把案例改成 `verified`。
+首版以维护者负责的逐项来源核验为准；本轮由 Codex 按负责人明确授权执行并记录审阅方式，不虚构人工签字。后续脚本可以辅助规范化 URL、抓取公开材料、去重、生成候选报告或 Pull Request，但不能自行把案例改成 `verified`。
 
 ## 10. 仓库与网站的关系
 
@@ -193,21 +193,27 @@ website_url: https://jevforagents.com/builds/example-case
 
 MIT 声明不改变第三方材料的权利归属。其他仓库的代码和 README、原帖全文、图片、视频等继续遵循各自的许可证或权利声明。案例优先提供原始链接、必要的署名和有限的短摘录；若将来确需纳入第三方材料，应逐项记录许可依据。
 
-许可证文件与第三方材料说明在首批案例导入前补齐。当前讨论稿不会把任何第三方内容声明为本仓库原创内容。[GitHub 的仓库许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)建议在仓库根目录提供许可证文件；[MIT 原文](https://opensource.org/license/mit)说明许可覆盖由授权者有权提供的材料。
+[MIT LICENSE](LICENSE) 与[第三方材料说明](THIRD_PARTY_NOTICES.md)已在首批案例文件写入前补齐；第三方内容不声明为本仓库原创。[GitHub 的仓库许可说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)建议在仓库根目录提供许可证文件；[MIT 原文](https://opensource.org/license/mit)说明许可覆盖由授权者有权提供的材料。
 
 ## 12. 首版验收标准
 
-- [ ] README 有中英文入口、项目定位、分类导航与有效的网站链接。
-- [ ] 正式案例格式确定，中文和英文在同一文件中。
-- [ ] 每个公开案例均有可访问的原始来源和具体 Jev 用法。
-- [ ] 相同来源及项目不会重复收录。
-- [ ] 至少 10 个案例通过核验后进入公开目录；不足时如实发布实际通过数量。
-- [ ] `candidate`、`under_review`、`withheld`、`rejected` 不进入公开索引或网站同步。
-- [ ] MIT 许可证和第三方材料说明在开放案例投稿前到位。
-- [ ] 网站只展示已通过自身来源、链接和媒体发布检查的案例。
+- [x] README 有中英文入口、项目定位、分类导航与有效的网站链接。
+- [x] 正式案例格式确定，中文和英文在同一文件中。
+- [x] 每个公开案例均有可访问的原始来源和具体 Jev 用法。
+- [x] 相同来源及项目不会重复收录。
+- [x] 至少 10 个案例通过核验后进入公开目录；不足时如实发布实际通过数量。
+- [x] `candidate`、`under_review`、`withheld`、`rejected` 不进入公开索引或网站同步。
+- [x] MIT 许可证和第三方材料说明在开放案例投稿前到位。
+- [ ] 网站只展示已通过自身来源、链接和媒体发布检查的案例。（本轮不适用：没有修改、同步或部署网站；网站门禁仍保留。）
 
 ## 13. 后续阶段
 
 完成首版案例库后，再按实际维护成本决定是否增加 Schema 自动校验、目录生成、GitHub 公共来源抓取、Jev 辅助初筛、定时发现、AIsa 可选适配器，以及网站数据同步。
 
 自动化的首个目标是生成**待审核候选和 Pull Request**，不直接发布案例。
+
+## 14. 首版执行记录
+
+本次明确决策：个人账号 FuturExplorator；案例中英双语同文件；关联 jevforagents.com；原创代码及原创案例整理使用 MIT，第三方保留原有权利。22 条候选记录经已知别名去重为 20 个项目/线索，11 个来源核验通过。首版审阅由 Codex 按负责人授权执行，未进行人工签字或付费运行复现。详见[候选审核表](research/CANDIDATES.md)与[验收报告](research/RELEASE_REVIEW.md)。
+
+为执行本次最终检查，交付了手动运行的离线结构校验；没有自动发现、自动生成发布目录、自动提升状态、AIsa 接口或网站同步。

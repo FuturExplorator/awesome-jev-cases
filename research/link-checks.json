@@ -1,0 +1,809 @@
+[
+  {
+    "url": "https://jevforagents.com",
+    "referenced_by": [
+      "README.md",
+      "README.md",
+      "GOVERNANCE.md",
+      "cases/pi-heed.md",
+      "cases/jev-browser-jkudish.md",
+      "cases/jev-ra.md",
+      "cases/jev-semantic-code.md",
+      "cases/firehose-judge.md",
+      "cases/jev-model-router.md",
+      "cases/clearjev.md",
+      "cases/codex-context-diet.md",
+      "cases/astra-ares.md",
+      "cases/jev-mcp-jkudish.md",
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:08.294004+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://jevforagents.com",
+    "bytes": 180267
+  },
+  {
+    "url": "https://github.com/FuturExplorator/awesome-jev-cases/issues/new?template=case.yml",
+    "referenced_by": [
+      "README.md",
+      "README.md",
+      "CONTRIBUTING.md",
+      "CONTRIBUTING.md"
+    ],
+    "checked_at": "2026-09-29T06:34:08.294690+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FFuturExplorator%2Fawesome-jev-cases%2Fissues%2Fnew%3Ftemplate%3Dcase.yml",
+    "bytes": 47770
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:08.294994+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/LICENSE",
+    "bytes": 237719,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:08.295231+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/LICENSE",
+    "bytes": 237986,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:09.040662+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/LICENSE",
+    "bytes": 238272,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:09.689234+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/LICENSE",
+    "bytes": 238201,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:09.792547+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/LICENSE",
+    "bytes": 237891,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:10.108101+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/LICENSE",
+    "bytes": 236219,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:10.339621+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/LICENSE",
+    "bytes": 243233,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/clearjev.md"
+    ],
+    "checked_at": "2026-09-29T06:34:10.938043+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/LICENSE",
+    "bytes": 237389,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/astra-ares.md"
+    ],
+    "checked_at": "2026-09-29T06:34:11.394256+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE",
+    "bytes": 237768,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/jev-semantic-code.md"
+    ],
+    "checked_at": "2026-09-29T06:34:11.661560+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/LICENSE",
+    "bytes": 237183,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/LICENSE",
+    "referenced_by": [
+      "research/ATTRIBUTION.md",
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:11.696314+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/LICENSE",
+    "bytes": 237300,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:12.227770+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed",
+    "bytes": 374004
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/commit/b7b3c56093395a6a1af5157dc02ca6eda45afb5e",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:12.763970+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/commit/b7b3c56093395a6a1af5157dc02ca6eda45afb5e",
+    "bytes": 605094
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/README.md",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:12.838436+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/README.md",
+    "bytes": 391199,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/judge.ts",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:13.104428+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/judge.ts",
+    "bytes": 407862,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/understand.ts",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:13.624062+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/understand.ts",
+    "bytes": 564137,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/gate.ts",
+    "referenced_by": [
+      "cases/pi-heed.md"
+    ],
+    "checked_at": "2026-09-29T06:34:14.451702+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/Nyarlathoteppppp/pi-heed/blob/b7b3c56093395a6a1af5157dc02ca6eda45afb5e/src/gate.ts",
+    "bytes": 399597,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:14.666118+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser",
+    "bytes": 496709
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/commit/b767894987cd45bf77a786fe410051613eabcef0",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:14.715245+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/commit/b767894987cd45bf77a786fe410051613eabcef0",
+    "bytes": 284364
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/README.md",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:15.213177+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/README.md",
+    "bytes": 534467,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/navigate.ts",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:15.795928+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/navigate.ts",
+    "bytes": 1038012,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/provider.ts",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:16.089004+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/provider.ts",
+    "bytes": 253474,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/questions.ts",
+    "referenced_by": [
+      "cases/jev-browser-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:16.226012+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-browser/blob/b767894987cd45bf77a786fe410051613eabcef0/src/questions.ts",
+    "bytes": 257697,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra",
+    "referenced_by": [
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:16.810537+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra",
+    "bytes": 412151
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra/commit/721fc73d4571d4e4ad90dab65481e52f5b2f2531",
+    "referenced_by": [
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:17.250814+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra/commit/721fc73d4571d4e4ad90dab65481e52f5b2f2531",
+    "bytes": 288110
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/README.md",
+    "referenced_by": [
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:17.445074+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/README.md",
+    "bytes": 390651,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/client.py",
+    "referenced_by": [
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:17.680603+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/client.py",
+    "bytes": 350671,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/questions.py",
+    "referenced_by": [
+      "cases/jev-ra.md"
+    ],
+    "checked_at": "2026-09-29T06:34:18.288454+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/brnyxx/jev-ra/blob/721fc73d4571d4e4ad90dab65481e52f5b2f2531/jev_ra/decide/questions.py",
+    "bytes": 275908,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/BorisLeMeec/jev",
+    "referenced_by": [
+      "cases/jev-semantic-code.md"
+    ],
+    "checked_at": "2026-09-29T06:34:18.756404+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/BorisLeMeec/jev",
+    "bytes": 351575
+  },
+  {
+    "url": "https://github.com/BorisLeMeec/jev/commit/e81c1d006b8b23a616486610f311039088521d0c",
+    "referenced_by": [
+      "cases/jev-semantic-code.md"
+    ],
+    "checked_at": "2026-09-29T06:34:18.842205+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/BorisLeMeec/jev/commit/e81c1d006b8b23a616486610f311039088521d0c",
+    "bytes": 302765
+  },
+  {
+    "url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/README.md",
+    "referenced_by": [
+      "cases/jev-semantic-code.md"
+    ],
+    "checked_at": "2026-09-29T06:34:18.915676+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/README.md",
+    "bytes": 359894,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/internal/typesafe/client.go",
+    "referenced_by": [
+      "cases/jev-semantic-code.md"
+    ],
+    "checked_at": "2026-09-29T06:34:19.464103+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/internal/typesafe/client.go",
+    "bytes": 415921,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge",
+    "referenced_by": [
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:20.007424+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge",
+    "bytes": 302717
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge/commit/af5a50f5cc251399cac6ffc05bd9bcdc1418552d",
+    "referenced_by": [
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:20.139015+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge/commit/af5a50f5cc251399cac6ffc05bd9bcdc1418552d",
+    "bytes": 1071617
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/README.md",
+    "referenced_by": [
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:20.374916+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/README.md",
+    "bytes": 284499,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/src/jev.ts",
+    "referenced_by": [
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:20.826573+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/src/jev.ts",
+    "bytes": 289535,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/questions.json",
+    "referenced_by": [
+      "cases/firehose-judge.md"
+    ],
+    "checked_at": "2026-09-29T06:34:21.419749+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/ragelink/firehose-judge/blob/af5a50f5cc251399cac6ffc05bd9bcdc1418552d/questions.json",
+    "bytes": 262864,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router",
+    "referenced_by": [
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:21.781769+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router",
+    "bytes": 300115
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router/commit/5fe292964f45dd288943dfcb1df30762c3d58aae",
+    "referenced_by": [
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:21.786739+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router/commit/5fe292964f45dd288943dfcb1df30762c3d58aae",
+    "bytes": 281264
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/README.md",
+    "referenced_by": [
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:22.055635+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/README.md",
+    "bytes": 295970,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/src/jev/classifier.ts",
+    "referenced_by": [
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:22.755683+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/src/jev/classifier.ts",
+    "bytes": 245666,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/src/router.ts",
+    "referenced_by": [
+      "cases/jev-model-router.md"
+    ],
+    "checked_at": "2026-09-29T06:34:22.978374+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/rajdhakad9826/jev-router/blob/5fe292964f45dd288943dfcb1df30762c3d58aae/src/router.ts",
+    "bytes": 329136,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/huncijr/ClearJev",
+    "referenced_by": [
+      "cases/clearjev.md"
+    ],
+    "checked_at": "2026-09-29T06:34:23.044239+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/huncijr/ClearJev",
+    "bytes": 279654
+  },
+  {
+    "url": "https://github.com/huncijr/ClearJev/commit/859ef1d9d821713864ad62e9a15963d882a9c004",
+    "referenced_by": [
+      "cases/clearjev.md"
+    ],
+    "checked_at": "2026-09-29T06:34:23.472251+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/huncijr/ClearJev/commit/859ef1d9d821713864ad62e9a15963d882a9c004",
+    "bytes": 866444
+  },
+  {
+    "url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/README.md",
+    "referenced_by": [
+      "cases/clearjev.md"
+    ],
+    "checked_at": "2026-09-29T06:34:24.080724+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/README.md",
+    "bytes": 252165,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/scripts/jev_route.py",
+    "referenced_by": [
+      "cases/clearjev.md"
+    ],
+    "checked_at": "2026-09-29T06:34:24.264198+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/huncijr/ClearJev/blob/859ef1d9d821713864ad62e9a15963d882a9c004/scripts/jev_route.py",
+    "bytes": 989913,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:24.285307+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet",
+    "bytes": 529380
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/commit/6c15140d8749e1d0d3cb49c742c159a2129dafcf",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:25.297122+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/commit/6c15140d8749e1d0d3cb49c742c159a2129dafcf",
+    "bytes": 888003
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/README.md",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:25.370988+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/README.md",
+    "bytes": 548574,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/client.ts",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:25.821340+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/client.ts",
+    "bytes": 267029,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/questions.ts",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:26.158358+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/questions.ts",
+    "bytes": 279231,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/decide.ts",
+    "referenced_by": [
+      "cases/codex-context-diet.md"
+    ],
+    "checked_at": "2026-09-29T06:34:27.166413+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/konstantinosbotonakis/codex-context-diet/blob/6c15140d8749e1d0d3cb49c742c159a2129dafcf/src/decide.ts",
+    "bytes": 362766,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/miuuyy/Astra-Ares",
+    "referenced_by": [
+      "cases/astra-ares.md"
+    ],
+    "checked_at": "2026-09-29T06:34:27.167181+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/miuuyy/Astra-Ares",
+    "bytes": 318694
+  },
+  {
+    "url": "https://github.com/miuuyy/Astra-Ares/commit/b2011446d88202329dcdc5163500ca818aba9dbb",
+    "referenced_by": [
+      "cases/astra-ares.md"
+    ],
+    "checked_at": "2026-09-29T06:34:27.815932+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/miuuyy/Astra-Ares/commit/b2011446d88202329dcdc5163500ca818aba9dbb",
+    "bytes": 432638
+  },
+  {
+    "url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/README.md",
+    "referenced_by": [
+      "cases/astra-ares.md"
+    ],
+    "checked_at": "2026-09-29T06:34:27.855148+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/README.md",
+    "bytes": 302821,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/src/jev.mjs",
+    "referenced_by": [
+      "cases/astra-ares.md"
+    ],
+    "checked_at": "2026-09-29T06:34:28.504308+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/src/jev.mjs",
+    "bytes": 430164,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp",
+    "referenced_by": [
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:28.506269+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp",
+    "bytes": 616477
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp/commit/53fe5756252956863af2ecbd2952339352e82e15",
+    "referenced_by": [
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:29.273492+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp/commit/53fe5756252956863af2ecbd2952339352e82e15",
+    "bytes": 325035
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/README.md",
+    "referenced_by": [
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:29.400962+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/README.md",
+    "bytes": 705976,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts",
+    "referenced_by": [
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:29.891073+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts",
+    "bytes": 564284,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/lib.ts",
+    "referenced_by": [
+      "cases/jev-mcp-jkudish.md"
+    ],
+    "checked_at": "2026-09-29T06:34:30.016354+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/lib.ts",
+    "bytes": 565668,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/kunchenguid/compact-adviser",
+    "referenced_by": [
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:31.131755+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/kunchenguid/compact-adviser",
+    "bytes": 356572
+  },
+  {
+    "url": "https://github.com/kunchenguid/compact-adviser/commit/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139",
+    "referenced_by": [
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:31.249422+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/kunchenguid/compact-adviser/commit/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139",
+    "bytes": 936965
+  },
+  {
+    "url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/README.md",
+    "referenced_by": [
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:31.572192+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/README.md",
+    "bytes": 329806,
+    "source_path_present": true
+  },
+  {
+    "url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/packages/codex-plugin/src/judge.ts",
+    "referenced_by": [
+      "cases/compact-adviser.md"
+    ],
+    "checked_at": "2026-09-29T06:34:31.813125+00:00",
+    "method": "unauthenticated HTTP GET; no retries",
+    "status": 200,
+    "final_url": "https://github.com/kunchenguid/compact-adviser/blob/0b355ff650bd7fc4179c9af8fdf9cdeeea5a0139/packages/codex-plugin/src/judge.ts",
+    "bytes": 473518,
+    "source_path_present": true
+  }
+]
