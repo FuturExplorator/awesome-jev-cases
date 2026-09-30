@@ -1,0 +1,70 @@
+{
+  "slug": "jev-arena-nanmicoder",
+  "project_url": "https://github.com/NanmiCoder/jev-arena",
+  "repository_id": 1377049125,
+  "owner": "NanmiCoder",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "2ca160cc4aa9ac72a4341e2ac5903258e8c69c84",
+  "revision_date": "2026-09-20T15:00:27Z",
+  "checked_at": "2026-09-30T01:31:00.276608+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public original repository opened in Codex built-in web; pinned README and targeted implementation inspected; raw files fetched and hashed. No model or comparison executed.",
+  "identity_check": "Distinct public GitHub repository; CSV landing-page path normalized to repository root. No matching local website repository record.",
+  "role_findings_zh": "Jev 1.13 经 OpenRouter Decisions 回答评论相关性、情感与意图等类型化问题；宿主整理结果和证据片段。",
+  "role_findings_en": "Jev 1.13 via OpenRouter Decisions answers typed relevance, sentiment and intent questions; host code assembles results and evidence snippets.",
+  "limitations_zh": "作者的速度、成本与准确率未复测，准确率使用 AI 参考而非人工金标准。未运行。",
+  "limitations_en": "Author speed, cost and accuracy were not reproduced, and accuracy used an AI reference rather than a human gold standard. Not run.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "NanmiCoder/jev-arena",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/README.md",
+      "final_url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/README.md",
+      "status": 200,
+      "sha256": "556a3745ba672ad58ab5f9dcae9dd1ad2b2e46b9888ad331277dbaae3aad1839",
+      "bytes": 2878,
+      "checked_at": "2026-09-30T01:30:58.287773+00:00",
+      "inspected_scope": "Read purpose, setup, author benchmark method and rights boundary."
+    },
+    {
+      "repo": "NanmiCoder/jev-arena",
+      "path": "src/backends/jev.mjs",
+      "url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/src/backends/jev.mjs",
+      "final_url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/src/backends/jev.mjs",
+      "status": 200,
+      "sha256": "d2981aece8809b763ffdcdca395bf28d4f3ef2cef2cd3e9086b5bcb811c92ac0",
+      "bytes": 16491,
+      "checked_at": "2026-09-30T01:30:58.971262+00:00",
+      "inspected_scope": "Inspected Jev model ID, OpenRouter Decisions request, typed questions and host-only evidence handling."
+    },
+    {
+      "repo": "NanmiCoder/jev-arena",
+      "path": "src/runner.mjs",
+      "url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/src/runner.mjs",
+      "final_url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/src/runner.mjs",
+      "status": 200,
+      "sha256": "18112e79d3f04106306c1addf4be55106d16e809d98984ae95ee1576b494c6b2",
+      "bytes": 17918,
+      "checked_at": "2026-09-30T01:30:59.628475+00:00",
+      "inspected_scope": "Inspected model lanes and comparison/report orchestration."
+    },
+    {
+      "repo": "NanmiCoder/jev-arena",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/NanmiCoder/jev-arena/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/LICENSE",
+      "status": 200,
+      "sha256": "3ef65cf7702d584f2644c2a22788348ce20e1e8127ba8e1d4f8cdc0ab4993701",
+      "bytes": 1067,
+      "checked_at": "2026-09-30T01:31:00.276608+00:00",
+      "inspected_scope": "License and attribution inspected."
+    }
+  ]
+}

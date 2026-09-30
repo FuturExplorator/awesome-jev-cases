@@ -9,3 +9,4 @@
 | [上下文压缩时机建议 / Compact Adviser](../cases/compact-adviser.md) | `integration` | `verified` · `source_reviewed` |
 | [工具结果上下文裁剪 / Codex Context Diet](../cases/codex-context-diet.md) | `integration` | `verified` · `source_reviewed` |
 | [语义代码定位与读取 / Jev Semantic Code Reading](../cases/jev-semantic-code.md) | `integration` | `verified` · `source_reviewed` |
+| [上下文压缩 / fast-jev-compaction](../cases/fast-jev-compaction-tamara-tran.md) | `integration` | `verified` · `source_reviewed` |

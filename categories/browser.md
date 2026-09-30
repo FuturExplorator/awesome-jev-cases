@@ -11,3 +11,4 @@
 | [Playwright 语义浏览器工具 / Jev Browser by tontoko](../cases/jev-browser-playwright.md) | `integration` | `verified` · `source_reviewed` |
 | [Codex 浏览器技能 / Jev Browser Use](../cases/jev-browser-use-codex.md) | `integration` | `verified` · `source_reviewed` |
 | [Jev 决策浏览器 / jev-browser by Ying-Kai Liao](../cases/jev-browser-ying-kai-liao.md) | `application` | `verified` · `source_reviewed` |
+| [Browser Use 的 Jev Ultrafast / Jev Ultrafast by Browser Use](../cases/browser-use-jev-ultrafast.md) | `application` | `verified` · `source_reviewed` |

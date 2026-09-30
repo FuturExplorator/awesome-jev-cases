@@ -9,3 +9,4 @@
 | [模型档位路由 / Jev Model Router](../cases/jev-model-router.md) | `integration` | `verified` · `source_reviewed` |
 | [Codex CLI 提示路由 / ClearJev](../cases/clearjev.md) | `integration` | `verified` · `source_reviewed` |
 | [任务中的推理力度选择 / Astra-Ares](../cases/astra-ares.md) | `experiment` | `verified` · `source_reviewed` |
+| [Claude/Codex 模型路由 / jev-router by gargpratyush](../cases/jev-router-gargpratyush.md) | `integration` | `verified` · `source_reviewed` |

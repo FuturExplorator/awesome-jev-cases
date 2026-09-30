@@ -1,0 +1,49 @@
+{
+  "method": "Every external case link reconciled to original repository identity, pinned raw file with recorded HTTP 200, or website receipt with recorded HTTP 200. GitHub repository pages were opened separately through Codex web. No fresh runtime check.",
+  "cases": [
+    {
+      "case": "browser-use-jev-ultrafast",
+      "external_links": 6,
+      "pinned_raw_sources_http_200": 4,
+      "site_links_http_200": 1,
+      "unmatched_links": []
+    },
+    {
+      "case": "fast-jev-compaction-tamara-tran",
+      "external_links": 6,
+      "pinned_raw_sources_http_200": 4,
+      "site_links_http_200": 1,
+      "unmatched_links": []
+    },
+    {
+      "case": "jev-router-gargpratyush",
+      "external_links": 6,
+      "pinned_raw_sources_http_200": 4,
+      "site_links_http_200": 1,
+      "unmatched_links": []
+    },
+    {
+      "case": "ha-jev-home-assistant",
+      "external_links": 6,
+      "pinned_raw_sources_http_200": 5,
+      "site_links_http_200": 1,
+      "unmatched_links": []
+    },
+    {
+      "case": "jev-review-devagrawal",
+      "external_links": 5,
+      "pinned_raw_sources_http_200": 4,
+      "site_links_http_200": 0,
+      "unmatched_links": []
+    },
+    {
+      "case": "jev-arena-nanmicoder",
+      "external_links": 5,
+      "pinned_raw_sources_http_200": 4,
+      "site_links_http_200": 0,
+      "unmatched_links": []
+    }
+  ],
+  "total_external_case_links": 34,
+  "total_unmatched_links": 0
+}

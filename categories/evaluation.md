@@ -7,3 +7,5 @@
 | 案例 / Case | 类型 / Kind | 状态 / Status |
 | --- | --- | --- |
 | [MCP 类型化判断工具 / Jev MCP](../cases/jev-mcp-jkudish.md) | `integration` | `verified` · `source_reviewed` |
+| [Jev Review 代码审查 / Jev Review](../cases/jev-review-devagrawal.md) | `application` | `verified` · `source_reviewed` |
+| [Jev Arena 评论标注对比 / Jev Arena](../cases/jev-arena-nanmicoder.md) | `experiment` | `verified` · `source_reviewed` |

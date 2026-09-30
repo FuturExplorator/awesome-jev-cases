@@ -7,3 +7,4 @@
 | 案例 / Case | 类型 / Kind | 状态 / Status |
 | --- | --- | --- |
 | [实时帖子分类与复核 / Firehose Judge](../cases/firehose-judge.md) | `application` | `verified` · `source_reviewed` |
+| [Home Assistant 的 Jev 集成 / Jev for Home Assistant](../cases/ha-jev-home-assistant.md) | `integration` | `verified` · `source_reviewed` |

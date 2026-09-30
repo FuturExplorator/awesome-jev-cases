@@ -1,0 +1,70 @@
+{
+  "slug": "jev-review-devagrawal",
+  "project_url": "https://github.com/devagrawal09/jev-review",
+  "repository_id": 1373665161,
+  "owner": "devagrawal09",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "31f89602797fb7bea007f8a480bf368bf564954e",
+  "revision_date": "2026-09-17T00:29:22Z",
+  "checked_at": "2026-09-30T01:29:26.234405+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened with Codex built-in web; pinned README and targeted implementation inspected through GitHub API; pinned raw bytes retrieved for hashes. No upstream project or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked; site aliases and same-name repositories assessed separately.",
+  "role_findings_zh": "Git 补丁、相关测试及候选片段进入 Jev，返回风险判断、审查目标与严重程度；代码生成报告。",
+  "role_findings_en": "Git patches, related tests and candidate regions go to Jev for risk judgments, review targets and severity; code generates the report.",
+  "limitations_zh": "未运行或实测缺陷发现率；旧网站详情页返回 404，因此没有 website_url。",
+  "limitations_en": "Not run or tested for defect detection; old website detail page returned 404, so no website_url is set.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "devagrawal09/jev-review",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/README.md",
+      "final_url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/README.md",
+      "status": 200,
+      "sha256": "d8d98618015949ce1ab1c820d28d84ed64601fa7dd81c4bdbfde2fb9e30a9afe",
+      "bytes": 3371,
+      "checked_at": "2026-09-30T01:29:24.345901+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and claims inspected."
+    },
+    {
+      "repo": "devagrawal09/jev-review",
+      "path": "src/review/judgments.ts",
+      "url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/src/review/judgments.ts",
+      "final_url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/src/review/judgments.ts",
+      "status": 200,
+      "sha256": "5a0c9d4710d043d21f87e53f4f3acc149dfb750a208d33bd2a818fa76b016700",
+      "bytes": 9212,
+      "checked_at": "2026-09-30T01:29:25.022083+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "devagrawal09/jev-review",
+      "path": "src/review/codebase-judgments.ts",
+      "url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/src/review/codebase-judgments.ts",
+      "final_url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/src/review/codebase-judgments.ts",
+      "status": 200,
+      "sha256": "823577286878e929e8b946f0054d8c47df1dd04d554c444dd2f27936ad9ae17f",
+      "bytes": 12691,
+      "checked_at": "2026-09-30T01:29:25.644654+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "devagrawal09/jev-review",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/devagrawal09/jev-review/31f89602797fb7bea007f8a480bf368bf564954e/LICENSE",
+      "status": 200,
+      "sha256": "780a849ac55f243573b37829a614eb96871310d0dfa9b91c342efc4d2b0fab9d",
+      "bytes": 1068,
+      "checked_at": "2026-09-30T01:29:26.234265+00:00",
+      "inspected_scope": "License text and upstream copyright inspected; no source copied."
+    }
+  ]
+}

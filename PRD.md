@@ -194,3 +194,5 @@ After the first catalog review:
 ## 12. First-release execution record
 
 22 candidate records represent 20 projects/leads after removing known aliases. Eleven passed source review; runtime and performance tests were not performed. Codex performed the source review under the owner’s instruction, without inventing a human sign-off. See the [candidate audit](research/CANDIDATES.md). Static indexes and the offline checker do not discover or publish content automatically. No paid AIsa calls, website edits, deployments or synchronization were performed.
+
+After the 2026-09-30 website/Similarweb intake, the public catalog contains 20 `verified` / `source_reviewed` projects. The 487 site records and 297 CSV landing pages were treated only as leads; no website status or traffic inference was inherited. See the [intake review](research/IMPORT_REVIEW.md) for six admitted cases, deduplication and held-out leads. This does not revise first-release acceptance or authorize discovery automation, website sync or paid calls.

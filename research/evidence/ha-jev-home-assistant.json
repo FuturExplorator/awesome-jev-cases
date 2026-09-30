@@ -1,0 +1,89 @@
+{
+  "slug": "ha-jev-home-assistant",
+  "project_url": "https://github.com/AboveColin/HA-Jev",
+  "repository_id": 1374300570,
+  "owner": "AboveColin",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3",
+  "revision_date": "2026-09-29T07:07:34Z",
+  "checked_at": "2026-09-30T01:29:21.731850+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened with Codex built-in web; pinned README and targeted implementation inspected through GitHub API; pinned raw bytes retrieved for hashes. No upstream project or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked; site aliases and same-name repositories assessed separately.",
+  "role_findings_zh": "Home Assistant 状态与配置问题经 jevclient 发送给 Jev，类型化回答成为传感器或自动化响应。",
+  "role_findings_en": "Home Assistant state and configured questions are sent through jevclient to Jev; typed answers become sensors or automation responses.",
+  "limitations_zh": "未安装或运行；项目非 TypeSafe 官方，其他提供方配置不能算 TypeSafe 托管端点实测。",
+  "limitations_en": "Not installed or run; the project is unofficial, and an alternate provider configuration is not a TypeSafe-hosted test.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "AboveColin/HA-Jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/README.md",
+      "final_url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/README.md",
+      "status": 200,
+      "sha256": "a8751ad081c72a7595fa8dacd1ed63e4b23644c89a3478b4ca9cd2bb83e0558a",
+      "bytes": 6467,
+      "checked_at": "2026-09-30T01:29:18.640918+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and claims inspected."
+    },
+    {
+      "repo": "AboveColin/HA-Jev",
+      "path": "custom_components/jev/coordinator.py",
+      "url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/coordinator.py",
+      "final_url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/coordinator.py",
+      "status": 200,
+      "sha256": "88a6dc2d075cf14791f969efb7fcbd5d0eb62cf45a22b7071e3638ca1110271e",
+      "bytes": 20488,
+      "checked_at": "2026-09-30T01:29:19.278762+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "AboveColin/HA-Jev",
+      "path": "custom_components/jev/services.py",
+      "url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/services.py",
+      "final_url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/services.py",
+      "status": 200,
+      "sha256": "368e604a8dc5a3200b52b7dbeb1935875fb653d101ca96f7a7396f16083377e9",
+      "bytes": 14661,
+      "checked_at": "2026-09-30T01:29:19.951097+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "AboveColin/HA-Jev",
+      "path": "custom_components/jev/manifest.json",
+      "url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/manifest.json",
+      "final_url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/custom_components/jev/manifest.json",
+      "status": 200,
+      "sha256": "ba06bdc48962e88059623d5c56f72f8570edd475995619d5a724eb3055473c4c",
+      "bytes": 435,
+      "checked_at": "2026-09-30T01:29:20.559274+00:00",
+      "inspected_scope": "Dependency and configured client inspected."
+    },
+    {
+      "repo": "AboveColin/HA-Jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/AboveColin/HA-Jev/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/LICENSE",
+      "status": 200,
+      "sha256": "01ab8678d48262b920a2b265b3db482cc72fccb6a466fc82a3511e3ef2c1ab8f",
+      "bytes": 1067,
+      "checked_at": "2026-09-30T01:29:21.168885+00:00",
+      "inspected_scope": "License text and upstream copyright inspected; no source copied."
+    }
+  ],
+  "website_checks": [
+    {
+      "url": "https://jevforagents.com/builds/ha-jev",
+      "status": 200,
+      "checked_at": "2026-09-30T01:29:21.731767+00:00",
+      "identity_check": "HTML contains the canonical AboveColin/HA-Jev repository URL."
+    }
+  ]
+}

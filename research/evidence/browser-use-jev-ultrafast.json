@@ -1,0 +1,78 @@
+{
+  "slug": "browser-use-jev-ultrafast",
+  "project_url": "https://github.com/browser-use/jev-ultrafast",
+  "repository_id": 1373655162,
+  "owner": "browser-use",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "1231850a0bf1a0c0341fe408ef1668dbbfdfac46",
+  "revision_date": "2026-09-18T16:28:35Z",
+  "checked_at": "2026-09-30T01:29:05.792953+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened with Codex built-in web; pinned README and targeted implementation inspected through GitHub API; pinned raw bytes retrieved for hashes. No upstream project or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked; site aliases and same-name repositories assessed separately.",
+  "role_findings_zh": "可见页面状态与有限操作、元素候选进入 Jev；Jev 选择操作及目标，代码验证并执行，文本另由小型模型生成。",
+  "role_findings_en": "Visible page state and bounded operation/element candidates go to Jev; it selects the operation and target, code validates and executes, and a separate small model writes text.",
+  "limitations_zh": "航班演示及性能比较均为作者报告；未运行。网站两个旧 slug 指向同一仓库。",
+  "limitations_en": "Flight demo and performance comparisons are author-reported and untested here. Two old website slugs point to the same repository.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+      "final_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/README.md",
+      "status": 200,
+      "sha256": "29f5276b3e6295cabe322cda598e354a9e053dbfd9d831d20f09d0cca279a379",
+      "bytes": 8650,
+      "checked_at": "2026-09-30T01:29:03.318624+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and claims inspected."
+    },
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "path": "jev_ultrafast/model.py",
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+      "final_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+      "status": 200,
+      "sha256": "a85ada8458d23642c5c8a4095acf0565e6268f81dcda26f6308942b653e9c9f3",
+      "bytes": 8469,
+      "checked_at": "2026-09-30T01:29:03.910490+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "path": "jev_ultrafast/agent.py",
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/agent.py",
+      "final_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/agent.py",
+      "status": 200,
+      "sha256": "aaf8b271cb0ee6643fe7beb525328ab80de8568c7ac044d02b9c6721161e7c8b",
+      "bytes": 7880,
+      "checked_at": "2026-09-30T01:29:04.482340+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "browser-use/jev-ultrafast",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/LICENSE",
+      "status": 200,
+      "sha256": "5afa3d97bf1e6f998d587fa101e3fe0d0c416840b7fe77bcd6ae97690a334631",
+      "bytes": 1068,
+      "checked_at": "2026-09-30T01:29:05.069181+00:00",
+      "inspected_scope": "License text and upstream copyright inspected; no source copied."
+    }
+  ],
+  "website_checks": [
+    {
+      "url": "https://jevforagents.com/builds/browser-use-flights",
+      "status": 200,
+      "checked_at": "2026-09-30T01:29:05.792867+00:00",
+      "identity_check": "HTML contains the canonical browser-use/jev-ultrafast repository URL."
+    }
+  ]
+}

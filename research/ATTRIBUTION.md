@@ -19,6 +19,14 @@ Third-party material is linked, not redistributed. License observations come fro
 | [Jev Browser by tontoko](../cases/jev-browser-playwright.md) | tontoko | [Apache-2.0](https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE); [third-party notices](https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/THIRD_PARTY_NOTICES.txt) |
 | [Jev Browser Use](../cases/jev-browser-use-codex.md) | wy-coliney | [MIT](https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE) |
 | [jev-browser by Ying-Kai Liao](../cases/jev-browser-ying-kai-liao.md) | Ying-Kai-Liao | [MIT](https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE) |
+| [Jev Ultrafast by Browser Use](../cases/browser-use-jev-ultrafast.md) | browser-use | [MIT](https://github.com/browser-use/jev-ultrafast/blob/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/LICENSE) |
+| [fast-jev-compaction](../cases/fast-jev-compaction-tamara-tran.md) | tamaratran | [MIT](https://github.com/tamaratran/fast-jev-compaction/blob/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/LICENSE) |
+| [jev-router by gargpratyush](../cases/jev-router-gargpratyush.md) | gargpratyush | [MIT](https://github.com/gargpratyush/jev-router/blob/38da6b84ea01241bfc41fbddc0928d0f40a703f0/LICENSE) |
+| [Jev for Home Assistant](../cases/ha-jev-home-assistant.md) | AboveColin | [MIT](https://github.com/AboveColin/HA-Jev/blob/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/LICENSE) |
+| [Jev Review](../cases/jev-review-devagrawal.md) | devagrawal09 | [MIT](https://github.com/devagrawal09/jev-review/blob/31f89602797fb7bea007f8a480bf368bf564954e/LICENSE) |
+| [Jev Arena](../cases/jev-arena-nanmicoder.md) | NanmiCoder | [MIT](https://github.com/NanmiCoder/jev-arena/blob/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/LICENSE) |
 
-Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；本库没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
-Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`; its implementation is not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).
+Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；该上游项目现在另有独立案例，本库仍没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
+Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`, now documented as a separate case; its implementation is still not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).
+
+Jev Arena 的演示评论或用户导入的数据不由其代码 MIT 许可证自动涵盖。 / Jev Arena demo comments and user-imported data are not automatically covered by its code MIT license.

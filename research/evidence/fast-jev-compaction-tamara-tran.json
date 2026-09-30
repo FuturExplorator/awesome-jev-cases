@@ -1,0 +1,78 @@
+{
+  "slug": "fast-jev-compaction-tamara-tran",
+  "project_url": "https://github.com/tamaratran/fast-jev-compaction",
+  "repository_id": 1374005005,
+  "owner": "tamaratran",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "e3f262a7f4d42bd8dd32ced30d26176f7cb545b0",
+  "revision_date": "2026-09-17T22:29:18Z",
+  "checked_at": "2026-09-30T01:29:10.945118+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened with Codex built-in web; pinned README and targeted implementation inspected through GitHub API; pinned raw bytes retrieved for hashes. No upstream project or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked; site aliases and same-name repositories assessed separately.",
+  "role_findings_zh": "会话历史与每个非固定工具调用的保留问题进入 Jev；代码按判断丢弃或截短旧结果，保留内容不改写。",
+  "role_findings_en": "Conversation history and keep questions for non-pinned tool calls go to Jev; code drops or truncates stale results and preserves retained content verbatim.",
+  "limitations_zh": "未运行。错误、缺 Key 或请求过大由调用方处理；错误删除可能损害任务。",
+  "limitations_en": "Not run. Caller handles failures, missing key or oversized requests; removing useful context can harm the task.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "tamaratran/fast-jev-compaction",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md",
+      "final_url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/README.md",
+      "status": 200,
+      "sha256": "5499bdb4f3ec13ac9e228cb09ab2894fd1a4e3128db04722735dbfc794f27299",
+      "bytes": 8688,
+      "checked_at": "2026-09-30T01:29:08.328740+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and claims inspected."
+    },
+    {
+      "repo": "tamaratran/fast-jev-compaction",
+      "path": "src/client.ts",
+      "url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts",
+      "final_url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/client.ts",
+      "status": 200,
+      "sha256": "c324203676c7256abfd828110ab5181e2bb702c5b0acfb25f9930f1f529a1fff",
+      "bytes": 1509,
+      "checked_at": "2026-09-30T01:29:08.960446+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "tamaratran/fast-jev-compaction",
+      "path": "src/compact.ts",
+      "url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+      "final_url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/src/compact.ts",
+      "status": 200,
+      "sha256": "6dcfe27bc00c1ba9065135a61a128bde0da41b9d300dbfd286de3cd6ce8b745b",
+      "bytes": 10736,
+      "checked_at": "2026-09-30T01:29:09.594198+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "tamaratran/fast-jev-compaction",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/tamaratran/fast-jev-compaction/e3f262a7f4d42bd8dd32ced30d26176f7cb545b0/LICENSE",
+      "status": 200,
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "bytes": 1056,
+      "checked_at": "2026-09-30T01:29:10.328047+00:00",
+      "inspected_scope": "License text and upstream copyright inspected; no source copied."
+    }
+  ],
+  "website_checks": [
+    {
+      "url": "https://jevforagents.com/builds/instant-context-compaction-tamara-tran",
+      "status": 200,
+      "checked_at": "2026-09-30T01:29:10.945040+00:00",
+      "identity_check": "HTML contains the canonical tamaratran/fast-jev-compaction repository URL."
+    }
+  ]
+}

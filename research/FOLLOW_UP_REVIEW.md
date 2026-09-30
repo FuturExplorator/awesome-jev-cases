@@ -2,6 +2,8 @@
 
 审核日期 / Reviewed: 2026-09-30 (UTC)
 
+本页保留当时从 11 条增至 14 条的审核快照；此后更新的 20 条目录及下一批优先级见[网站与 CSV 导入审核](IMPORT_REVIEW.md)。 / This page preserves the 11-to-14 review snapshot; see the [website/CSV intake review](IMPORT_REVIEW.md) for the later 20-case catalog and next queue.
+
 ## 本轮交付 / This update
 
 从首版的 4 个 `under_review` 项目中，3 个独立浏览器仓库完成固定版本来源、TypeSafe Jev 调用路径、仓库身份及许可证核对，进入公开目录；[TypeSafe 官方 skills](https://github.com/typesafe-ai/skills) 保留为 `withheld`，因为它是通用开发指引，当前没有一个独立实现的 Jev 场景可写成案例。目录从 11 条增至 **14 条**，全部 `verified` / `source_reviewed`。3 个新仓库的数字 ID 分别为 1374194684、1375500090、1373227372；同名不等于同项目。

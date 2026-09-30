@@ -1,0 +1,78 @@
+{
+  "slug": "jev-router-gargpratyush",
+  "project_url": "https://github.com/gargpratyush/jev-router",
+  "repository_id": 1373617155,
+  "owner": "gargpratyush",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "38da6b84ea01241bfc41fbddc0928d0f40a703f0",
+  "revision_date": "2026-09-19T08:37:38Z",
+  "checked_at": "2026-09-30T01:29:16.094313+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened with Codex built-in web; pinned README and targeted implementation inspected through GitHub API; pinned raw bytes retrieved for hashes. No upstream project or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked; site aliases and same-name repositories assessed separately.",
+  "role_findings_zh": "新轮次提示词、当前模型、上下文与可用模型进入 Jev；其给出复杂度和模型建议，代码策略决定最终模型。",
+  "role_findings_en": "New-turn prompt, current model, context and available models go to Jev; it returns complexity and model advice, while code policy chooses the final model.",
+  "limitations_zh": "未运行或复测路由质量；当前兼容性声明限于作者列出的环境。",
+  "limitations_en": "Routing quality was not tested; compatibility claims are limited to the author-listed environment.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "gargpratyush/jev-router",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/README.md",
+      "final_url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/README.md",
+      "status": 200,
+      "sha256": "524ceebedd33b12af674aa6b6b83032befa5b37d277fea73c88a2a64c2874248",
+      "bytes": 11327,
+      "checked_at": "2026-09-30T01:29:13.486903+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and claims inspected."
+    },
+    {
+      "repo": "gargpratyush/jev-router",
+      "path": "src/router.mjs",
+      "url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/router.mjs",
+      "final_url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/router.mjs",
+      "status": 200,
+      "sha256": "fb76caa08c7362dcd208535bfa9a863a74770dcf1c3274ca723f13c18f2e2300",
+      "bytes": 2593,
+      "checked_at": "2026-09-30T01:29:14.137892+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "gargpratyush/jev-router",
+      "path": "src/policy.mjs",
+      "url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/policy.mjs",
+      "final_url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/src/policy.mjs",
+      "status": 200,
+      "sha256": "98324591775a291812846f64eb9d40efefeafe3559f7be08063be471dec406fc",
+      "bytes": 2799,
+      "checked_at": "2026-09-30T01:29:14.773988+00:00",
+      "inspected_scope": "Targeted Jev request, decision, application or policy path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "gargpratyush/jev-router",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/gargpratyush/jev-router/38da6b84ea01241bfc41fbddc0928d0f40a703f0/LICENSE",
+      "status": 200,
+      "sha256": "a3160ff152c0233e4d6b9c285ebf46e2aa3f0aa2632275c59d23e3d4e5009b92",
+      "bytes": 1101,
+      "checked_at": "2026-09-30T01:29:15.352700+00:00",
+      "inspected_scope": "License text and upstream copyright inspected; no source copied."
+    }
+  ],
+  "website_checks": [
+    {
+      "url": "https://jevforagents.com/builds/jev-router",
+      "status": 200,
+      "checked_at": "2026-09-30T01:29:16.094168+00:00",
+      "identity_check": "HTML contains the canonical gargpratyush/jev-router repository URL."
+    }
+  ]
+}
