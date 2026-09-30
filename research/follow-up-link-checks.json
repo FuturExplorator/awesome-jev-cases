@@ -1,0 +1,154 @@
+{
+  "checked_at": "2026-09-30T00:56:41.984577+00:00",
+  "scope": "New case sources, follow-up candidate repositories and new attribution links; one unauthenticated GET per URL, no retries.",
+  "links": [
+    {
+      "url": "https://github.com/AgriciDaniel/jev-seo",
+      "status": 200,
+      "final_url": "https://github.com/AgriciDaniel/jev-seo",
+      "checked_at": "2026-09-30T00:56:36.797972+00:00"
+    },
+    {
+      "url": "https://github.com/Dicklesworthstone/skillranker",
+      "status": 200,
+      "final_url": "https://github.com/Dicklesworthstone/skillranker",
+      "checked_at": "2026-09-30T00:56:36.919897+00:00"
+    },
+    {
+      "url": "https://github.com/Peu77/JevFind",
+      "status": 200,
+      "final_url": "https://github.com/Peu77/JevFind",
+      "checked_at": "2026-09-30T00:56:37.117479+00:00"
+    },
+    {
+      "url": "https://github.com/Ying-Kai-Liao/jev-browser",
+      "status": 200,
+      "final_url": "https://github.com/Ying-Kai-Liao/jev-browser",
+      "checked_at": "2026-09-30T00:56:36.960434+00:00"
+    },
+    {
+      "url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE",
+      "status": 200,
+      "final_url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE",
+      "checked_at": "2026-09-30T00:56:37.399797+00:00"
+    },
+    {
+      "url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/README.md",
+      "status": 200,
+      "final_url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/README.md",
+      "checked_at": "2026-09-30T00:56:36.978986+00:00"
+    },
+    {
+      "url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/jev.mjs",
+      "status": 200,
+      "final_url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/jev.mjs",
+      "checked_at": "2026-09-30T00:56:37.841822+00:00"
+    },
+    {
+      "url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/session.mjs",
+      "status": 200,
+      "final_url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/session.mjs",
+      "checked_at": "2026-09-30T00:56:38.112942+00:00"
+    },
+    {
+      "url": "https://github.com/epergaboni/jevseo",
+      "status": null,
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
+      "checked_at": "2026-09-30T00:56:41.966052+00:00"
+    },
+    {
+      "url": "https://github.com/minorun365/jev-cloud-quiz",
+      "status": null,
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>",
+      "checked_at": "2026-09-30T00:56:41.983999+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser",
+      "checked_at": "2026-09-30T00:56:38.125796+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE",
+      "checked_at": "2026-09-30T00:56:38.413117+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/README.md",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/README.md",
+      "checked_at": "2026-09-30T00:56:38.878419+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/THIRD_PARTY_NOTICES.txt",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/THIRD_PARTY_NOTICES.txt",
+      "checked_at": "2026-09-30T00:56:39.027020+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/src/decision.ts",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/src/decision.ts",
+      "checked_at": "2026-09-30T00:56:39.159037+00:00"
+    },
+    {
+      "url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/src/semantic.ts",
+      "status": 200,
+      "final_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/src/semantic.ts",
+      "checked_at": "2026-09-30T00:56:39.577341+00:00"
+    },
+    {
+      "url": "https://github.com/typesafe-ai/skills",
+      "status": 200,
+      "final_url": "https://github.com/typesafe-ai/skills",
+      "checked_at": "2026-09-30T00:56:39.852965+00:00"
+    },
+    {
+      "url": "https://github.com/wy-coliney/jev-browser-use",
+      "status": 200,
+      "final_url": "https://github.com/wy-coliney/jev-browser-use",
+      "checked_at": "2026-09-30T00:56:39.982033+00:00"
+    },
+    {
+      "url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE",
+      "status": 200,
+      "final_url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE",
+      "checked_at": "2026-09-30T00:56:40.117582+00:00"
+    },
+    {
+      "url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/README.md",
+      "status": 200,
+      "final_url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/README.md",
+      "checked_at": "2026-09-30T00:56:40.730764+00:00"
+    },
+    {
+      "url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/SKILL.md",
+      "status": 200,
+      "final_url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/SKILL.md",
+      "checked_at": "2026-09-30T00:56:40.878891+00:00"
+    },
+    {
+      "url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/bridge.mjs",
+      "status": 200,
+      "final_url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/bridge.mjs",
+      "checked_at": "2026-09-30T00:56:41.039353+00:00"
+    }
+  ],
+  "browser_fallback_checks": [
+    {
+      "url": "https://github.com/epergaboni/jevseo",
+      "browser_opened": true,
+      "observed_identity": "epergaboni/jevseo public repository",
+      "checked_at": "2026-09-30T00:57:01.676774+00:00",
+      "note": "Codex built-in web open after Python TLS EOF; no HTTP status inferred from browser text."
+    },
+    {
+      "url": "https://github.com/minorun365/jev-cloud-quiz",
+      "browser_opened": true,
+      "observed_identity": "minorun365/jev-cloud-quiz public repository",
+      "checked_at": "2026-09-30T00:57:01.676774+00:00",
+      "note": "Codex built-in web open after Python TLS EOF; no HTTP status inferred from browser text."
+    }
+  ]
+}

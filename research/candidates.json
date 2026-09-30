@@ -101,38 +101,38 @@
   {
     "id": "jev-browser-playwright",
     "project_url": "https://github.com/tontoko/jev-browser",
-    "source_url": "https://github.com/tontoko/jev-browser",
-    "status": "under_review",
-    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
-    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
-    "last_checked": "2026-09-29"
+    "source_url": "https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-30"
   },
   {
     "id": "jev-browser-use-codex",
     "project_url": "https://github.com/wy-coliney/jev-browser-use",
-    "source_url": "https://github.com/wy-coliney/jev-browser-use",
-    "status": "under_review",
-    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
-    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
-    "last_checked": "2026-09-29"
+    "source_url": "https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-30"
   },
   {
     "id": "jev-browser-ying-kai-liao",
     "project_url": "https://github.com/Ying-Kai-Liao/jev-browser",
-    "source_url": "https://github.com/Ying-Kai-Liao/jev-browser",
-    "status": "under_review",
-    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
-    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
-    "last_checked": "2026-09-29"
+    "source_url": "https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、实现、身份与权利已核对；效果未实测。",
+    "reason_en": "Pinned source, implementation, identity and rights reviewed; effectiveness not tested.",
+    "last_checked": "2026-09-30"
   },
   {
     "id": "typesafe-agent-skills",
     "project_url": "https://github.com/typesafe-ai/skills",
-    "source_url": "https://github.com/typesafe-ai/skills",
-    "status": "under_review",
-    "reason_zh": "公开仓库与 README 已打开；首轮未完成固定版本调用链、许可及双语案例审核，不是判定项目无效。",
-    "reason_en": "Public repository and README opened; pinned call-path, rights and bilingual case review remain incomplete. Not a finding that the project is invalid.",
-    "last_checked": "2026-09-29"
+    "source_url": "https://github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/README.md",
+    "status": "withheld",
+    "reason_zh": "官方仓库是通用 Agent Skill 与开发指引；当前材料没有一个独立实现的 Jev 场景或可复述的实际调用案例，暂不作为案例发布。",
+    "reason_en": "The official repository provides a general agent skill and development guidance, but no distinct implemented Jev scenario or reproducible usage case was established; withheld as a case.",
+    "last_checked": "2026-09-30"
   },
   {
     "id": "hermes-imessage-codex-context",
@@ -198,5 +198,41 @@
     "reason_zh": "与 typesafe-agent-skills 为同一仓库的历史别名，拒绝新增重复条目；不是否定项目。",
     "reason_en": "Legacy alias of typesafe-agent-skills in the same repository. Duplicate entry rejected, not the underlying project.",
     "last_checked": "2026-09-29"
+  },
+  {
+    "id": "jevfind-code-search",
+    "project_url": "https://github.com/Peu77/JevFind",
+    "source_url": "https://github.com/Peu77/JevFind",
+    "status": "under_review",
+    "reason_zh": "Jev 语义代码检索；已打开原始仓库并核对公开、独立仓库身份，尚未固定版本审核调用路径、许可证文本与复现边界。",
+    "reason_en": "Jev semantic code search; primary repository opened and public, independent identity checked. Pinned call path, license text and reproduction boundary remain to review.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-seo-agrici",
+    "project_url": "https://github.com/AgriciDaniel/jev-seo",
+    "source_url": "https://github.com/AgriciDaniel/jev-seo",
+    "status": "under_review",
+    "reason_zh": "站点 SEO 审核与报告；与 epergaboni/jevseo 为不同仓库。尚未固定版本核对 Jev 判断路径、报告生成与作者指标。",
+    "reason_en": "Website SEO audit and reports; a distinct repository from epergaboni/jevseo. Pinned Jev judgment path, report generation and author metrics remain to review.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jevseo-epergaboni",
+    "project_url": "https://github.com/epergaboni/jevseo",
+    "source_url": "https://github.com/epergaboni/jevseo",
+    "status": "under_review",
+    "reason_zh": "SEO/AEO/GEO 类型化判断；与 AgriciDaniel/jev-seo 为不同仓库。尚未固定版本审核源码、许可证文本与复现边界。",
+    "reason_en": "Typed SEO/AEO/GEO judgments; distinct from AgriciDaniel/jev-seo. Pinned code, license text and reproduction boundary remain to review.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-cloud-quiz",
+    "project_url": "https://github.com/minorun365/jev-cloud-quiz",
+    "source_url": "https://github.com/minorun365/jev-cloud-quiz",
+    "status": "under_review",
+    "reason_zh": "云服务名称分类演示；已打开原始仓库并核对公开身份，尚未审核固定版本调用、示例输出与 Apache-2.0 权利边界。",
+    "reason_en": "Cloud-service name classification demo; primary repository opened and public identity checked. Pinned call, sample output and Apache-2.0 rights boundary remain to review.",
+    "last_checked": "2026-09-30"
   }
 ]

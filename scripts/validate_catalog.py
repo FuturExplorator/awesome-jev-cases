@@ -133,7 +133,7 @@ def validate(root=ROOT):
     expected = sorted(k for k, v in cases.items() if v['status'] == 'verified')
     check(sorted(indexed) == expected, 'category membership is missing, duplicated or not verified')
     readme = (root / 'README.md').read_text()
-    check(f'首版：{len(expected)} 个独立项目' in readme and f'First release: {len(expected)} distinct projects' in readme,
+    check(f'现有目录：{len(expected)} 个独立项目' in readme and f'Current catalog: {len(expected)} distinct projects' in readme,
           'README counts do not match verified cases')
     for slug in re.findall(r'\]\(cases/([a-z0-9-]+)\.md\)', readme):
         check(slug in expected, f'README promotes non-verified case {slug}')

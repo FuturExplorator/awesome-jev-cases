@@ -1,0 +1,70 @@
+{
+  "slug": "jev-browser-playwright",
+  "project_url": "https://github.com/tontoko/jev-browser",
+  "repository_id": 1374194684,
+  "owner": "tontoko",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "73a39641653dbefc88f5f9664afaa63e3370b92b",
+  "revision_date": "2026-09-30T00:43:01Z",
+  "checked_at": "2026-09-30T00:52:48.733272+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, targeted implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name and numeric repository ID checked; similarly named projects not merged by name.",
+  "role_findings_zh": "页面候选元素或证据及限定问题进入 TypeSafe System One，Jev 给出目标、动作或语义判断；代码验证返回并由 Playwright 执行。",
+  "role_findings_en": "Page candidates or evidence and bounded questions go to TypeSafe System One; Jev selects targets, actions or semantic judgments, while code validates responses and Playwright acts.",
+  "limitations_zh": "未运行；作者验证边界未由本库实测。支持兼容端点，不代表所有配置均使用 TypeSafe。",
+  "limitations_en": "Not run; the author’s verification boundaries were not independently tested. Compatible endpoints exist, so not every configuration uses TypeSafe.",
+  "upstream_license": "Apache-2.0",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "tontoko/jev-browser",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/README.md",
+      "final_url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/README.md",
+      "status": 200,
+      "sha256": "86c6a7e404bed9860b695ffc5823fb801595cd97c5678c7475cb31e725d0a529",
+      "bytes": 18595,
+      "checked_at": "2026-09-30T00:52:47.201571+00:00",
+      "inspected_scope": "Project purpose, installation, TypeSafe/compatible endpoint boundary and verification claims inspected."
+    },
+    {
+      "repo": "tontoko/jev-browser",
+      "path": "src/decision.ts",
+      "url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/src/decision.ts",
+      "final_url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/src/decision.ts",
+      "status": 200,
+      "sha256": "8502e42dac74582b41c1cdb6b51df52e202fcca97bd62901f6df15076a6f2a39",
+      "bytes": 4325,
+      "checked_at": "2026-09-30T00:52:47.675292+00:00",
+      "inspected_scope": "TypeSafeClient setup and systemOne decision call inspected."
+    },
+    {
+      "repo": "tontoko/jev-browser",
+      "path": "src/semantic.ts",
+      "url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/src/semantic.ts",
+      "final_url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/src/semantic.ts",
+      "status": 200,
+      "sha256": "654de6af8f00733be120a96ab05b4805699c9c7f52c1a3a0efd9da2ff3a93831",
+      "bytes": 13850,
+      "checked_at": "2026-09-30T00:52:48.230496+00:00",
+      "inspected_scope": "Grounded page evidence and semantic question construction inspected."
+    },
+    {
+      "repo": "tontoko/jev-browser",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/tontoko/jev-browser/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE",
+      "status": 200,
+      "sha256": "7fab1461b41970ff376f1c9303a637076bfaaeb71cd12dd3a1c44aaf59a1a2b9",
+      "bytes": 11399,
+      "checked_at": "2026-09-30T00:52:48.733272+00:00",
+      "inspected_scope": "Apache-2.0 license header and terms inspected; no material copied."
+    }
+  ]
+}

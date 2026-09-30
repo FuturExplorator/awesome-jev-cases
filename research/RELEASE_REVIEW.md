@@ -2,6 +2,8 @@
 
 日期 / Date: 2026-09-29
 
+本文件保留首版当时的验收快照；当前目录与候选状态见[增补审核](FOLLOW_UP_REVIEW.md)和[候选台账](CANDIDATES.md)。 / This document preserves the first-release snapshot. See the [follow-up review](FOLLOW_UP_REVIEW.md) and [candidate ledger](CANDIDATES.md) for current catalog and candidate status.
+
 ## 交付 / Delivery
 
 - 个人账号 / Personal owner: **FuturExplorator**。

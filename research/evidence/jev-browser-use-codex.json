@@ -1,0 +1,70 @@
+{
+  "slug": "jev-browser-use-codex",
+  "project_url": "https://github.com/wy-coliney/jev-browser-use",
+  "repository_id": 1375500090,
+  "owner": "wy-coliney",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "cf7e76607d4ec70592b24becadd0296dcda8177a",
+  "revision_date": "2026-09-23T04:01:55Z",
+  "checked_at": "2026-09-30T00:52:52.788115+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, targeted implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name and numeric repository ID checked; similarly named projects not merged by name.",
+  "role_findings_zh": "可访问性文本、目标、历史与允许动作组成选择题；Jev 选浏览器动作或交回信号，代码执行并由 Codex 最终验证。",
+  "role_findings_en": "Accessibility text, goal, history and permitted actions form a choice; Jev selects an action or handoff signal, code acts, and Codex verifies the outcome.",
+  "limitations_zh": "作者约 5–10 倍速度声称未复测；未运行。当前浏览器执行依赖 Codex，亦可配置其他提供方。",
+  "limitations_en": "The author’s approximate 5–10x speedup was not reproduced; no run was performed. Browser execution currently depends on Codex; other providers can also be configured.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "wy-coliney/jev-browser-use",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/README.md",
+      "final_url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/README.md",
+      "status": 200,
+      "sha256": "fa4c5cdf0df8ee7a24a9f8fbc56e0c500a86aefdc6a5bfe9f1b583347ff25b5c",
+      "bytes": 9247,
+      "checked_at": "2026-09-30T00:52:51.319253+00:00",
+      "inspected_scope": "Purpose, installation, provider choice, Codex requirements and speed claim inspected."
+    },
+    {
+      "repo": "wy-coliney/jev-browser-use",
+      "path": "skills/jev-browser-use/bridge.mjs",
+      "url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/bridge.mjs",
+      "final_url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/bridge.mjs",
+      "status": 200,
+      "sha256": "c4af60b9d3b25324b5ee0bdf2e1b3bc694bc6e1b8275e5876f67b28da3a4ed03",
+      "bytes": 18398,
+      "checked_at": "2026-09-30T00:52:51.808982+00:00",
+      "inspected_scope": "Typed choice request to provider, action loop, freshness and handoff inspected."
+    },
+    {
+      "repo": "wy-coliney/jev-browser-use",
+      "path": "skills/jev-browser-use/SKILL.md",
+      "url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/SKILL.md",
+      "final_url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/skills/jev-browser-use/SKILL.md",
+      "status": 200,
+      "sha256": "150ca9b4750091c967150db043e485634556cd21c3fa9048c301b2f373031afa",
+      "bytes": 17709,
+      "checked_at": "2026-09-30T00:52:52.298597+00:00",
+      "inspected_scope": "Codex/browser prerequisites and division of duties inspected."
+    },
+    {
+      "repo": "wy-coliney/jev-browser-use",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/wy-coliney/jev-browser-use/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE",
+      "status": 200,
+      "sha256": "a3c2a19d721942806b173c15dabcfb63be41891858fc8999e0fd4fe0b36c7aa1",
+      "bytes": 1085,
+      "checked_at": "2026-09-30T00:52:52.788115+00:00",
+      "inspected_scope": "MIT license text and copyright inspected."
+    }
+  ]
+}

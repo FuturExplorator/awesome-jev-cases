@@ -16,6 +16,9 @@ Third-party material is linked, not redistributed. License observations come fro
 | [Astra-Ares](../cases/astra-ares.md) | miuuyy | [MIT](https://github.com/miuuyy/Astra-Ares/blob/b2011446d88202329dcdc5163500ca818aba9dbb/LICENSE) |
 | [Jev Semantic Code Reading](../cases/jev-semantic-code.md) | BorisLeMeec | [MIT](https://github.com/BorisLeMeec/jev/blob/e81c1d006b8b23a616486610f311039088521d0c/LICENSE) |
 | [Jev MCP](../cases/jev-mcp-jkudish.md) | jkudish | [MIT](https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/LICENSE) |
+| [Jev Browser by tontoko](../cases/jev-browser-playwright.md) | tontoko | [Apache-2.0](https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/LICENSE); [third-party notices](https://github.com/tontoko/jev-browser/blob/73a39641653dbefc88f5f9664afaa63e3370b92b/THIRD_PARTY_NOTICES.txt) |
+| [Jev Browser Use](../cases/jev-browser-use-codex.md) | wy-coliney | [MIT](https://github.com/wy-coliney/jev-browser-use/blob/cf7e76607d4ec70592b24becadd0296dcda8177a/LICENSE) |
+| [jev-browser by Ying-Kai Liao](../cases/jev-browser-ying-kai-liao.md) | Ying-Kai-Liao | [MIT](https://github.com/Ying-Kai-Liao/jev-browser/blob/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE) |
 
 Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；本库没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
 Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`; its implementation is not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).

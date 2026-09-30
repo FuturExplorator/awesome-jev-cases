@@ -1,0 +1,70 @@
+{
+  "slug": "jev-browser-ying-kai-liao",
+  "project_url": "https://github.com/Ying-Kai-Liao/jev-browser",
+  "repository_id": 1373227372,
+  "owner": "Ying-Kai-Liao",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "e35ab134f65033d29c528132d92bf06e8d6adcb5",
+  "revision_date": "2026-09-22T06:55:37Z",
+  "checked_at": "2026-09-30T00:52:57.666250+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository opened in Codex web; pinned README, targeted implementation and LICENSE retrieved from public raw URLs and inspected. No upstream code executed.",
+  "identity_check": "Exact repository owner/name and numeric repository ID checked; similarly named projects not merged by name.",
+  "role_findings_zh": "页面、目标及历史进入 Jev；其类型化回答决定完成状态、下一工具、元素与不可逆风险，Playwright 执行动作。",
+  "role_findings_en": "Page, goal and history go to Jev; typed answers determine completion, next tool, target and irreversible risk; Playwright executes the action.",
+  "limitations_zh": "作者正确率、时延和上下文声称未复测；未安装或运行。项目自称非官方。",
+  "limitations_en": "The author’s accuracy, latency and context claims were not reproduced; no installation or run was performed. The project is unofficial.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "Ying-Kai-Liao/jev-browser",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/README.md",
+      "final_url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/README.md",
+      "status": 200,
+      "sha256": "9576a4bef9e9b0dfe1d07a396d9adbb7a0c3de79ef7c9643e8416f7569732691",
+      "bytes": 8958,
+      "checked_at": "2026-09-30T00:52:55.465536+00:00",
+      "inspected_scope": "Purpose, setup, API path, limitations and author benchmark claims inspected."
+    },
+    {
+      "repo": "Ying-Kai-Liao/jev-browser",
+      "path": "src/jev.mjs",
+      "url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/jev.mjs",
+      "final_url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/jev.mjs",
+      "status": 200,
+      "sha256": "0f5d09478d5ebaf3bc15fc522894753cde96a2e32f372a848972b45dd1ce99ce",
+      "bytes": 2272,
+      "checked_at": "2026-09-30T00:52:55.992239+00:00",
+      "inspected_scope": "Direct TypeSafe System One HTTP request and typed response handling inspected."
+    },
+    {
+      "repo": "Ying-Kai-Liao/jev-browser",
+      "path": "src/session.mjs",
+      "url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/session.mjs",
+      "final_url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/src/session.mjs",
+      "status": 200,
+      "sha256": "e2d4330d701efd4bd9753896eb81f0c878fb0398436384dab456db54dd1e1f0c",
+      "bytes": 32487,
+      "checked_at": "2026-09-30T00:52:57.164921+00:00",
+      "inspected_scope": "Browser observation, question construction, decision and Playwright action flow inspected."
+    },
+    {
+      "repo": "Ying-Kai-Liao/jev-browser",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Ying-Kai-Liao/jev-browser/e35ab134f65033d29c528132d92bf06e8d6adcb5/LICENSE",
+      "status": 200,
+      "sha256": "55a6e843edfc29da35a206121e20cc8508142a1e799f81070a6bc233105224d1",
+      "bytes": 1070,
+      "checked_at": "2026-09-30T00:52:57.666250+00:00",
+      "inspected_scope": "MIT license text and copyright inspected."
+    }
+  ]
+}

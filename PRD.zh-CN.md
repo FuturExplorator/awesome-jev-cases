@@ -212,6 +212,8 @@ MIT 声明不改变第三方材料的权利归属。其他仓库的代码和 REA
 
 自动化的首个目标是生成**待审核候选和 Pull Request**，不直接发布案例。
 
+2026-09-30 增补批次按本 PRD 的来源与去重门槛继续人工逐项审核；当前目录为 14 条 `verified` / `source_reviewed`。下一批的具体候选、证据缺口与优先级见[增补审核与下一批选题](research/FOLLOW_UP_REVIEW.md)。此增补不改变首版验收记录，也不启动自动发现、付费接口或网站同步。
+
 ## 14. 首版执行记录
 
 本次明确决策：个人账号 FuturExplorator；案例中英双语同文件；关联 jevforagents.com；原创代码及原创案例整理使用 MIT，第三方保留原有权利。22 条候选记录经已知别名去重为 20 个项目/线索，11 个来源核验通过。首版审阅由 Codex 按负责人授权执行，未进行人工签字或付费运行复现。详见[候选审核表](research/CANDIDATES.md)与[验收报告](research/RELEASE_REVIEW.md)。

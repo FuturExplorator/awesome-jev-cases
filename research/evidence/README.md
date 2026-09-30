@@ -10,4 +10,6 @@ Hashes describe downloaded raw bytes, not browser-rendered text. Complete source
 首版核验由 Codex 按负责人明确执行授权完成；未虚构人工签字，也未运行上游项目或付费模型。`source_reviewed` 不代表 `independently_tested`。文件的 `inspected_scope` 区分实际阅读范围与抓取范围。
 Codex performed the first-release review under explicit owner instruction. No human sign-off, upstream execution or paid model run is claimed. `source_reviewed` does not mean `independently_tested`. `inspected_scope` distinguishes inspection from capture scope.
 
+2026-09-30 的增补批次沿用同一核验范围：3 个独立浏览器仓库完成来源、实现与权利核对，未运行上游项目或付费模型。 / The 2026-09-30 follow-up applies the same review boundary to three distinct browser repositories; no upstream project or paid model was run.
+
 [来源与权利清单 / Attribution](../ATTRIBUTION.md) · [候选台账 / Candidate ledger](../CANDIDATES.md)

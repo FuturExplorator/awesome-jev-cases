@@ -180,6 +180,8 @@ The [MIT license](LICENSE) and [third-party notice](THIRD_PARTY_NOTICES.md) were
 
 ## 11. Deferred roadmap
 
+The 2026-09-30 follow-up brings the catalog to 14 `verified` / `source_reviewed` cases under the same source and deduplication rules. See the [follow-up review and next topics](research/FOLLOW_UP_REVIEW.md) for the next source-review queue. This does not alter the first-release record or authorize automated discovery, paid APIs or website synchronization.
+
 After the first catalog review:
 
 1. Extend validation after observing maintenance needs; this release includes a manually invoked offline structural checker.
