@@ -7,3 +7,4 @@
 | 案例 / Case | 类型 / Kind | 状态 / Status |
 | --- | --- | --- |
 | [Pi 工具调用约束 / Pi-Heed](../cases/pi-heed.md) | `integration` | `verified` · `source_reviewed` |
+| [Pi 编码代理的 Jev 判断层 / pi-jev](../cases/pi-jev-y0usaf.md) | `integration` | `verified` · `source_reviewed` |

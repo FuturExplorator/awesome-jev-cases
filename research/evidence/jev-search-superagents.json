@@ -1,0 +1,81 @@
+{
+  "slug": "jev-search-superagents",
+  "project_url": "https://github.com/superagents-lab/jev-search",
+  "repository_id": 1374858514,
+  "owner": "superagents-lab",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "67027d0185a9b22eb2a178f0eb15250d12ddabe6",
+  "revision_date": "2026-09-20T18:37:05Z",
+  "checked_at": "2026-09-30T02:30:49.618053+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "代码先让 Jev 对请求的意图、候选搜索词、来源及时间范围作类型化选择，再把查询交给 Search1API。各搜索通道返回后，Jev 评估结果与原问题的相关度；代码按相关度、引擎共识和原始排名合并排序。默认 TypeSafe 直连端点，也有 Vercel/Cloudflare 提供者配置，因此不能把所有运行都说成 TypeSafe 直连。",
+  "role_findings_en": "Code first asks Jev to choose typed intent, candidate query terms, sources and time window, then sends queries to Search1API. After each search lane returns, Jev judges relevance to the original request; code merges and orders by relevance, engine agreement and original rank. TypeSafe direct access is the default, with Vercel and Cloudflare provider options, so not every deployment calls TypeSafe directly.",
+  "limitations_zh": "已核对固定 README、TypeSafe 请求、搜索流水线、排序代码和 MIT LICENSE；未运行应用或核验排序准确率、来源覆盖、隐私与费用。搜索结果摘要可能不准确或过时，Jev 相关度分数只是模型判断，不是事实核验。",
+  "limitations_en": "Pinned README, TypeSafe request, search pipeline, ordering code and MIT license were reviewed. The app was not run and ranking accuracy, coverage, privacy and cost were not independently measured. Snippets can be stale or wrong; Jev relevance scores are model judgments, not fact verification.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "superagents-lab/jev-search",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/README.md",
+      "final_url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/README.md",
+      "status": 200,
+      "sha256": "8bd1abc5cd46b888b5ac61d77fc5e67551e5a23de5c952a1e0b96244a5dd6f13",
+      "bytes": 14463,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "superagents-lab/jev-search",
+      "path": "src/lib/typesafe.ts",
+      "url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/typesafe.ts",
+      "final_url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/typesafe.ts",
+      "status": 200,
+      "sha256": "3009316527a8b6a6f0509354e25eecd7ac90562170c73b492a81d379e1f2763b",
+      "bytes": 16221,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Targeted Jev request, response, policy or report/action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "superagents-lab/jev-search",
+      "path": "src/lib/pipeline.ts",
+      "url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/pipeline.ts",
+      "final_url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/pipeline.ts",
+      "status": 200,
+      "sha256": "2d614c707fc7769c7e12b9e1fc285e3d61916ed6d765259c7998c7607cb362c1",
+      "bytes": 10821,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Targeted Jev request, response, policy or report/action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "superagents-lab/jev-search",
+      "path": "src/lib/rank.ts",
+      "url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/rank.ts",
+      "final_url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/src/lib/rank.ts",
+      "status": 200,
+      "sha256": "1217af0c097abf8469cad599c15b7c884d8925e2af29364d51c1efb640ffa464",
+      "bytes": 4072,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Targeted Jev request, response, policy or report/action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "superagents-lab/jev-search",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/superagents-lab/jev-search/67027d0185a9b22eb2a178f0eb15250d12ddabe6/LICENSE",
+      "status": 200,
+      "sha256": "6ddbee32133009b21da4e67387d18769fb77755df0acb763e272c309ed845098",
+      "bytes": 1067,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

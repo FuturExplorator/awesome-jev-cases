@@ -1,0 +1,81 @@
+{
+  "slug": "jev-voice-browser-moritzkremb",
+  "project_url": "https://github.com/moritzkremb/jev-voice-browser",
+  "repository_id": 1375142045,
+  "owner": "moritzkremb",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "198a0764395a666f8398026c0d8abdaf6d1866c5",
+  "revision_date": "2026-09-21T08:57:54Z",
+  "checked_at": "2026-09-30T02:24:35.882058+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "每次语音转写更新将转写文本、当前页面和可操作元素、近期动作送到 Jev；它以 Choice/Noul/Score 判断意图、元素目标、命令是否完整、是否危险和滚动幅度。代码中的 policy 依据阈值决定等待、确认或执行，controller 再让 Playwright 操作页面。语音转写来自浏览器 Web Speech API，不是 Jev。",
+  "role_findings_en": "Each transcript update sends the text, page and actionable elements, and recent actions to Jev. Choice/Noul/Score answers identify intent, target, completeness, destructive potential and scroll amount. Code policy applies thresholds to wait, confirm or act; a controller then operates Playwright. Speech transcription comes from the browser Web Speech API, not Jev.",
+  "limitations_zh": "已核对 README、Jev SDK 调用、策略与执行代码及 MIT LICENSE；未运行浏览器或测量延迟。作者的约 300ms、危险操作确认和语音识别效果未经本库验证；确认机制不能视为安全保证。",
+  "limitations_en": "README, Jev SDK call, policy, executor and MIT license were reviewed. The browser was not run and latency was not measured. The author’s ~300 ms, destructive-action confirmation and speech-recognition claims were not verified; confirmation is not a security guarantee.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "moritzkremb/jev-voice-browser",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/README.md",
+      "final_url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/README.md",
+      "status": 200,
+      "sha256": "46c00b4c57fd23e5cc1201a5eb4cd38539fd7b607752e4c0ba23b9a2c0326b28",
+      "bytes": 11629,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "moritzkremb/jev-voice-browser",
+      "path": "src/jev.js",
+      "url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/jev.js",
+      "final_url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/jev.js",
+      "status": 200,
+      "sha256": "91c6031b7dbaeb8376bfa0e81b5dcd77e0691ed03f39faf85d2b2ce27e46a8bb",
+      "bytes": 6707,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "moritzkremb/jev-voice-browser",
+      "path": "src/policy.js",
+      "url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/policy.js",
+      "final_url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/policy.js",
+      "status": 200,
+      "sha256": "e4c418c6a60f637d7d19d6761da76a6c94817bf2e6113dce49f3ca97b8623727",
+      "bytes": 15582,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "moritzkremb/jev-voice-browser",
+      "path": "src/controller.js",
+      "url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/controller.js",
+      "final_url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/src/controller.js",
+      "status": 200,
+      "sha256": "9eccd47b2b09f634c5ad94883ce1fa9dbc6efd99358c8cacd7ad33a9ced8a992",
+      "bytes": 16097,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "moritzkremb/jev-voice-browser",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/moritzkremb/jev-voice-browser/198a0764395a666f8398026c0d8abdaf6d1866c5/LICENSE",
+      "status": 200,
+      "sha256": "4d0c05dc4561b2fad8d0bfe2e685f7e8d16312516af14beb36432c069b449204",
+      "bytes": 1069,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "MIT text and original copyright inspected; source not redistributed."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "jev-seo-agrici",
+  "project_url": "https://github.com/AgriciDaniel/jev-seo",
+  "repository_id": 1380683591,
+  "owner": "AgriciDaniel",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "55a184a3b0d09565a4c84268f725a47784e62528",
+  "revision_date": "2026-09-22T00:45:39Z",
+  "checked_at": "2026-09-30T02:30:49.618053+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "固定源码把站点及页面证据发往 TypeSafe `/v1/systemone`，用 Choice、Score、Noul 问题判断页面类型、搜索意图、有用性、可信度和页面之间的竞争等。代码另运行抓取、规则检查、PageSpeed 和修复项排序；最终评分与报告不是 Jev 单独生成。",
+  "role_findings_en": "Pinned code posts site and page evidence to TypeSafe `/v1/systemone` with Choice, Score and Noul questions about page type, search intent, helpfulness, trust and page competition. Crawling, rule checks, PageSpeed, fix prioritization and report rendering are separate code paths; the final score is not written by Jev alone.",
+  "limitations_zh": "已核对固定 README、Jev 请求与回答校验、评分代码和 MIT LICENSE；未抓取网站、运行付费调用或复测作者的准确率、费用、52 项规则覆盖率和示例报告。没有 TypeSafe Key 时 README 说明仍会产出标记为部分审核的结果。",
+  "limitations_en": "Pinned README, Jev request/answer validation, scoring code and MIT license were reviewed. No site was crawled, no paid call made, and the author’s accuracy, cost, 52-rule coverage and sample reports were not reproduced. Without a TypeSafe key, the README says output is labeled a partial audit.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "AgriciDaniel/jev-seo",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/README.md",
+      "final_url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/README.md",
+      "status": 200,
+      "sha256": "51315b7e7257ad60812be146250c7bd30c8b2783415a4042100dcebb37389d1d",
+      "bytes": 11620,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "AgriciDaniel/jev-seo",
+      "path": "jevseo/jev.py",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py",
+      "final_url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/jev.py",
+      "status": 200,
+      "sha256": "2b40a042f7cf8709407fe25db616686f790450473e6d1b049529646e0830d478",
+      "bytes": 26370,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Targeted Jev request, response, policy or report/action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "AgriciDaniel/jev-seo",
+      "path": "jevseo/score.py",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/score.py",
+      "final_url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/jevseo/score.py",
+      "status": 200,
+      "sha256": "302e066c2773ed8600d2760263dae32f3c2ba8862eaf964648fe66b3c69324e1",
+      "bytes": 24705,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "Targeted Jev request, response, policy or report/action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "AgriciDaniel/jev-seo",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/AgriciDaniel/jev-seo/55a184a3b0d09565a4c84268f725a47784e62528/LICENSE",
+      "status": 200,
+      "sha256": "497a34b9e35e77e337b5923e0e58cd2a4cebadd6838cd854baab5915d6c12599",
+      "bytes": 1070,
+      "checked_at": "2026-09-30T02:30:49.618053+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

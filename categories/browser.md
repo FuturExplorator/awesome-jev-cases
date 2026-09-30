@@ -12,3 +12,4 @@
 | [Codex 浏览器技能 / Jev Browser Use](../cases/jev-browser-use-codex.md) | `integration` | `verified` · `source_reviewed` |
 | [Jev 决策浏览器 / jev-browser by Ying-Kai Liao](../cases/jev-browser-ying-kai-liao.md) | `application` | `verified` · `source_reviewed` |
 | [Browser Use 的 Jev Ultrafast / Jev Ultrafast by Browser Use](../cases/browser-use-jev-ultrafast.md) | `application` | `verified` · `source_reviewed` |
+| [Jev 语音浏览器 / Jev Voice Browser](../cases/jev-voice-browser-moritzkremb.md) | `application` | `verified` · `source_reviewed` |

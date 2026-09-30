@@ -1,5 +1,7 @@
 # 网站与 Similarweb 线索整理 / Website and Similarweb intake
 
+本页保留目录增至 20 条时的审核快照。后续 CSV 原始仓库核验已将目录增至 27 条，并提供[完整去重分流和使用入口](CSV_REPOSITORIES.md)。 / This page preserves the 20-case intake snapshot. Later CSV repository review brought the catalog to 27; see the [deduplicated triage and usage entry points](CSV_REPOSITORIES.md).
+
 本次整理把本地 `Jev-For-Agents/data/build-records.json` 与用户提供的 Similarweb `github.com` 落地页 CSV 作为**候选线索**，再到各项目原始仓库核验。网站原有 `verified`、页面文案和落地页访问量都没有自动继承为本仓库的案例证据。完整的本地比对结果见 [source-inventory.json](source-inventory.json)；该文件只存网站来源指针、GitHub 仓库身份和匹配状态，不公开 CSV 中的访问量或第三方素材。
 
 We used the local website catalog and the user-supplied Similarweb GitHub landing-page export as **leads**, then reviewed primary repositories. Website statuses, editorial copy and traffic estimates were not inherited as case evidence. The [source inventory](source-inventory.json) contains only source pointers, repository identities and match hints, not CSV traffic metrics or third-party media.

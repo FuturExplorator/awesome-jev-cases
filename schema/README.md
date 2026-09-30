@@ -22,7 +22,7 @@ Use a flat YAML subset: one `key: "JSON-escaped string"` per line. All values ar
 | `source_date_kind` | `commit`, `published`, `unknown` |
 | `last_checked` | actual check date / 实际核验日期 |
 | `jev_relation` | `uses_typesafe`, `compatible_only`, `unknown` |
-| `scenario` | `routing`, `browser`, `coding`, `guardrails`, `evaluation`, `other` |
+| `scenario` | `routing`, `browser`, `coding`, `guardrails`, `evaluation`, `integration`, `game`, `other` |
 | `content_kind` | `application`, `integration`, `experiment`, `tutorial`, `resource` |
 | `status` | `candidate`, `under_review`, `verified`, `withheld`, `rejected` |
 | `claim_status` | `author_reported`, `source_reviewed`, `independently_tested` |

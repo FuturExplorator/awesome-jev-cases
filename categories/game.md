@@ -1,4 +1,4 @@
-# 数据流与其他 / Streams and other uses
+# 游戏与模拟 / Games and simulations
 
 仅列出来源已核验案例；不表示效果实测。 / Source-verified cases only; effectiveness is not independently tested.
 
@@ -6,4 +6,4 @@
 
 | 案例 / Case | 类型 / Kind | 状态 / Status |
 | --- | --- | --- |
-| [实时帖子分类与复核 / Firehose Judge](../cases/firehose-judge.md) | `application` | `verified` · `source_reviewed` |
+| [Jev 贪吃蛇实验 / Snake Jev](../cases/snake-jev-siroccomask.md) | `experiment` | `verified` · `source_reviewed` |

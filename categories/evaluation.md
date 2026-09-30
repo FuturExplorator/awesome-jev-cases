@@ -9,3 +9,5 @@
 | [MCP 类型化判断工具 / Jev MCP](../cases/jev-mcp-jkudish.md) | `integration` | `verified` · `source_reviewed` |
 | [Jev Review 代码审查 / Jev Review](../cases/jev-review-devagrawal.md) | `application` | `verified` · `source_reviewed` |
 | [Jev Arena 评论标注对比 / Jev Arena](../cases/jev-arena-nanmicoder.md) | `experiment` | `verified` · `source_reviewed` |
+| [Jev 网站 SEO 审核 / jev-seo by AgriciDaniel](../cases/jev-seo-agrici.md) | `application` | `verified` · `source_reviewed` |
+| [Jev Search 搜索与排序 / Jev Search](../cases/jev-search-superagents.md) | `application` | `verified` · `source_reviewed` |

@@ -14,4 +14,6 @@ Codex performed the first-release review under explicit owner instruction. No hu
 
 本次网站与 CSV 导入审核另增加 6 个独立仓库：4 个与网站目录匹配、1 个网站详情页失效但原始仓库可核验、1 个仅来自 CSV 线索。全部仅完成源码与权利核验；未执行上游项目。 / This website/CSV intake adds six distinct repositories: four matched site records, one had a dead site detail page but reviewable primary repository, and one came from the CSV lead alone. All received source and rights review only; no upstream project was run.
 
+随后 CSV 专项审阅新增 7 个独立仓库，覆盖 Elixir/OTP、语音浏览器、Pi 工具门控、工具聊天、游戏实验、SEO 审核和搜索排序。每条记录包含固定版本 README、目标调用路径及 LICENSE 的原始字节哈希；只核对来源和代码，未运行上游项目。Jev 对全部候选的辅助分类另见[仓库分流表](../CSV_REPOSITORIES.md)，模型分数不属于这些案例的核验证据。 / The later CSV batch adds seven distinct repositories across OTP, voice browsing, Pi gating, tool chat, a game experiment, SEO auditing and search ranking. Each receipt hashes pinned README, targeted code and LICENSE bytes. Upstream projects were not run. The [repository triage](../CSV_REPOSITORIES.md) is separate from case evidence.
+
 [来源与权利清单 / Attribution](../ATTRIBUTION.md) · [候选台账 / Candidate ledger](../CANDIDATES.md)

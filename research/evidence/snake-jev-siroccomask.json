@@ -1,0 +1,70 @@
+{
+  "slug": "snake-jev-siroccomask",
+  "project_url": "https://github.com/siroccomask/snake-jev",
+  "repository_id": 1374241877,
+  "owner": "siroccomask",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "86f01b686df2e6d5b566b80d015de9b8b34450a8",
+  "revision_date": "2026-09-17T10:02:07Z",
+  "checked_at": "2026-09-30T02:24:35.882058+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "每个游戏 tick 发送一次 TypeSafe Jev 请求，同时询问左转、直行、右转各自的墙体碰撞、身体碰撞和接近食物判断，共九个问题。Python 只根据 Jev 返回的判断组合动作，再把相对方向交给原游戏；Jev 不直接输出最终移动 Choice。",
+  "role_findings_en": "Each game tick makes one TypeSafe Jev request with nine questions: wall, body and food judgments for left, straight and right. Python composes an action solely from Jev’s judgments, then passes the relative move to the original game. Jev does not directly return a final move Choice.",
+  "limitations_zh": "已核对 README、九问构造与回答合成、游戏推进代码、MIT LICENSE；未运行游戏或重现作者“461 tick 吃到 29 个食物”的单次记录。作者注明遇到错误会暂停而不会自动重试；该实验没有完整路径规划。",
+  "limitations_en": "README, nine-question construction and composition, game update path, and MIT license were reviewed. The game was not run, and the author’s single 29-food/461-tick run was not reproduced. The author says errors pause without retry; the experiment has no full path planning.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "siroccomask/snake-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/README.md",
+      "final_url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/README.md",
+      "status": 200,
+      "sha256": "9f5d6fb4a0b86951704dc7539918844fb1c6fceb2dc8f90eef1a4c3b17ba3428",
+      "bytes": 4005,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "siroccomask/snake-jev",
+      "path": "jev_controller.py",
+      "url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/jev_controller.py",
+      "final_url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/jev_controller.py",
+      "status": 200,
+      "sha256": "e072a719d86a6f9b999ab3325093d3bf7ba65082e42b0a1928fe400cb0a432d6",
+      "bytes": 11852,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "siroccomask/snake-jev",
+      "path": "jev_run.py",
+      "url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/jev_run.py",
+      "final_url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/jev_run.py",
+      "status": 200,
+      "sha256": "f52d04fc81ac4f120f2660c189d67379b0ae608d028cb28975449787fa5b63b1",
+      "bytes": 9729,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "siroccomask/snake-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/siroccomask/snake-jev/86f01b686df2e6d5b566b80d015de9b8b34450a8/LICENSE",
+      "status": 200,
+      "sha256": "bc18242bc42c51ff3c53aecfbb1bf9df26f6349b647a87ca463809074900be40",
+      "bytes": 1068,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "MIT text and original copyright inspected; source not redistributed."
+    }
+  ]
+}

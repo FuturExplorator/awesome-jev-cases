@@ -10,3 +10,4 @@
 | [Codex CLI 提示路由 / ClearJev](../cases/clearjev.md) | `integration` | `verified` · `source_reviewed` |
 | [任务中的推理力度选择 / Astra-Ares](../cases/astra-ares.md) | `experiment` | `verified` · `source_reviewed` |
 | [Claude/Codex 模型路由 / jev-router by gargpratyush](../cases/jev-router-gargpratyush.md) | `integration` | `verified` · `source_reviewed` |
+| [Jev Chat 工具聊天应用 / Jev Chat](../cases/jev-chat-w3cj.md) | `application` | `verified` · `source_reviewed` |

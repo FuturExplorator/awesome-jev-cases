@@ -1,0 +1,70 @@
+{
+  "slug": "jev-chat-w3cj",
+  "project_url": "https://github.com/w3cj/jev-chat",
+  "repository_id": 1376436152,
+  "owner": "w3cj",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "e543aba8c21b57a28a748ef41966502130f0f69e",
+  "revision_date": "2026-09-18T21:16:07Z",
+  "checked_at": "2026-09-30T02:24:35.882058+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "服务器从用户消息、历史结果和可用工具构造候选值及类型化问题，一次或多次调用 TypeSafe Jev 选择意图、工具与参数候选；代码执行 MCP 工具，并用工具返回的数据组织回复。Jev 不写最终自由文本。README 所说“不会编造事实”是作者表述，本库未验证所有执行路径。",
+  "role_findings_en": "The server builds candidate values and typed questions from the message, prior results and tools, then calls TypeSafe Jev to choose intent, tool and argument candidates. Code executes MCP tools and assembles replies from returned data. Jev does not write free-form final text. The README’s no-invented-facts claim has not been verified across all paths here.",
+  "limitations_zh": "已核对固定 README、TypeSafe SDK 调用、候选池代码及 MIT LICENSE；未启动应用或验证回复正确性。Brave、Todoist、Home Assistant 等工具另需各自凭据；“无 LLM 写作”与事实性属于作者设计说明，不等于独立测试。",
+  "limitations_en": "Pinned README, TypeSafe SDK call, candidate-pool code and MIT license were reviewed. The app was not started and reply accuracy was not tested. Brave, Todoist and Home Assistant need separate credentials; no-LLM-writing and factuality are author design claims, not independent test results.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "w3cj/jev-chat",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/README.md",
+      "final_url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/README.md",
+      "status": 200,
+      "sha256": "07cf330ded5b71c5fd111f75c12c6281cdc2df3c7dcc23ed866013b214ba4c12",
+      "bytes": 29948,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "w3cj/jev-chat",
+      "path": "apps/server/src/jev/client.ts",
+      "url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/apps/server/src/jev/client.ts",
+      "final_url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/apps/server/src/jev/client.ts",
+      "status": 200,
+      "sha256": "8ed2d429480c417e3a6e6e245365de414b263d70f97eda980d0acdf269726610",
+      "bytes": 2689,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "w3cj/jev-chat",
+      "path": "apps/server/src/jev/pools.ts",
+      "url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/apps/server/src/jev/pools.ts",
+      "final_url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/apps/server/src/jev/pools.ts",
+      "status": 200,
+      "sha256": "325677af230b3c7be837ab799e0141b46b2d2f4ea000bee75ba63316ec7d46df",
+      "bytes": 6569,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "w3cj/jev-chat",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/w3cj/jev-chat/e543aba8c21b57a28a748ef41966502130f0f69e/LICENSE",
+      "status": 200,
+      "sha256": "6a2b097737f1bcad8866ae95af710b9417176f848080bb675b4ef394646eee56",
+      "bytes": 1061,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "MIT text and original copyright inspected; source not redistributed."
+    }
+  ]
+}

@@ -102,7 +102,9 @@
         "coding",
         "guardrails",
         "evaluation",
-        "other"
+        "other",
+        "integration",
+        "game"
       ]
     },
     "content_kind": {

@@ -1,0 +1,81 @@
+{
+  "slug": "pi-jev-y0usaf",
+  "project_url": "https://github.com/y0usaf/pi-jev",
+  "repository_id": 1372587647,
+  "owner": "y0usaf",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "88e5fb3888948e7065110d47cdf6ac57abb71ba4",
+  "revision_date": "2026-09-25T15:49:50Z",
+  "checked_at": "2026-09-30T02:24:35.882058+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "扩展把待执行工具的名称、参数、当前请求等状态发给 TypeSafe Jev，询问破坏性、外传、越界和影响程度；代码根据阈值决定提示或请求确认。输出判断另看 bash 结果。Jev 只提供概率/选项，是否阻止由扩展策略决定。",
+  "role_findings_en": "The extension sends a pending tool name, arguments, user request and other state to TypeSafe Jev for destructive, exfiltration, scope and impact judgments. Code thresholds decide whether to notify or request confirmation. A separate output judge reads bash results. Jev supplies probabilities and options; extension policy determines blocking.",
+  "limitations_zh": "已核对固定 README、TypeSafe 端点、工具调用拦截代码与 MIT LICENSE；未安装 Pi 或测试拦截效果。源码在缺 Key、超时、429 等错误时允许原工具继续，不能当作强制安全边界；作者的校准样本未经复测。",
+  "limitations_en": "Pinned README, TypeSafe endpoint, tool-call hook and MIT license were reviewed. Pi was not installed and enforcement was not tested. Missing keys, timeouts and 429s fail open, so this is not a hard safety boundary; author calibration examples were not reproduced.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "y0usaf/pi-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/README.md",
+      "final_url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/README.md",
+      "status": 200,
+      "sha256": "c4049ae5637dbe3d658d307954465032b23c350a9847c0b4c12ca951120b9df3",
+      "bytes": 10764,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "y0usaf/pi-jev",
+      "path": "src/client.ts",
+      "url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/client.ts",
+      "final_url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/client.ts",
+      "status": 200,
+      "sha256": "d771a3c92c3561ccd45eea05bc664cfb82b2933db1112c2f01af0965dd3a9032",
+      "bytes": 12017,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "y0usaf/pi-jev",
+      "path": "src/gate.ts",
+      "url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/gate.ts",
+      "final_url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/gate.ts",
+      "status": 200,
+      "sha256": "3f0be80cf8f65b9e0dcd1f6bcdb38db57f52a87ec89ed57432faabada468e83e",
+      "bytes": 7402,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "y0usaf/pi-jev",
+      "path": "src/index.ts",
+      "url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/index.ts",
+      "final_url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/src/index.ts",
+      "status": 200,
+      "sha256": "7fecf89390f53ec308d08d182796b1340e4c9553ac5e6cbdc2df19d9ad1b63e0",
+      "bytes": 19291,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "y0usaf/pi-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/y0usaf/pi-jev/88e5fb3888948e7065110d47cdf6ac57abb71ba4/LICENSE",
+      "status": 200,
+      "sha256": "11ef404274ea801e0c84822dbb009a551e01b84cf0ba1e1029b1af3193df0305",
+      "bytes": 1063,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "MIT text and original copyright inspected; source not redistributed."
+    }
+  ]
+}

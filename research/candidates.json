@@ -211,10 +211,10 @@
   {
     "id": "jev-seo-agrici",
     "project_url": "https://github.com/AgriciDaniel/jev-seo",
-    "source_url": "https://github.com/AgriciDaniel/jev-seo",
-    "status": "under_review",
-    "reason_zh": "站点 SEO 审核与报告；与 epergaboni/jevseo 为不同仓库。尚未固定版本核对 Jev 判断路径、报告生成与作者指标。",
-    "reason_en": "Website SEO audit and reports; a distinct repository from epergaboni/jevseo. Pinned Jev judgment path, report generation and author metrics remain to review.",
+    "source_url": "https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、Jev 调用、项目身份与 MIT 权利已核对；效果未实测。",
+    "reason_en": "Pinned source, Jev call, identity and MIT rights reviewed; effectiveness not tested.",
     "last_checked": "2026-09-30"
   },
   {
@@ -296,6 +296,60 @@
     "status": "rejected",
     "reason_zh": "仓库自述为 Jev 的复刻实现，而非调用 TypeSafe Jev 的案例；Similarweb 落地页线索不证明产品身份。",
     "reason_en": "The repository describes itself as a Jev replica, not a case using TypeSafe Jev; a Similarweb landing-page lead does not establish product identity.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "snake-jev-siroccomask",
+    "project_url": "https://github.com/siroccomask/snake-jev",
+    "source_url": "https://github.com/siroccomask/snake-jev/blob/86f01b686df2e6d5b566b80d015de9b8b34450a8/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本原始仓库、Jev 调用路径、项目身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned primary repository, Jev call path, project identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-elixir-otp",
+    "project_url": "https://github.com/dannote/jev",
+    "source_url": "https://github.com/dannote/jev/blob/e2180ca6ac724dde8a1f775346c6a9971660e7f9/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本原始仓库、Jev 调用路径、项目身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned primary repository, Jev call path, project identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-voice-browser-moritzkremb",
+    "project_url": "https://github.com/moritzkremb/jev-voice-browser",
+    "source_url": "https://github.com/moritzkremb/jev-voice-browser/blob/198a0764395a666f8398026c0d8abdaf6d1866c5/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本原始仓库、Jev 调用路径、项目身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned primary repository, Jev call path, project identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "pi-jev-y0usaf",
+    "project_url": "https://github.com/y0usaf/pi-jev",
+    "source_url": "https://github.com/y0usaf/pi-jev/blob/88e5fb3888948e7065110d47cdf6ac57abb71ba4/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本原始仓库、Jev 调用路径、项目身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned primary repository, Jev call path, project identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-chat-w3cj",
+    "project_url": "https://github.com/w3cj/jev-chat",
+    "source_url": "https://github.com/w3cj/jev-chat/blob/e543aba8c21b57a28a748ef41966502130f0f69e/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本原始仓库、Jev 调用路径、项目身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned primary repository, Jev call path, project identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-search-superagents",
+    "project_url": "https://github.com/superagents-lab/jev-search",
+    "source_url": "https://github.com/superagents-lab/jev-search/blob/67027d0185a9b22eb2a178f0eb15250d12ddabe6/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本来源、Jev 调用、项目身份与 MIT 权利已核对；效果未实测。",
+    "reason_en": "Pinned source, Jev call, identity and MIT rights reviewed; effectiveness not tested.",
     "last_checked": "2026-09-30"
   }
 ]

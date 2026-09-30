@@ -25,6 +25,13 @@ Third-party material is linked, not redistributed. License observations come fro
 | [Jev for Home Assistant](../cases/ha-jev-home-assistant.md) | AboveColin | [MIT](https://github.com/AboveColin/HA-Jev/blob/a4714ea79d4665ceb0fec90a18ceefc5f35d6ab3/LICENSE) |
 | [Jev Review](../cases/jev-review-devagrawal.md) | devagrawal09 | [MIT](https://github.com/devagrawal09/jev-review/blob/31f89602797fb7bea007f8a480bf368bf564954e/LICENSE) |
 | [Jev Arena](../cases/jev-arena-nanmicoder.md) | NanmiCoder | [MIT](https://github.com/NanmiCoder/jev-arena/blob/2ca160cc4aa9ac72a4341e2ac5903258e8c69c84/LICENSE) |
+| [Jev for Elixir and OTP](../cases/jev-elixir-otp.md) | dannote | [MIT](https://github.com/dannote/jev/blob/e2180ca6ac724dde8a1f775346c6a9971660e7f9/LICENSE) |
+| [Jev Voice Browser](../cases/jev-voice-browser-moritzkremb.md) | moritzkremb | [MIT](https://github.com/moritzkremb/jev-voice-browser/blob/198a0764395a666f8398026c0d8abdaf6d1866c5/LICENSE) |
+| [pi-jev](../cases/pi-jev-y0usaf.md) | y0usaf | [MIT](https://github.com/y0usaf/pi-jev/blob/88e5fb3888948e7065110d47cdf6ac57abb71ba4/LICENSE) |
+| [Jev Chat](../cases/jev-chat-w3cj.md) | w3cj | [MIT](https://github.com/w3cj/jev-chat/blob/e543aba8c21b57a28a748ef41966502130f0f69e/LICENSE) |
+| [Snake Jev](../cases/snake-jev-siroccomask.md) | siroccomask | [MIT](https://github.com/siroccomask/snake-jev/blob/86f01b686df2e6d5b566b80d015de9b8b34450a8/LICENSE) |
+| [jev-seo by AgriciDaniel](../cases/jev-seo-agrici.md) | AgriciDaniel | [MIT](https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/LICENSE) |
+| [Jev Search](../cases/jev-search-superagents.md) | superagents-lab | [MIT](https://github.com/superagents-lab/jev-search/blob/67027d0185a9b22eb2a178f0eb15250d12ddabe6/LICENSE) |
 
 Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；该上游项目现在另有独立案例，本库仍没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
 Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`, now documented as a separate case; its implementation is still not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).

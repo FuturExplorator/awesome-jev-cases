@@ -1,0 +1,70 @@
+{
+  "slug": "jev-elixir-otp",
+  "project_url": "https://github.com/dannote/jev",
+  "repository_id": 1375072965,
+  "owner": "dannote",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "e2180ca6ac724dde8a1f775346c6a9971660e7f9",
+  "revision_date": "2026-09-26T07:47:25Z",
+  "checked_at": "2026-09-30T02:24:35.882058+00:00",
+  "reviewer": "Codex source review under maintainer instruction; not a human sign-off",
+  "review_method": "Original public repository opened through Codex built-in web; pinned README, targeted implementation and LICENSE inspected; pinned raw bytes captured for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID checked against CSV-normalized root; no duplicate public case for this repository.",
+  "role_findings_zh": "Jev.HTTP 把状态和 Choice、Score、Noul 问题发到 TypeSafe 的 `/v1/systemone`；Jev 返回工单类型、严重程度及安全性判断。Jev.Server 异步接收答案，应用代码在 `handle_answer/3` 中按概率和置信度选择标签或待复核路径。库也支持相同协议的其他端点，因此本案例核对的是默认 TypeSafe 端点。",
+  "role_findings_en": "Jev.HTTP posts state and Choice, Score and Noul questions to TypeSafe `/v1/systemone`. Jev returns issue kind, severity and security judgments. Jev.Server receives the answer asynchronously; application code in `handle_answer/3` uses probability and confidence to choose labels or a review path. Other compatible endpoints are supported, but this case reviews the default TypeSafe endpoint.",
+  "limitations_zh": "已核对固定 README、默认 HTTP 请求、回调路径和 MIT LICENSE；未安装依赖、运行示例或核验工单分类质量。README 中并发与成本描述均属作者说明。",
+  "limitations_en": "Pinned README, default HTTP request, callback path and MIT license were reviewed. Dependencies and example were not run, and classification quality was not tested. Concurrency and cost statements remain author descriptions.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "dannote/jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/README.md",
+      "final_url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/README.md",
+      "status": 200,
+      "sha256": "d2dd26eaf8e2f714a68be222291c74186c17000874f75224fa7a89c477f6596f",
+      "bytes": 11130,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "dannote/jev",
+      "path": "lib/jev/http.ex",
+      "url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/lib/jev/http.ex",
+      "final_url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/lib/jev/http.ex",
+      "status": 200,
+      "sha256": "c27f15ce4b4e9d29ef3d2286837acf1c3569112dc8e4f192f7cdd86c09dc7473",
+      "bytes": 8441,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "dannote/jev",
+      "path": "lib/jev/server.ex",
+      "url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/lib/jev/server.ex",
+      "final_url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/lib/jev/server.ex",
+      "status": 200,
+      "sha256": "1e4356075ef9dacccc93d6094ca20172174bd2bd30b4e791296c825c28ede76c",
+      "bytes": 10739,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "Targeted TypeSafe request, model answers, decision policy or action path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "dannote/jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/dannote/jev/e2180ca6ac724dde8a1f775346c6a9971660e7f9/LICENSE",
+      "status": 200,
+      "sha256": "144ecf9417a43cca1cc2096acbac8b00beff9210191504709d586bf7552dcfa2",
+      "bytes": 1072,
+      "checked_at": "2026-09-30T02:24:35.882058+00:00",
+      "inspected_scope": "MIT text and original copyright inspected; source not redistributed."
+    }
+  ]
+}
