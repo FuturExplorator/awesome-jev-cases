@@ -104,7 +104,8 @@
         "evaluation",
         "other",
         "integration",
-        "game"
+        "game",
+        "device"
       ]
     },
     "content_kind": {

@@ -1,0 +1,70 @@
+{
+  "slug": "oxlint-plugin-jev",
+  "project_url": "https://github.com/wobsoriano/oxlint-plugin-jev",
+  "repository_id": 1376778830,
+  "owner": "wobsoriano",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "d9a1838f32e3b5a15b441dec91b2ef816802006f",
+  "revision_date": "2026-09-24T21:42:45Z",
+  "checked_at": "2026-10-08T04:30:21.413493+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `src/jev.ts` 为每个文件构造请求：state 是匹配到的代码片段，每个片段对应一个 Noul 问题；带 `location` 的文件规则再加一个 Choice 问题，从带行号的源码中选出疑似违规的位置。`src/worker.ts` 在工作线程中用官方 `@typesafe-ai/sdk` 的 `systemOne` 发送。README 说明回答缓存在 `node_modules/.cache/oxlint-plugin-jev`，每条诊断会标明作答的模型版本。",
+  "role_findings_en": "Pinned `src/jev.ts` builds the request for each file: the state holds the matched snippets and each snippet gets one Noul question; a file rule with `location` adds a Choice question that selects the suspected location from numbered source. `src/worker.ts` sends it on a worker thread through `systemOne` from the official `@typesafe-ai/sdk`. The README says answers are cached under `node_modules/.cache/oxlint-plugin-jev` and each diagnostic names the model version that answered.",
+  "limitations_zh": "已核对固定 README、`src/jev.ts`、`src/worker.ts` 和 MIT LICENSE；未安装、未运行 lint、未调用付费接口，也未评估误报或漏报。README 提醒：在编辑器里每次按键都可能触发一次付费请求并阻塞语言服务器，建议只在 CI 和 pre-push 的配置中启用；无法访问 Jev 时默认只警告并跳过，除非设置 `ci: \"fail\"`。",
+  "limitations_en": "The pinned README, `src/jev.ts`, `src/worker.ts` and the MIT license were reviewed. Nothing was installed, no lint run was made, no paid call was made and false positives or negatives were not assessed. The README warns that in an editor every keystroke inside a match can be a paid request that blocks the language server, so it recommends enabling the rule only in CI and pre-push configs; when Jev cannot be reached it warns and skips by default unless `ci: \"fail\"` is set.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "wobsoriano/oxlint-plugin-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/README.md",
+      "final_url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/README.md",
+      "status": 200,
+      "sha256": "27116c2bcc4db6c3ef93e2491300c9c899c966f6dd44a0e7558793e1a133805d",
+      "bytes": 8654,
+      "checked_at": "2026-10-08T04:30:19.552449+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "wobsoriano/oxlint-plugin-jev",
+      "path": "src/jev.ts",
+      "url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/src/jev.ts",
+      "final_url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/src/jev.ts",
+      "status": 200,
+      "sha256": "310c19bc7f1f9b3828be29e61abbb447dede811a6c64c51718af95d5e61f43f9",
+      "bytes": 6826,
+      "checked_at": "2026-10-08T04:30:20.126393+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "wobsoriano/oxlint-plugin-jev",
+      "path": "src/worker.ts",
+      "url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/src/worker.ts",
+      "final_url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/src/worker.ts",
+      "status": 200,
+      "sha256": "cf56e66f195b91d6918e120587198626ef34152ce62ceb603e6d4221b70d750e",
+      "bytes": 1382,
+      "checked_at": "2026-10-08T04:30:20.874872+00:00",
+      "inspected_scope": "SDK client construction and `systemOne` request inspected."
+    },
+    {
+      "repo": "wobsoriano/oxlint-plugin-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/wobsoriano/oxlint-plugin-jev/d9a1838f32e3b5a15b441dec91b2ef816802006f/LICENSE",
+      "status": 200,
+      "sha256": "c2f4c3e7db6b7f6749eb595a412e7de95980cc360beac2b797bb67550b817dde",
+      "bytes": 1071,
+      "checked_at": "2026-10-08T04:30:21.413493+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

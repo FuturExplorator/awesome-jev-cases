@@ -1,0 +1,70 @@
+{
+  "slug": "jev-voice-kevinbadi",
+  "project_url": "https://github.com/kevinbadi/jev-voice",
+  "repository_id": 1376451543,
+  "owner": "kevinbadi",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "fdc23e26644df1e68d1991f41221df21620263d6",
+  "revision_date": "2026-09-23T22:48:50Z",
+  "checked_at": "2026-10-08T04:29:35.111761+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `jev_voice/brain.py` 向 `https://api.typesafe.ai/v1/systemone` 发送一次包含多道 Choice 和 Noul 问题的请求，把转写文本变成一个动作类型和若干参数，例如选哪个已安装应用、是否提交、是否是复合指令。README 说明候选值由代码生成，Jev 只做选择，执行由代码负责。多步任务另有 `jev-agent` 循环：从 macOS 无障碍树生成带编号的元素表，每步让 Jev 选操作和目标。",
+  "role_findings_en": "Pinned `jev_voice/brain.py` posts one request to `https://api.typesafe.ai/v1/systemone` containing many Choice and Noul questions, turning the transcript into an action type and arguments such as which installed app, whether to submit, and whether the command is compound. The README says code produces candidate values, Jev only selects, and code owns execution. Multi-step tasks use a separate `jev-agent` loop: an indexed element table from the macOS Accessibility tree, with Jev picking the operation and target at each step.",
+  "limitations_zh": "已核对固定 README、`brain.py` 的问题与解析、`config.py` 的端点配置和 MIT LICENSE；未安装、未授予系统权限、未调用付费接口。README 中约 250 ms、约 100 ms 等延迟为作者自述。README 自己写明 `DONE` 只是模型的声明而非证明，多步运行有 40 个动作、80 次 Jev 调用的上限。该工具会真实操作你的桌面。",
+  "limitations_en": "The pinned README, the questions and parsing in `brain.py`, the endpoint settings in `config.py` and the MIT license were reviewed. Nothing was installed, no system permission was granted and no paid call was made. Latencies such as about 250 ms and about 100 ms are author-reported. The README itself says a `DONE` choice is the model’s claim, not proof, and that runs are bounded at 40 actions and 80 Jev calls. The tool really operates your desktop.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "kevinbadi/jev-voice",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/README.md",
+      "final_url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/README.md",
+      "status": 200,
+      "sha256": "1138fdafe8f139a27d015f8d33bd55615c2354ed8c3ac99c9ac682cc347efd10",
+      "bytes": 14163,
+      "checked_at": "2026-10-08T04:29:33.385989+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "kevinbadi/jev-voice",
+      "path": "jev_voice/brain.py",
+      "url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/jev_voice/brain.py",
+      "final_url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/jev_voice/brain.py",
+      "status": 200,
+      "sha256": "bacb7ff209448b6aaf19fa5dec57003129379c729a757c85204fc71a06fb151e",
+      "bytes": 20998,
+      "checked_at": "2026-10-08T04:29:34.019854+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "kevinbadi/jev-voice",
+      "path": "jev_voice/config.py",
+      "url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/jev_voice/config.py",
+      "final_url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/jev_voice/config.py",
+      "status": 200,
+      "sha256": "9d835997a823ed0f70512ea7039f2c616579cfae90b47d77453f28e304705598",
+      "bytes": 1199,
+      "checked_at": "2026-10-08T04:29:34.556174+00:00",
+      "inspected_scope": "Endpoint and model configuration inspected."
+    },
+    {
+      "repo": "kevinbadi/jev-voice",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/kevinbadi/jev-voice/fdc23e26644df1e68d1991f41221df21620263d6/LICENSE",
+      "status": 200,
+      "sha256": "12238db4b885369309df36049692fb4387d46257b090a28b9c5e58aa8304f7a4",
+      "bytes": 1072,
+      "checked_at": "2026-10-08T04:29:35.111761+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

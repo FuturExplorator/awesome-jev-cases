@@ -1,0 +1,59 @@
+{
+  "slug": "mobile-jev-droidrun",
+  "project_url": "https://github.com/droidrun/mobile-jev",
+  "repository_id": 1374280231,
+  "owner": "droidrun",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "395fc222beac4f059f9a0beb337d114a2b066e99",
+  "revision_date": "2026-09-17T12:51:55Z",
+  "checked_at": "2026-10-08T04:29:44.133836+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `scripts/mobile-agent/policy.mjs` 把当前屏幕上观察到的控件整理成候选，向 `https://api.typesafe.ai/v1/systemone` 提出 Choice 问题：先选操作（OPEN_APP、TAP、TYPE_TEXT、SCROLL、BACK、HOME、ENTER、WAIT、DONE、BLOCKED 中当前可用的那些），再选该操作的目标。代码会校验返回的选项和概率分布是否有效，执行则通过 Mobilerun API 完成。",
+  "role_findings_en": "Pinned `scripts/mobile-agent/policy.mjs` turns the controls observed on the current screen into candidates and posts Choice questions to `https://api.typesafe.ai/v1/systemone`: first the operation (whichever of OPEN_APP, TAP, TYPE_TEXT, SCROLL, BACK, HOME, ENTER, WAIT, DONE and BLOCKED are currently available), then the target for that operation. Code validates the returned choice and probability distribution, and execution goes through the Mobilerun API.",
+  "limitations_zh": "已核对固定 README、`policy.mjs` 的问题构造与校验以及 MIT LICENSE；未连接设备、未调用任何付费接口。README 的 Uber 演示写明“9 个动作约 21 秒”是录制时的计时，并且没有展示完成下单；这些均为作者自述。README 说明深色主题演示会重新读屏核对开关状态，不把模型的 DONE 当作证明。",
+  "limitations_en": "The pinned README, question construction and validation in `policy.mjs`, and the MIT license were reviewed. No device was connected and no paid call was made. The README’s Uber demo states “about 21 seconds for 9 actions” from the recorded task timer and that a completed booking is not demonstrated; these are author-reported. The README says the dark-theme demo re-reads the screen to verify the switch and does not accept a model DONE as proof.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "droidrun/mobile-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/README.md",
+      "final_url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/README.md",
+      "status": 200,
+      "sha256": "d257fed2c5f7b6579c68a4474a385c14635ffb08349896fede3c3e64affae3fb",
+      "bytes": 8671,
+      "checked_at": "2026-10-08T04:29:42.901434+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "droidrun/mobile-jev",
+      "path": "scripts/mobile-agent/policy.mjs",
+      "url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/scripts/mobile-agent/policy.mjs",
+      "final_url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/scripts/mobile-agent/policy.mjs",
+      "status": 200,
+      "sha256": "dd65ae96e0e5c25d1fb3185619cb232899e5e68f75d5413f3af59ece96aa3d69",
+      "bytes": 12721,
+      "checked_at": "2026-10-08T04:29:43.512166+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "droidrun/mobile-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/droidrun/mobile-jev/395fc222beac4f059f9a0beb337d114a2b066e99/LICENSE",
+      "status": 200,
+      "sha256": "f16d9ff9e172fdb15bed06bbe47cc68b59309fcfc392ef945a68c66e5f150d36",
+      "bytes": 1086,
+      "checked_at": "2026-10-08T04:29:44.133836+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

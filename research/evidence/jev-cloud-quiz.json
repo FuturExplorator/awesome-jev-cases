@@ -1,0 +1,59 @@
+{
+  "slug": "jev-cloud-quiz",
+  "project_url": "https://github.com/minorun365/jev-cloud-quiz",
+  "repository_id": 1377881092,
+  "owner": "minorun365",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "c8afdf57e20c78baaae872fe20ba76e60696b08f",
+  "revision_date": "2026-09-20T04:22:35Z",
+  "checked_at": "2026-10-08T04:29:30.208035+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `server/server.mjs` 用官方 `@typesafe-ai/sdk` 提交一个 Choice 问题，三个云作为选项，再把返回的选项、概率分布和模型名交给前端。README 说明页面上的三根柱直接画的是模型返回的 `probabilities`，API Key 只由服务端持有，不下发浏览器。",
+  "role_findings_en": "Pinned `server/server.mjs` submits one Choice question through the official `@typesafe-ai/sdk`, with the three clouds as options, and passes the chosen option, probabilities and model name to the front end. The README says the three bars draw the returned `probabilities` directly and the API key stays on the server, never in the browser.",
+  "limitations_zh": "已核对固定 README、服务端调用代码和 Apache-2.0 LICENSE；未运行、未调用付费接口、未访问作者部署的演示站点，也未评估判定正确率。这是用于观察 Choice 概率输出的教学演示，不是生产级云代理。",
+  "limitations_en": "The pinned README, server call code and Apache-2.0 license were reviewed. Nothing was run, no paid call was made, the author’s hosted demo was not visited and classification accuracy was not assessed. It is a teaching demo for observing Choice probabilities, not a production cloud agent.",
+  "upstream_license": "Apache-2.0",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "minorun365/jev-cloud-quiz",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/README.md",
+      "final_url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/README.md",
+      "status": 200,
+      "sha256": "fc47c9c95ef8bfee9859e7a620fe168ff65ad352611420fdbe1626ef0279a0e1",
+      "bytes": 1731,
+      "checked_at": "2026-10-08T04:29:28.703771+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "minorun365/jev-cloud-quiz",
+      "path": "server/server.mjs",
+      "url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/server/server.mjs",
+      "final_url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/server/server.mjs",
+      "status": 200,
+      "sha256": "8c7926e40cf2480e8323ad8c60ff20240021a2fb63eb4052a0dc43e380022637",
+      "bytes": 5303,
+      "checked_at": "2026-10-08T04:29:29.483728+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "minorun365/jev-cloud-quiz",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/minorun365/jev-cloud-quiz/c8afdf57e20c78baaae872fe20ba76e60696b08f/LICENSE",
+      "status": 200,
+      "sha256": "6bc4bc068e24bdeba7814b8fc6584b450b6d57b29d5473c3e8e9251a02e7237c",
+      "bytes": 10757,
+      "checked_at": "2026-10-08T04:29:30.208035+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

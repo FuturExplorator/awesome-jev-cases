@@ -1,0 +1,70 @@
+{
+  "slug": "jev-leftpad",
+  "project_url": "https://github.com/f/jev-leftpad",
+  "repository_id": 1379367209,
+  "owner": "f",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "4f405354de756cc372826d19aa8dfbee2b675778",
+  "revision_date": "2026-09-21T08:34:29Z",
+  "checked_at": "2026-10-08T04:29:59.363414+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `src/index.js` 通过官方 `@typesafe-ai/sdk` 提交一个 Choice 问题，选项为 `space_0` 到 `space_10`，state 是待填充的值和目标长度；JavaScript 读取所选编号，生成相应数量的空格并拼在值前面。每次调用一个请求，重试被关闭。",
+  "role_findings_en": "Pinned `src/index.js` submits one Choice question through the official `@typesafe-ai/sdk` with the options `space_0` to `space_10`; the state is the value and target length. JavaScript reads the selected number, creates that many spaces and prepends them. There is one request per call and retries are disabled.",
+  "limitations_zh": "已核对固定 README、`src/index.js`、`package.json` 和 MIT LICENSE；未安装、未调用付费接口，也未核对 npm 上发布的包内容。README 自己写明：最多只能补 10 个空格，请求可能失败，Jev 可能选错，成本高于 `padStart()`，不要用于生产。它适合作为只含一个 Choice 问题的完整示例来阅读。",
+  "limitations_en": "The pinned README, `src/index.js`, `package.json` and the MIT license were reviewed. Nothing was installed, no paid call was made and the package published on npm was not compared. The README itself says it can add at most 10 spaces, the request can fail, Jev can choose wrongly, it costs more than `padStart()` and it should not be used in production. It reads well as a complete example with a single Choice question.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "f/jev-leftpad",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/README.md",
+      "final_url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/README.md",
+      "status": 200,
+      "sha256": "1bf4e0a749aa84062a96d42a0b75b7b68e400c708a6b13834182579fd82303b1",
+      "bytes": 1402,
+      "checked_at": "2026-10-08T04:29:57.558172+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "f/jev-leftpad",
+      "path": "src/index.js",
+      "url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/src/index.js",
+      "final_url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/src/index.js",
+      "status": 200,
+      "sha256": "1d3f4c8b406291980a7e1ccc577b0f6e96d54cd1d61dc06a2c2f56b52d4d04d8",
+      "bytes": 1264,
+      "checked_at": "2026-10-08T04:29:58.121892+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "f/jev-leftpad",
+      "path": "package.json",
+      "url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/package.json",
+      "final_url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/package.json",
+      "status": 200,
+      "sha256": "697fdee8096fd81786a779070452dd2a87b2b7ef78d67a14756ae4741ec58c51",
+      "bytes": 956,
+      "checked_at": "2026-10-08T04:29:58.664888+00:00",
+      "inspected_scope": "Package name, SDK dependency version, engine and license field inspected."
+    },
+    {
+      "repo": "f/jev-leftpad",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/f/jev-leftpad/4f405354de756cc372826d19aa8dfbee2b675778/LICENSE",
+      "status": 200,
+      "sha256": "28c9c12a5ea4d97102a9646828d68972062b01bfb3b1e3ca992b73085f289029",
+      "bytes": 1081,
+      "checked_at": "2026-10-08T04:29:59.363414+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "jev-skip",
+  "project_url": "https://github.com/valentynkit/jev-skip",
+  "repository_id": 1376393874,
+  "owner": "valentynkit",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628",
+  "revision_date": "2026-09-19T09:38:56Z",
+  "checked_at": "2026-10-08T04:29:55.690345+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `lib/questions.ts` 为视频的每个字幕片段构造一个 Choice 问题，选项为 sponsor、self_promo、intro、outro、recap、content、other，并注明字幕文本是不可信的证据而非指令。`lib/jev.ts` 把请求发往 `{baseUrl}/v1/systemone`，默认 `https://api.typesafe.ai`。README 说明扩展依据每个约 30 秒片段的概率给进度条着色并决定跳过。",
+  "role_findings_en": "Pinned `lib/questions.ts` builds one Choice question per caption segment with the options sponsor, self_promo, intro, outro, recap, content and other, and notes that transcript text is untrusted evidence, never instructions. `lib/jev.ts` posts to `{baseUrl}/v1/systemone`, defaulting to `https://api.typesafe.ai`. The README says the extension paints the bar and decides skips from the probability for each roughly 30-second segment.",
+  "limitations_zh": "已核对固定 README、`lib/jev.ts`、`lib/questions.ts` 和 MIT LICENSE；未构建或安装扩展、未调用付费接口。README 的指标（23 个视频上覆盖 77% 的赞助秒数、每小时 34 秒误跳、每视频 $0.0008 等）为作者自述；README 同时说明这些数字是通过 Vercel AI Gateway 转接层而不是直连 API 测得，演示动图回放的是录制的答案。README 还写明：只读字幕不听音频，没有字幕就不工作；获取字幕依赖 YouTube 当前的页面行为；Firefox 上内容脚本可以读取 Key。",
+  "limitations_en": "The pinned README, `lib/jev.ts`, `lib/questions.ts` and the MIT license were reviewed. The extension was not built or installed and no paid call was made. The metrics in the README (77% of sponsor seconds across 23 videos, 34 s of false skips per hour, $0.0008 per video and so on) are author-reported; the README also says they were measured through a Vercel AI Gateway shim rather than the direct API and that the demo GIF replays recorded answers. It further states that it reads text, not audio, does nothing without captions, depends on YouTube’s current page behaviour, and that on Firefox a content script could read the key.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "valentynkit/jev-skip",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/README.md",
+      "final_url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/README.md",
+      "status": 200,
+      "sha256": "7bc2d8ce7df56036cedcde60d770bd07a5882d8c0165694e2b810fb86795945b",
+      "bytes": 7144,
+      "checked_at": "2026-10-08T04:29:53.902392+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "valentynkit/jev-skip",
+      "path": "lib/jev.ts",
+      "url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/lib/jev.ts",
+      "final_url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/lib/jev.ts",
+      "status": 200,
+      "sha256": "268bdb8bd25253e01056bd764cefb5ce668c6f03e5a215c0258ea457f3dba7ac",
+      "bytes": 4209,
+      "checked_at": "2026-10-08T04:29:54.463501+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "valentynkit/jev-skip",
+      "path": "lib/questions.ts",
+      "url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/lib/questions.ts",
+      "final_url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/lib/questions.ts",
+      "status": 200,
+      "sha256": "2dde05e8ab907653bb1c17f12130c36f34c0e18d8ba76e6e11468451caddb3e8",
+      "bytes": 4568,
+      "checked_at": "2026-10-08T04:29:55.009657+00:00",
+      "inspected_scope": "Segment categories, criteria and question construction inspected."
+    },
+    {
+      "repo": "valentynkit/jev-skip",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/valentynkit/jev-skip/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/LICENSE",
+      "status": 200,
+      "sha256": "c2686bf7578adaf9e8011544a578a308a70fa12cfa4720a008f9240d44f0b53f",
+      "bytes": 1069,
+      "checked_at": "2026-10-08T04:29:55.690345+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

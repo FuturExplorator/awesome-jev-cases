@@ -1339,8 +1339,8 @@
       "csv_landing_paths": [
         "github.com/kevinbadi/jev-voice"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jev-voice-kevinbadi",
       "primary_source": {
         "repository_id": 1376451543,
         "canonical_name": "kevinbadi/jev-voice",
@@ -1376,7 +1376,8 @@
         "input_tokens": 2637,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "fdc23e26644df1e68d1991f41221df21620263d6"
     },
     {
       "csv_rank": 37,
@@ -2673,8 +2674,8 @@
       "csv_landing_paths": [
         "github.com/okinaaudio/live-jev"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "live-jev-okinaaudio",
       "primary_source": {
         "repository_id": 1376669273,
         "canonical_name": "okinaaudio/live-jev",
@@ -2710,7 +2711,8 @@
         "input_tokens": 2765,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "2446eb777ad9f59f77b96ee5b081ee8c2812e0a3"
     },
     {
       "csv_rank": 72,
@@ -2988,8 +2990,8 @@
       "csv_landing_paths": [
         "github.com/f/jev-leftpad"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jev-leftpad",
       "primary_source": {
         "repository_id": 1379367209,
         "canonical_name": "f/jev-leftpad",
@@ -3017,7 +3019,8 @@
         "input_tokens": 1366,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "4f405354de756cc372826d19aa8dfbee2b675778"
     },
     {
       "csv_rank": 79,
@@ -6189,8 +6192,8 @@
       "csv_landing_paths": [
         "github.com/CompleteDotTech/jev-factorio-agent"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jev-factorio-agent",
       "primary_source": {
         "repository_id": 1379060982,
         "canonical_name": "jevplays-games/jev-factorio-agent",
@@ -6226,7 +6229,8 @@
         "input_tokens": 2612,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "d8605cae485f832394d059aabea2a6395642bbc1"
     },
     {
       "csv_rank": 173,
@@ -6885,8 +6889,8 @@
       "csv_landing_paths": [
         "github.com/reachjalil/jevlogs"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jevlogs",
       "primary_source": {
         "repository_id": 1373925022,
         "canonical_name": "reachjalil/jevlogs",
@@ -6922,7 +6926,8 @@
         "input_tokens": 2914,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "500aedb82ec0fa4c5fede190b2d06ef6357be74c"
     },
     {
       "csv_rank": 195,
@@ -7451,8 +7456,8 @@
       "csv_landing_paths": [
         "github.com/droidrun/mobile-jev"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "mobile-jev-droidrun",
       "primary_source": {
         "repository_id": 1374280231,
         "canonical_name": "droidrun/mobile-jev",
@@ -7488,7 +7493,8 @@
         "input_tokens": 2588,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "395fc222beac4f059f9a0beb337d114a2b066e99"
     },
     {
       "csv_rank": 209,
@@ -7850,8 +7856,8 @@
       "csv_landing_paths": [
         "github.com/quinnjr/opencode-jev-compaction"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "opencode-jev-compaction",
       "primary_source": {
         "repository_id": 1378840166,
         "canonical_name": "quinnjr/opencode-jev-compaction",
@@ -7886,7 +7892,8 @@
         "input_tokens": 2735,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "9181265438237451d727acc529340096b80e5127"
     },
     {
       "csv_rank": 223,
@@ -8384,8 +8391,8 @@
       "csv_landing_paths": [
         "github.com/mattn/go-jev/blob/main/jev.go"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "go-jev",
       "primary_source": {
         "repository_id": 1383527767,
         "canonical_name": "mattn/go-jev",
@@ -8421,7 +8428,8 @@
         "input_tokens": 3000,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "85f5994cb5136ff5360dd904b65253469dc95d2e"
     },
     {
       "csv_rank": 238,
@@ -8675,8 +8683,8 @@
       "csv_landing_paths": [
         "github.com/valentynkit/jev-skip"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jev-skip",
       "primary_source": {
         "repository_id": 1376393874,
         "canonical_name": "valentynkit/jev-skip",
@@ -8708,7 +8716,8 @@
         "input_tokens": 2082,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628"
     },
     {
       "csv_rank": 246,
@@ -9247,8 +9256,8 @@
       "csv_landing_paths": [
         "github.com/n3ndor/n8n-nodes-typesafe-jev"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "n8n-nodes-typesafe-jev",
       "primary_source": {
         "repository_id": 1376186404,
         "canonical_name": "n3ndor/n8n-nodes-typesafe-jev",
@@ -9284,7 +9293,8 @@
         "input_tokens": 2640,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "f1eb5e25901c911251d06bb4cb06d0341f7a2d96"
     },
     {
       "csv_rank": 263,
@@ -9874,8 +9884,8 @@
       "csv_landing_paths": [
         "github.com/jexp/neo4jev"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "neo4jev",
       "primary_source": {
         "repository_id": 1372296290,
         "canonical_name": "jexp/neo4jev",
@@ -9909,7 +9919,8 @@
         "input_tokens": 2681,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "d157bbe496eb91813475156942bef1c6badfb342"
     },
     {
       "csv_rank": 281,
@@ -10226,8 +10237,8 @@
       "csv_landing_paths": [
         "github.com/wobsoriano/oxlint-plugin-jev"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "oxlint-plugin-jev",
       "primary_source": {
         "repository_id": 1376778830,
         "canonical_name": "wobsoriano/oxlint-plugin-jev",
@@ -10259,7 +10270,8 @@
         "input_tokens": 2360,
         "output_tokens": 198
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "d9a1838f32e3b5a15b441dec91b2ef816802006f"
     },
     {
       "csv_rank": 290,
@@ -10357,8 +10369,8 @@
       "csv_landing_paths": [
         "github.com/Dimweaker/jev-libero"
       ],
-      "review_state": "model_triage_only",
-      "public_case": null,
+      "review_state": "published",
+      "public_case": "jev-libero",
       "primary_source": {
         "repository_id": 1377507017,
         "canonical_name": "Dimweaker/jev-libero",
@@ -10394,7 +10406,8 @@
         "input_tokens": 2901,
         "output_tokens": 197
       },
-      "alias_repository_roots": []
+      "alias_repository_roots": [],
+      "reviewed_revision": "3bdad985b225aeccc39fbe5863c6eea2e81c515a"
     },
     {
       "csv_rank": 295,

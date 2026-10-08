@@ -1,0 +1,70 @@
+{
+  "slug": "live-jev-okinaaudio",
+  "project_url": "https://github.com/okinaaudio/live-jev",
+  "repository_id": 1376669273,
+  "owner": "okinaaudio",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "2446eb777ad9f59f77b96ee5b081ee8c2812e0a3",
+  "revision_date": "2026-09-21T01:46:35Z",
+  "checked_at": "2026-10-08T04:29:40.006432+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `intent.py` 为每句话构造一组 Choice 与 Noul 问题：操作类型、目标轨道、变化方向和幅度，以及是否需要生成内容、是否包含多个操作、是否指向上一步。`daemon.py` 把它们发往 `https://api.typesafe.ai/v1/systemone`，并在需要时让 Jev 从用户自己的插件清单中选出所指的插件名。README 说明固定短语在本地直接处理、不调用 Jev；默认不涉及 LLM，Gemini 路径是可选项。",
+  "role_findings_en": "Pinned `intent.py` builds a set of Choice and Noul questions per utterance: the action, the target track, the direction and size of the change, and whether it needs generation, contains several actions, or refers to the previous step. `daemon.py` posts them to `https://api.typesafe.ai/v1/systemone` and, when needed, asks Jev to pick the intended plug-in from the user’s own plug-in list. The README says fixed phrases are answered locally without Jev, no LLM is involved by default, and a Gemini path is optional.",
+  "limitations_zh": "已核对固定 README、`daemon.py` 的请求代码、`intent.py` 的问题定义和 MIT LICENSE；未构建应用、未连接 Ableton Live、未调用付费接口。README 中约 20 ms 的命令耗时和价格说明为作者自述。README 列出了若干不支持的情况，例如一句话点名两条轨道的指令不会执行，撤销只对留有记录的更改有效。",
+  "limitations_en": "The pinned README, request code in `daemon.py`, question definitions in `intent.py` and the MIT license were reviewed. The app was not built, Ableton Live was not connected and no paid call was made. The roughly 20 ms command time and the pricing note are author-reported. The README lists unsupported cases, for example a single command naming two tracks is not executed and undo only covers changes with a kept receipt.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "okinaaudio/live-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/README.md",
+      "final_url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/README.md",
+      "status": 200,
+      "sha256": "f3d7f957494f18f24edac4ebe34d41f87d6082096b462a5273f9145478ccc717",
+      "bytes": 12968,
+      "checked_at": "2026-10-08T04:29:37.675682+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "okinaaudio/live-jev",
+      "path": "daemon.py",
+      "url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/daemon.py",
+      "final_url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/daemon.py",
+      "status": 200,
+      "sha256": "1d2770c5cb98a2e98b7cbddf8cf445142fac2ff461b8ca92cb745e20c59cc047",
+      "bytes": 219742,
+      "checked_at": "2026-10-08T04:29:38.441068+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "okinaaudio/live-jev",
+      "path": "intent.py",
+      "url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/intent.py",
+      "final_url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/intent.py",
+      "status": 200,
+      "sha256": "5df76a93dc901c6efc572991319eb7a172884f145e09333bafd816ebe148a9dd",
+      "bytes": 105273,
+      "checked_at": "2026-10-08T04:29:39.171028+00:00",
+      "inspected_scope": "Question definitions for action, track, step and flags inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "okinaaudio/live-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/okinaaudio/live-jev/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/LICENSE",
+      "status": 200,
+      "sha256": "ed97025180b225de13d318dd417b02af45aba849a08cfbb61e0ccd37e3f82862",
+      "bytes": 1068,
+      "checked_at": "2026-10-08T04:29:40.006432+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

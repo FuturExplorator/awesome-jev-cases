@@ -1,0 +1,59 @@
+{
+  "slug": "neo4jev",
+  "project_url": "https://github.com/jexp/neo4jev",
+  "repository_id": 1372296290,
+  "owner": "jexp",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "d157bbe496eb91813475156942bef1c6badfb342",
+  "revision_date": "2026-09-18T09:25:47Z",
+  "checked_at": "2026-10-08T04:30:14.561012+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `src/neo4jev/navigator.py` 使用 `typesafe_sdk` 的 `system_one`：在每个访问到的节点，把出边（关系类型、关系属性、目标节点的标签与属性）作为 Choice 选项，同一次调用里附带一个 Noul 问题“目标是否已达到”，因此每一跳只需一次往返。README 说明代码对返回的概率做 top-k / 截断选择以实现束搜索，以对数概率之和给路径排序，并用 `neo4j-viz` 可视化结果。",
+  "role_findings_en": "Pinned `src/neo4jev/navigator.py` uses `system_one` from `typesafe_sdk`: at each visited node the outgoing relationships (type, properties, target label and properties) become Choice options, and a Noul question, “has the goal been reached?”, rides in the same call, so each hop is one round-trip. The README says top-k/cutoff selection over the returned probabilities implements a beam search, paths are ranked by summed log-probabilities, and results render with `neo4j-viz`.",
+  "limitations_zh": "已核对固定 README、`navigator.py` 和 MIT LICENSE；未安装、未连接 Neo4j、未调用付费接口。README 说明没有 `TYPESAFE_API_KEY` 时每次调用仍会尝试、失败原样显示，后续流程用明确标注的替代答案继续；那部分输出不是 Jev 的结果。导航质量和路径正确性未评估。",
+  "limitations_en": "The pinned README, `navigator.py` and the MIT license were reviewed. Nothing was installed, Neo4j was not connected and no paid call was made. The README says that without `TYPESAFE_API_KEY` each call is still attempted, its failure is shown verbatim and the pipeline continues on explicitly labelled stand-in answers; that output does not come from Jev. Navigation quality and path correctness were not assessed.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "jexp/neo4jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/README.md",
+      "final_url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/README.md",
+      "status": 200,
+      "sha256": "2d5e808a6e22b6623442ccb9068cfbde2f293dadd69772725f5dc3e05ba2361c",
+      "bytes": 10756,
+      "checked_at": "2026-10-08T04:30:13.237029+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "jexp/neo4jev",
+      "path": "src/neo4jev/navigator.py",
+      "url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/src/neo4jev/navigator.py",
+      "final_url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/src/neo4jev/navigator.py",
+      "status": 200,
+      "sha256": "38ec4c2558a885340a9fffdb73c969956225303388043a72094145ba55cd94d5",
+      "bytes": 24266,
+      "checked_at": "2026-10-08T04:30:13.999706+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "jexp/neo4jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/jexp/neo4jev/d157bbe496eb91813475156942bef1c6badfb342/LICENSE",
+      "status": 200,
+      "sha256": "990b2c6e0f56695c7fbbef022498261c152b530bbab5d0e4b44249e290d9019b",
+      "bytes": 1071,
+      "checked_at": "2026-10-08T04:30:14.561012+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

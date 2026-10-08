@@ -1,0 +1,59 @@
+{
+  "slug": "jevlogs",
+  "project_url": "https://github.com/reachjalil/jevlogs",
+  "repository_id": 1373925022,
+  "owner": "reachjalil",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "500aedb82ec0fa4c5fede190b2d06ef6357be74c",
+  "revision_date": "2026-10-04T02:51:13Z",
+  "checked_at": "2026-10-08T04:30:10.911298+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `src/index.ts` 通过 Vercel AI SDK 的 `experimental_evaluate`，以模型标识 `typesafe-ai/jev` 经 Vercel AI Gateway 调用 Jev。这是第三方托管路径，使用的是你的 `AI_GATEWAY_API_KEY` 而不是 TypeSafe Key。每条日志问三个问题：是否值得 LLM 深入调查（布尔）、运维紧急度（Choice：critical / high / normal / low）、诊断信息价值（五级 Score）；问题说明里要求把日志当作不可信数据。README 说明受保护的记录、配置的规则、超时、超长输入和预算耗尽都由本地代码处理，并保留给后续分析。",
+  "role_findings_en": "Pinned `src/index.ts` calls Jev with the Vercel AI SDK’s `experimental_evaluate` and the model id `typesafe-ai/jev` through the Vercel AI Gateway. This is a third-party hosted path that uses your `AI_GATEWAY_API_KEY`, not a TypeSafe key. Each log gets three questions: whether it would benefit from deeper LLM investigation (boolean), operational urgency (Choice: critical / high / normal / low) and diagnostic information value (five-level Score); the instructions tell the model to treat the log as untrusted data. The README says protected records, configured rules, timeouts, oversized input and budget exhaustion are handled by local code and stay eligible for analysis.",
+  "limitations_zh": "已核对固定 README、`src/index.ts` 的评估调用与问题定义和 MIT LICENSE；未安装、未发送日志、未调用付费接口，也未核对 npm 发布包。README 把项目标为公开预览，并注明准确率样本来自 Loghub 衍生数据而非生产日志、`jevlogs.com` 域名接入待完成；仓库内的基准与节省数据均为作者自述。能否调用 Jev 取决于 Vercel AI Gateway 是否提供该模型。",
+  "limitations_en": "The pinned README, the evaluate call and question definitions in `src/index.ts`, and the MIT license were reviewed. Nothing was installed, no logs were sent, no paid call was made and the published npm package was not checked. The README labels the project a public preview, says the accuracy sample is Loghub-derived rather than production logs, and that the `jevlogs.com` domain connection is pending; benchmark and savings figures in the repository are author-reported. Reaching Jev depends on the Vercel AI Gateway offering the model.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "reachjalil/jevlogs",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/README.md",
+      "final_url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/README.md",
+      "status": 200,
+      "sha256": "c06936bdac618ff18e7f81c48b4ae7dbb061505de49443901adaa88bffd1fd16",
+      "bytes": 30769,
+      "checked_at": "2026-10-08T04:30:09.686943+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "reachjalil/jevlogs",
+      "path": "src/index.ts",
+      "url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/src/index.ts",
+      "final_url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/src/index.ts",
+      "status": 200,
+      "sha256": "8c0a2b9e5ef86c2dc96dba71a353c972f6baf1d65546e0c58e88debecbe67e34",
+      "bytes": 34495,
+      "checked_at": "2026-10-08T04:30:10.315629+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "reachjalil/jevlogs",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/reachjalil/jevlogs/500aedb82ec0fa4c5fede190b2d06ef6357be74c/LICENSE",
+      "status": 200,
+      "sha256": "6b25114b1015f26a17f255a7b9b82b94d0c90e4732aab45260484c1dc4f42bfc",
+      "bytes": 1078,
+      "checked_at": "2026-10-08T04:30:10.911298+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

@@ -11,3 +11,5 @@
 | [Jev Arena 评论标注对比 / Jev Arena](../cases/jev-arena-nanmicoder.md) | `experiment` | `verified` · `source_reviewed` |
 | [Jev 网站 SEO 审核 / jev-seo by AgriciDaniel](../cases/jev-seo-agrici.md) | `application` | `verified` · `source_reviewed` |
 | [Jev Search 搜索与排序 / Jev Search](../cases/jev-search-superagents.md) | `application` | `verified` · `source_reviewed` |
+| [JevSEO：搜索、答案与生成引擎评分 / JevSEO by epergaboni](../cases/jevseo-epergaboni.md) | `application` | `verified` · `source_reviewed` |
+| [Jev Logs：OpenTelemetry 日志分流 / Jev Logs](../cases/jevlogs.md) | `integration` | `verified` · `source_reviewed` |

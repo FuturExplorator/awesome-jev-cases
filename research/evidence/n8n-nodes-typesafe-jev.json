@@ -1,0 +1,81 @@
+{
+  "slug": "n8n-nodes-typesafe-jev",
+  "project_url": "https://github.com/n3ndor/n8n-nodes-typesafe-jev",
+  "repository_id": 1376186404,
+  "owner": "n3ndor",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "f1eb5e25901c911251d06bb4cb06d0341f7a2d96",
+  "revision_date": "2026-09-23T15:59:05Z",
+  "checked_at": "2026-10-08T04:30:07.761703+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定的 `nodes/TypeSafeJev/transport.ts` 通过 n8n 自带的 HTTP 助手向 `/v1/systemone` 发 POST，基础地址默认 `https://api.typesafe.ai`；凭据文件使用 Bearer Key，并以 `/v1/models` 测试连接。README 说明节点支持 Choice、Yes/No 和 Score 三种问题，可用表单或 JSON 定义；开启 Simplify 后每个答案只保留用于分支的单个值；节点设置了 `usableAsTool`，可以直接挂到 AI Agent 上。",
+  "role_findings_en": "Pinned `nodes/TypeSafeJev/transport.ts` POSTs to `/v1/systemone` through n8n’s own HTTP helper, with the base URL defaulting to `https://api.typesafe.ai`; the credential file uses a Bearer key and tests the connection against `/v1/models`. The README says the node supports Choice, Yes/No and Score questions defined field by field or as JSON, that Simplify reduces each answer to the single value you would branch on, and that `usableAsTool` lets it attach directly to an AI Agent.",
+  "limitations_zh": "已核对固定 README、传输层与凭据代码和 MIT LICENSE；未安装节点、未运行工作流、未调用付费接口，也未核对 npm 发布包或其 provenance 证明。仓库 VERIFICATION.md 中“2026-09-19 对 api.typesafe.ai 验证 16/16 项假设”是作者的记录，不是本库实测。",
+  "limitations_en": "The pinned README, transport and credential code, and the MIT license were reviewed. The node was not installed, no workflow was run, no paid call was made, and the published npm package and its provenance attestation were not checked. The statement in VERIFICATION.md that 16/16 assumptions held against `api.typesafe.ai` on 2026-09-19 is the author’s record, not a test performed here.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "n3ndor/n8n-nodes-typesafe-jev",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/README.md",
+      "final_url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/README.md",
+      "status": 200,
+      "sha256": "6aa209e2701fd757fdfc6d0aebc606f1e1f432d5ae89fe5e34207bc250deb05e",
+      "bytes": 6469,
+      "checked_at": "2026-10-08T04:30:05.434769+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "n3ndor/n8n-nodes-typesafe-jev",
+      "path": "nodes/TypeSafeJev/transport.ts",
+      "url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/nodes/TypeSafeJev/transport.ts",
+      "final_url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/nodes/TypeSafeJev/transport.ts",
+      "status": 200,
+      "sha256": "c377ff4f12ad1b959e6f152b11d0b402cc8d3fbda52f9d35a24f61901ec935e8",
+      "bytes": 9012,
+      "checked_at": "2026-10-08T04:30:06.022040+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "n3ndor/n8n-nodes-typesafe-jev",
+      "path": "credentials/TypeSafeApi.credentials.ts",
+      "url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/credentials/TypeSafeApi.credentials.ts",
+      "final_url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/credentials/TypeSafeApi.credentials.ts",
+      "status": 200,
+      "sha256": "6e80cf48e0910457b43591cad5b126247ff55f7b44dd296e7edb008dba075679",
+      "bytes": 1223,
+      "checked_at": "2026-10-08T04:30:06.575770+00:00",
+      "inspected_scope": "Credential fields, auth header and connection test inspected."
+    },
+    {
+      "repo": "n3ndor/n8n-nodes-typesafe-jev",
+      "path": "VERIFICATION.md",
+      "url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/VERIFICATION.md",
+      "final_url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/VERIFICATION.md",
+      "status": 200,
+      "sha256": "dba3319e4af4791b60b33c0f86e5abea6a7bf629036574e087d7c8c6fd6ca693",
+      "bytes": 11158,
+      "checked_at": "2026-10-08T04:30:07.202174+00:00",
+      "inspected_scope": "Opening summary and assumption table inspected; later steps not read in full."
+    },
+    {
+      "repo": "n3ndor/n8n-nodes-typesafe-jev",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/n3ndor/n8n-nodes-typesafe-jev/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/LICENSE",
+      "status": 200,
+      "sha256": "03f021c6b578a011d7b08c3a5a38c1c32f0d84bb88547a131f56fdfbac8ee61a",
+      "bytes": 1096,
+      "checked_at": "2026-10-08T04:30:07.761703+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

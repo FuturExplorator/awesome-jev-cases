@@ -1,0 +1,62 @@
+{
+  "slug": "jev-factorio-agent",
+  "project_url": "https://github.com/jevplays-games/jev-factorio-agent",
+  "repository_id": 1379060982,
+  "owner": "jevplays-games",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "d8605cae485f832394d059aabea2a6395642bbc1",
+  "revision_date": "2026-10-08T00:48:41Z",
+  "checked_at": "2026-10-08T04:29:48.674437+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository. The lead root https://github.com/completedottech/jev-factorio-agent resolves to this repository with the same numeric ID; cataloged once.",
+  "role_findings_zh": "README 说明 Jev 负责目标、下一步动作和卡住检测，以 Choice / Score / Noul 问题提出。固定的 `src/jev_factorio/jev_client.py` 向 `https://api.typesafe.ai/v1/systemone` 发送 `state`、`model`（默认 `jev-latest`）和 `questions`；同一文件还包含经 Cloudflare 调用 `typesafe/jev` 的客户端，以及一个不调用模型的 `MockJevClient`。",
+  "role_findings_en": "The README says Jev handles the goal, next action and stuck detection as Choice / Score / Noul questions. Pinned `src/jev_factorio/jev_client.py` posts `state`, `model` (default `jev-latest`) and `questions` to `https://api.typesafe.ai/v1/systemone`. The same file also contains a client that reaches `typesafe/jev` through Cloudflare and a `MockJevClient` that calls no model.",
+  "limitations_zh": "已核对固定 README、`jev_client.py` 和 MIT LICENSE；未安装、未运行模拟或真实游戏、未调用付费接口。该仓库更新很频繁，本条只对应固定提交。README 中“据我们所知是第一个 Jev 驱动的游戏代理”是作者说法，本库未核实。离线 Mock 路径不是 TypeSafe Jev 的调用证明。",
+  "limitations_en": "The pinned README, `jev_client.py` and the MIT license were reviewed. Nothing was installed, neither the simulation nor a real game was run, and no paid call was made. The repository changes frequently; this entry describes the pinned commit only. “To our knowledge this is the first Jev-driven game agent” is the author’s statement and was not verified. The offline mock path is not evidence of a TypeSafe Jev call.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "jevplays-games/jev-factorio-agent",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/README.md",
+      "final_url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/README.md",
+      "status": 200,
+      "sha256": "9c72d860be885fb72db80a862afeed8ff7f329286400d2f838020b7e71964b69",
+      "bytes": 21906,
+      "checked_at": "2026-10-08T04:29:47.093938+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "jevplays-games/jev-factorio-agent",
+      "path": "src/jev_factorio/jev_client.py",
+      "url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/src/jev_factorio/jev_client.py",
+      "final_url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/src/jev_factorio/jev_client.py",
+      "status": 200,
+      "sha256": "197732f6edf27e62defc5538bc294b8194e2f2f73017a0467761092c23f8eea9",
+      "bytes": 27625,
+      "checked_at": "2026-10-08T04:29:48.067363+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "jevplays-games/jev-factorio-agent",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/jevplays-games/jev-factorio-agent/d8605cae485f832394d059aabea2a6395642bbc1/LICENSE",
+      "status": 200,
+      "sha256": "4ea9a644ff29ac8c95c992d2dc4d6f2c8745e299e772f8ae13953a8380264b9c",
+      "bytes": 1095,
+      "checked_at": "2026-10-08T04:29:48.674437+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ],
+  "alias_roots": [
+    "https://github.com/completedottech/jev-factorio-agent"
+  ]
+}

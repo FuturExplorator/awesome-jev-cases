@@ -32,8 +32,26 @@ Third-party material is linked, not redistributed. License observations come fro
 | [Snake Jev](../cases/snake-jev-siroccomask.md) | siroccomask | [MIT](https://github.com/siroccomask/snake-jev/blob/86f01b686df2e6d5b566b80d015de9b8b34450a8/LICENSE) |
 | [jev-seo by AgriciDaniel](../cases/jev-seo-agrici.md) | AgriciDaniel | [MIT](https://github.com/AgriciDaniel/jev-seo/blob/55a184a3b0d09565a4c84268f725a47784e62528/LICENSE) |
 | [Jev Search](../cases/jev-search-superagents.md) | superagents-lab | [MIT](https://github.com/superagents-lab/jev-search/blob/67027d0185a9b22eb2a178f0eb15250d12ddabe6/LICENSE) |
+| [Jev Code Finder (JevFind)](../cases/jevfind-code-search.md) | Peu77 | [MIT](https://github.com/Peu77/JevFind/blob/c286f60a61d24b0f4249b2ea88495a4f52dfd51e/LICENSE) |
+| [JevSEO by epergaboni](../cases/jevseo-epergaboni.md) | epergaboni | [MIT](https://github.com/epergaboni/jevseo/blob/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/LICENSE) |
+| [Jev Cloud Quiz](../cases/jev-cloud-quiz.md) | minorun365 | [Apache-2.0](https://github.com/minorun365/jev-cloud-quiz/blob/c8afdf57e20c78baaae872fe20ba76e60696b08f/LICENSE) |
+| [Jev Voice](../cases/jev-voice-kevinbadi.md) | kevinbadi | [MIT](https://github.com/kevinbadi/jev-voice/blob/fdc23e26644df1e68d1991f41221df21620263d6/LICENSE) |
+| [Live Jev](../cases/live-jev-okinaaudio.md) | okinaaudio | [MIT](https://github.com/okinaaudio/live-jev/blob/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/LICENSE) |
+| [Mobile Jev](../cases/mobile-jev-droidrun.md) | droidrun | [MIT](https://github.com/droidrun/mobile-jev/blob/395fc222beac4f059f9a0beb337d114a2b066e99/LICENSE) |
+| [jev-factorio](../cases/jev-factorio-agent.md) | jevplays-games | [MIT](https://github.com/jevplays-games/jev-factorio-agent/blob/d8605cae485f832394d059aabea2a6395642bbc1/LICENSE) |
+| [Jev × LIBERO](../cases/jev-libero.md) | Dimweaker | [MIT](https://github.com/Dimweaker/jev-libero/blob/3bdad985b225aeccc39fbe5863c6eea2e81c515a/LICENSE); [third-party notes](https://github.com/Dimweaker/jev-libero/blob/3bdad985b225aeccc39fbe5863c6eea2e81c515a/THIRD_PARTY.md) |
+| [jev-skip](../cases/jev-skip.md) | valentynkit | [MIT](https://github.com/valentynkit/jev-skip/blob/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/LICENSE) |
+| [jev-leftpad](../cases/jev-leftpad.md) | f | [MIT](https://github.com/f/jev-leftpad/blob/4f405354de756cc372826d19aa8dfbee2b675778/LICENSE) |
+| [go-jev](../cases/go-jev.md) | mattn | [MIT](https://github.com/mattn/go-jev/blob/85f5994cb5136ff5360dd904b65253469dc95d2e/LICENSE) |
+| [n8n-nodes-typesafe-jev](../cases/n8n-nodes-typesafe-jev.md) | n3ndor | [MIT](https://github.com/n3ndor/n8n-nodes-typesafe-jev/blob/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/LICENSE) |
+| [Jev Logs](../cases/jevlogs.md) | reachjalil | [MIT](https://github.com/reachjalil/jevlogs/blob/500aedb82ec0fa4c5fede190b2d06ef6357be74c/LICENSE) |
+| [neo4jev](../cases/neo4jev.md) | jexp | [MIT](https://github.com/jexp/neo4jev/blob/d157bbe496eb91813475156942bef1c6badfb342/LICENSE) |
+| [opencode-jev-compaction](../cases/opencode-jev-compaction.md) | quinnjr | [MIT](https://github.com/quinnjr/opencode-jev-compaction/blob/9181265438237451d727acc529340096b80e5127/LICENSE) |
+| [oxlint-plugin-jev](../cases/oxlint-plugin-jev.md) | wobsoriano | [MIT](https://github.com/wobsoriano/oxlint-plugin-jev/blob/d9a1838f32e3b5a15b441dec91b2ef816802006f/LICENSE) |
 
 Context Diet 的 LICENSE 另列 `tamaratran/fast-jev-compaction` 的 MIT 派生归属；该上游项目现在另有独立案例，本库仍没有导入其实现。SkillRanker 的附加限制另见[候选审核表](CANDIDATES.md)，未进入案例目录。
 Context Diet retains MIT attribution to `tamaratran/fast-jev-compaction`, now documented as a separate case; its implementation is still not imported here. SkillRanker has additional restrictions and remains outside the catalog; see the [candidate audit](CANDIDATES.md).
 
 Jev Arena 的演示评论或用户导入的数据不由其代码 MIT 许可证自动涵盖。 / Jev Arena demo comments and user-imported data are not automatically covered by its code MIT license.
+
+Jev × LIBERO 的仿真资产与数据集来自 LIBERO 等上游，需另行下载并遵循各自许可；Mobile Jev 与 Jev Logs 分别依赖 Mobilerun 和 Vercel AI Gateway 的服务条款。 / Jev × LIBERO simulator assets and datasets come from LIBERO and other upstreams under their own licenses; Mobile Jev and Jev Logs depend on Mobilerun and Vercel AI Gateway terms respectively.

@@ -1,0 +1,81 @@
+{
+  "slug": "jevseo-epergaboni",
+  "project_url": "https://github.com/epergaboni/jevseo",
+  "repository_id": 1379001457,
+  "owner": "epergaboni",
+  "public": true,
+  "archived": false,
+  "fork": false,
+  "revision": "2ed1fbbaf90f86715dd489e5fe39416fa4879f17",
+  "revision_date": "2026-09-21T04:46:30Z",
+  "checked_at": "2026-10-08T04:29:26.687132+00:00",
+  "reviewer": "Claude Code source review under maintainer instruction; not a human sign-off",
+  "review_method": "Public repository metadata read through the GitHub REST API; pinned README, targeted implementation and LICENSE read at the pinned revision; pinned raw bytes captured from raw.githubusercontent.com for hashes. No upstream app or paid model executed.",
+  "identity_check": "Exact owner/name and numeric repository ID read from the GitHub REST API; no other public case uses this repository.",
+  "role_findings_zh": "固定源码通过官方 `@typesafe-ai/sdk` 的 `systemOne`，把页面事实（标题、描述、标题层级、正文）作为 state，一次请求回答全部评判问题；整站模式再用一个 Choice 在 leave / improve / rewrite / merge / split / prune 之间为每个页面选动作，并用 Score 估计机会和工作量。README 给出的分工是：有固定阈值的规则写在代码里，需要阅读理解的判断交给 Jev，权重与截断属于代码策略。",
+  "role_findings_en": "Pinned code calls `systemOne` from the official `@typesafe-ai/sdk` with page facts (title, description, headings, body text) as state, answering every judgment question in one request. Site mode adds a Choice among leave / improve / rewrite / merge / split / prune per page, with Score questions for opportunity and effort. The README’s division of labour: fixed-threshold rules live in code, reading-comprehension judgments go to Jev, and weights and cut-offs are code policy.",
+  "limitations_zh": "已核对固定 README、SDK 客户端封装、`judge/run.ts` 与 `judge/decisions.ts` 的请求构造以及 MIT LICENSE；未安装、未抓取任何网站、未调用付费接口。README 中“每页约两秒、约 £0.0001”“25 个问题”“45 个信号”“十页约 55,000 输入 token”等数字均为作者自述，未复测。评分是规则、Jev 判断和代码权重的组合，不是 Jev 单独给出的结论。",
+  "limitations_en": "The pinned README, SDK client wrapper, request construction in `judge/run.ts` and `judge/decisions.ts`, and the MIT license were reviewed. Nothing was installed, no site was crawled and no paid call was made. Figures in the README such as “roughly two seconds and £0.0001 per page”, “25 questions”, “45 signals” and “about 55,000 input tokens for ten pages” are author-reported and were not reproduced. Scores combine rules, Jev judgments and code weights; they are not written by Jev alone.",
+  "upstream_license": "MIT",
+  "claim_status": "source_reviewed",
+  "runtime_test": "not_run",
+  "performance_test": "not_run",
+  "human_review": "not_performed",
+  "sources": [
+    {
+      "repo": "epergaboni/jevseo",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/README.md",
+      "final_url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/README.md",
+      "status": 200,
+      "sha256": "67270baed9811213c7ad1842044b309fd8144f0b0e5bfd4decc6aa90a6e7b0af",
+      "bytes": 17893,
+      "checked_at": "2026-10-08T04:29:24.260273+00:00",
+      "inspected_scope": "Purpose, setup, Jev role and author claims inspected."
+    },
+    {
+      "repo": "epergaboni/jevseo",
+      "path": "src/lib/typesafe/client.ts",
+      "url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/typesafe/client.ts",
+      "final_url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/typesafe/client.ts",
+      "status": 200,
+      "sha256": "be3f21dc63b5d7e3c69dae053ecab41bacf2bc82504ad5054c92b75e8df7ee36",
+      "bytes": 2036,
+      "checked_at": "2026-10-08T04:29:24.963830+00:00",
+      "inspected_scope": "SDK client construction, key and model selection inspected."
+    },
+    {
+      "repo": "epergaboni/jevseo",
+      "path": "src/lib/judge/run.ts",
+      "url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/judge/run.ts",
+      "final_url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/judge/run.ts",
+      "status": 200,
+      "sha256": "94ee1fb6664ba1f711b3b7bc4e4e2e157603ea0242ef62204b820cc42e1dabfa",
+      "bytes": 4740,
+      "checked_at": "2026-10-08T04:29:25.545054+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "epergaboni/jevseo",
+      "path": "src/lib/judge/decisions.ts",
+      "url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/judge/decisions.ts",
+      "final_url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/src/lib/judge/decisions.ts",
+      "status": 200,
+      "sha256": "055d17bd6dbcc2e6a17ab0f99ea67c6c135c1054c18dc0c4ea730255a002e856",
+      "bytes": 8113,
+      "checked_at": "2026-10-08T04:29:26.116851+00:00",
+      "inspected_scope": "Targeted Jev request, response handling and decision path inspected; not an exhaustive code audit."
+    },
+    {
+      "repo": "epergaboni/jevseo",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/epergaboni/jevseo/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/LICENSE",
+      "status": 200,
+      "sha256": "7700db6fd0864c79006b6e519a418eaeaac0e78d839bb9d4ed288269db214919",
+      "bytes": 1092,
+      "checked_at": "2026-10-08T04:29:26.687132+00:00",
+      "inspected_scope": "License text and copyright inspected; no source copied."
+    }
+  ]
+}

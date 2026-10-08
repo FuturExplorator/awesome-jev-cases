@@ -202,11 +202,11 @@
   {
     "id": "jevfind-code-search",
     "project_url": "https://github.com/Peu77/JevFind",
-    "source_url": "https://github.com/Peu77/JevFind",
-    "status": "under_review",
-    "reason_zh": "Jev 语义代码检索；已打开原始仓库并核对公开、独立仓库身份，尚未固定版本审核调用路径、许可证文本与复现边界。",
-    "reason_en": "Jev semantic code search; primary repository opened and public, independent identity checked. Pinned call path, license text and reproduction boundary remain to review.",
-    "last_checked": "2026-09-30"
+    "source_url": "https://github.com/Peu77/JevFind/blob/c286f60a61d24b0f4249b2ea88495a4f52dfd51e/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`src/main.rs` 的 Jev 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the Jev call path in `src/main.rs`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
   },
   {
     "id": "jev-seo-agrici",
@@ -220,20 +220,20 @@
   {
     "id": "jevseo-epergaboni",
     "project_url": "https://github.com/epergaboni/jevseo",
-    "source_url": "https://github.com/epergaboni/jevseo",
-    "status": "under_review",
-    "reason_zh": "SEO/AEO/GEO 类型化判断；与 AgriciDaniel/jev-seo 为不同仓库。尚未固定版本审核源码、许可证文本与复现边界。",
-    "reason_en": "Typed SEO/AEO/GEO judgments; distinct from AgriciDaniel/jev-seo. Pinned code, license text and reproduction boundary remain to review.",
-    "last_checked": "2026-09-30"
+    "source_url": "https://github.com/epergaboni/jevseo/blob/2ed1fbbaf90f86715dd489e5fe39416fa4879f17/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、SDK 调用路径、与 AgriciDaniel/jev-seo 的独立仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, SDK call path, distinct identity from AgriciDaniel/jev-seo and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
   },
   {
     "id": "jev-cloud-quiz",
     "project_url": "https://github.com/minorun365/jev-cloud-quiz",
-    "source_url": "https://github.com/minorun365/jev-cloud-quiz",
-    "status": "under_review",
-    "reason_zh": "云服务名称分类演示；已打开原始仓库并核对公开身份，尚未审核固定版本调用、示例输出与 Apache-2.0 权利边界。",
-    "reason_en": "Cloud-service name classification demo; primary repository opened and public identity checked. Pinned call, sample output and Apache-2.0 rights boundary remain to review.",
-    "last_checked": "2026-09-30"
+    "source_url": "https://github.com/minorun365/jev-cloud-quiz/blob/c8afdf57e20c78baaae872fe20ba76e60696b08f/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、服务端 Choice 调用、仓库身份和 Apache-2.0 许可证已核对；按教学演示收录，未运行上游项目。",
+    "reason_en": "Pinned README, server-side Choice call, repository identity and Apache-2.0 license reviewed; listed as a teaching demo, upstream project not run.",
+    "last_checked": "2026-10-08"
   },
   {
     "id": "browser-use-jev-ultrafast",
@@ -351,5 +351,131 @@
     "reason_zh": "固定版本来源、Jev 调用、项目身份与 MIT 权利已核对；效果未实测。",
     "reason_en": "Pinned source, Jev call, identity and MIT rights reviewed; effectiveness not tested.",
     "last_checked": "2026-09-30"
+  },
+  {
+    "id": "jev-voice-kevinbadi",
+    "project_url": "https://github.com/kevinbadi/jev-voice",
+    "source_url": "https://github.com/kevinbadi/jev-voice/blob/fdc23e26644df1e68d1991f41221df21620263d6/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`brain.py` 的 Jev 请求、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the Jev request in `brain.py`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "live-jev-okinaaudio",
+    "project_url": "https://github.com/okinaaudio/live-jev",
+    "source_url": "https://github.com/okinaaudio/live-jev/blob/2446eb777ad9f59f77b96ee5b081ee8c2812e0a3/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`daemon.py` 与 `intent.py` 的 Jev 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, Jev calls in `daemon.py` and `intent.py`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "mobile-jev-droidrun",
+    "project_url": "https://github.com/droidrun/mobile-jev",
+    "source_url": "https://github.com/droidrun/mobile-jev/blob/395fc222beac4f059f9a0beb337d114a2b066e99/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`policy.mjs` 的 Jev 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the Jev call in `policy.mjs`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "jev-factorio-agent",
+    "project_url": "https://github.com/jevplays-games/jev-factorio-agent",
+    "source_url": "https://github.com/jevplays-games/jev-factorio-agent/blob/d8605cae485f832394d059aabea2a6395642bbc1/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`jev_client.py` 的 Jev 调用、更名后的仓库身份（数字 ID 相同）和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the Jev call in `jev_client.py`, renamed repository identity (same numeric ID) and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "jev-libero",
+    "project_url": "https://github.com/Dimweaker/jev-libero",
+    "source_url": "https://github.com/Dimweaker/jev-libero/blob/3bdad985b225aeccc39fbe5863c6eea2e81c515a/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`client.py` 的 Choice 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, Choice calls in `client.py`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "jev-skip",
+    "project_url": "https://github.com/valentynkit/jev-skip",
+    "source_url": "https://github.com/valentynkit/jev-skip/blob/6837e3e0f1a48cbfc48c85415d99bcfe3eaf0628/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`lib/jev.ts` 与 `lib/questions.ts` 的 Jev 调用、仓库身份和 MIT 许可证已核对；指标均为作者自述，未运行上游项目。",
+    "reason_en": "Pinned README, Jev calls in `lib/jev.ts` and `lib/questions.ts`, repository identity and MIT license reviewed; metrics remain author-reported and the upstream project was not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "jev-leftpad",
+    "project_url": "https://github.com/f/jev-leftpad",
+    "source_url": "https://github.com/f/jev-leftpad/blob/4f405354de756cc372826d19aa8dfbee2b675778/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`src/index.js` 的 SDK 调用、仓库身份和 MIT 许可证已核对；作者明确不建议生产使用，未运行上游项目。",
+    "reason_en": "Pinned README, the SDK call in `src/index.js`, repository identity and MIT license reviewed; the author explicitly discourages production use and the upstream project was not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "go-jev",
+    "project_url": "https://github.com/mattn/go-jev",
+    "source_url": "https://github.com/mattn/go-jev/blob/85f5994cb5136ff5360dd904b65253469dc95d2e/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`jev.go` 的请求代码、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, request code in `jev.go`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "n8n-nodes-typesafe-jev",
+    "project_url": "https://github.com/n3ndor/n8n-nodes-typesafe-jev",
+    "source_url": "https://github.com/n3ndor/n8n-nodes-typesafe-jev/blob/f1eb5e25901c911251d06bb4cb06d0341f7a2d96/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、传输层的 `/v1/systemone` 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the `/v1/systemone` call in the transport layer, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "jevlogs",
+    "project_url": "https://github.com/reachjalil/jevlogs",
+    "source_url": "https://github.com/reachjalil/jevlogs/blob/500aedb82ec0fa4c5fede190b2d06ef6357be74c/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`src/index.ts` 经 Vercel AI Gateway 调用 `typesafe-ai/jev` 的路径、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the `typesafe-ai/jev` call through the Vercel AI Gateway in `src/index.ts`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "neo4jev",
+    "project_url": "https://github.com/jexp/neo4jev",
+    "source_url": "https://github.com/jexp/neo4jev/blob/d157bbe496eb91813475156942bef1c6badfb342/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`navigator.py` 的 `system_one` 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, the `system_one` call in `navigator.py`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "opencode-jev-compaction",
+    "project_url": "https://github.com/quinnjr/opencode-jev-compaction",
+    "source_url": "https://github.com/quinnjr/opencode-jev-compaction/blob/9181265438237451d727acc529340096b80e5127/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`jev-compaction.ts` 的 Noul 调用与决策、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, Noul calls and decisions in `jev-compaction.ts`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "oxlint-plugin-jev",
+    "project_url": "https://github.com/wobsoriano/oxlint-plugin-jev",
+    "source_url": "https://github.com/wobsoriano/oxlint-plugin-jev/blob/d9a1838f32e3b5a15b441dec91b2ef816802006f/README.md",
+    "status": "verified",
+    "reason_zh": "固定版本 README、`src/jev.ts` 与 `src/worker.ts` 的 SDK 调用、仓库身份和 MIT 许可证已核对；未运行上游项目。",
+    "reason_en": "Pinned README, SDK calls in `src/jev.ts` and `src/worker.ts`, repository identity and MIT license reviewed; upstream project not run.",
+    "last_checked": "2026-10-08"
+  },
+  {
+    "id": "agentworld-web-simulator",
+    "project_url": "https://github.com/knowlet/agentworld-web-simulator",
+    "source_url": "https://github.com/knowlet/agentworld-web-simulator/blob/e6608465fe7b07b1324836c5fad5f8dc31186e3c/README.md",
+    "status": "under_review",
+    "reason_zh": "固定 README 写明演示所用的决策模型是 `inception/mercury-decide:free`，代码默认端点才指向 TypeSafe `/systemone`；尚未确认哪条路径实际调用了 TypeSafe Jev，暂不发布。线索表中的 `knowlet/jev-agentworld-web-simulator` 现解析到此地址。",
+    "reason_en": "The pinned README says its demo uses the decision model `inception/mercury-decide:free`, while only the code default points at TypeSafe `/systemone`; which path actually calls TypeSafe Jev is not yet established, so it stays unpublished. The lead `knowlet/jev-agentworld-web-simulator` now resolves to this address.",
+    "last_checked": "2026-10-08"
   }
 ]
